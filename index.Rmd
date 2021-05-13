@@ -76,10 +76,14 @@ nation <- nation %>%
          `May 2 - May 8` = Week_19)
 ```
 
+
+
 # Introduction
 Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population. The outbreak will spread rapidly if Rt is greater than 1, while the outbreak will get contained when Rt falls below one.
 
 The instantaneous rate of spread of infection as measure by Rt can be influenced by the biological characteristics of the virus and other social, behavioural and medical factors. An effective vaccine can reduce the number of susceptible individuals in an area bringing down the Rt. Lockdowns, curfews, masking, and other physical distancing measures can also control the Rt by reducing the contacts between individuals that lead to secondary infections.
+
+
 
 # Methodology
 Daily incidence data of COVID-19 outbreak in India from https://covid19india.org was used to derive the Rt from 25 April 2021 till 8 May 2021 using time-dependent method. Data from 634 districts from 36 states in India was used to assess the Rt at three levels - national, state and district. The daily Rt was smoothed over 7-day intervals to account for the 'weekend effect' in testing and reporting of incident cases. 
@@ -87,6 +91,8 @@ Daily incidence data of COVID-19 outbreak in India from https://covid19india.org
 The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 2 May to 8 May have been interpreted in the tables below. 
 
 A weekly change matrix was derived to better understand the change in Rt numbers in the two weeks. Those districts and states whose Rt values increased are classified as 'worsened', 'improved' is assigned if the Rt decreased, and 'no change' if no change was observed. Based on the absolute value of smoothed Rt in the previous week, the observed pattern of spread is classified as 'increasing' when Rt is above 1, and 'getting contained' if Rt is less than 1. By some chance the Rt is exactly 1, the outbreak spreads linearly and is labelled as 'endemic'.
+
+
 
 # National Level
 Effective reproductive number for India was 1.05 from 25 April to 1 May (week 1). This improved to 1 from 2 May to 8 May (week 2). The Rt before rounding off has fallen just below 1 - the infection has been spreading in a near-linear manner.
@@ -96,10 +102,14 @@ kable(nation, caption = "Effective reproductive numbers at national level", alig
 ```
 
 
+
+
 # State Level
 Data from 36 states was included in the analysis. Rt was found to have improved in 26 (72%) states. Half of these states continue to have Rt above 1. Worsening in Rt values was observed in 8 (22%) states, out of which 6 states have Rt greater than 1. Rt continued without change in two (6%) states, of which one has Rt above 1.
 
 Overall, Rt in week two was below 1 in 16 (44%) states while 20 (56%) states have Rt above 1. Details are furnished in the table below.
+
+
 
 ```{r, echo = FALSE}
 kable(states_overview, caption = "State level change vs spread matrix", booktabs = TRUE, longtable = TRUE)
@@ -110,12 +120,14 @@ Detailed breakup of state level numbers are shown in the table below.
 
 ```{r, echo = FALSE}
 kable(states, caption = "Effective reproductive numbers at state level", align = "lccl", booktabs = TRUE, longtable = TRUE) %>% 
-  kable_styling(font_size = 9,
+  kable_styling(font_size = 11,
                 latex_options = c("repeat_header"),
                 repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 ```
 
-\newpage 
+\newpage
+
+
 # District Level
 Data from 634 districts from 36 states was used to estimate effective reproduction number for each district. The effective reproductive number improved in 366 (58%), worsened in 259 (41%) and remained unchanged in 9 (1%)  of the districts analysed.
 
@@ -123,17 +135,17 @@ The Rt is above 1 and spreading at increased rate in 319 (50%), below 1 and gett
 
 ```{r, echo = FALSE}
 kable(districts_overview, caption = "Weekly change in Rt at district level in each state", align = "lcccc", booktabs = TRUE, longtable = TRUE) %>% 
-  kable_styling(font_size = 9,
+  kable_styling(font_size = 11,
                 latex_options = c("repeat_header"),
                 repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 
 kable(districts_overview2, caption = "Spread of COVID-19 at district level in each state", align = "lcccc", booktabs = TRUE, longtable = TRUE) %>% 
-  kable_styling(font_size = 9,
+  kable_styling(font_size = 11,
                 latex_options = c("repeat_header"),
                 repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 
 kable(districts_overview3, caption = "District level change vs spread matrix", booktabs = TRUE, longtable = TRUE) %>%
-  kable_styling(font_size = 9,
+  kable_styling(font_size = 11,
                 latex_options = c("repeat_header"),
                 repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 ```
@@ -143,7 +155,7 @@ Full data at district level is shown in the table below.
 
 ```{r, echo = FALSE}
 kable(districts, caption = "Effective reproductive numbers at district level", align = "llccl", longtable = TRUE, booktabs = TRUE) %>% 
-  kable_styling(font_size = 9,
+  kable_styling(font_size = 11,
                 latex_options = c("repeat_header"),
                 repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 ```
