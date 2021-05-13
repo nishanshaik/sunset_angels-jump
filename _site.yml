@@ -1,0 +1,14 @@
+name: "Dr Nishan"  
+output:  
+  html_document:  
+    self_contained: false  
+    theme: darkly  
+navbar:  
+  title: "Dr Nishan"
+  left:
+    - text: "Weekly Effective R" 
+      href: index.html
+    - text: "Archive" 
+      href: archives.html
+    - text: "About" 
+      href: about.html
