@@ -1,0 +1,67 @@
+---
+title: "India and States"
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Packages, include = FALSE, echo = FALSE}
+library(tidyverse)
+library(plotly)
+```
+
+```{r Data, include = FALSE}
+india <- read_csv("India.csv")
+states <- read_csv("States.csv")
+
+india <- india %>% 
+  mutate(Region = "India") %>% 
+  rename(Rt = smR) %>% 
+  dplyr::select(Region, Date, Rt)
+
+states <- states %>% 
+  filter(Region != "Placeholder") %>% 
+  filter(Date >= as.Date("2020-05-15"))
+
+data <- bind_rows(india, states)
+data <- data %>% 
+  filter(Rt <= 5)
+
+rm(india, states)
+```
+
+
+
+\
+
+Trends in effective R numbers smoothed using 7-day simple moving average for India and all States and Union Territories
+
+
+```{r Trend India R, echo = FALSE, fig.height = 10, fig.width = 10}
+
+#33e2e8
+
+data$Region[data$Region == "Dadra and Nagar Haveli and Daman and Diu"] <- "DNH & DD"
+data$Region[data$Region == "Andaman and Nicobar Islands"] <- "A & N Islands"
+
+
+plot_india <- data %>% 
+  ggplot(aes(x = Date, y = Rt)) +
+  geom_line(aes(colour = Region)) +
+  geom_hline(aes(yintercept = 1), colour = "#acb5b5", linetype = "dashed") +
+  labs(x = "",
+       y = "Effective R (smoothed)",
+       title = "Trends in effective R numbers for India") +
+  theme_minimal() +
+    theme(legend.position = "bottom")
+
+ggplotly(plot_india, dynamicTicks = TRUE) %>% 
+  layout(legend = list(x = 0, y = -300, orientation = 'h'))
+```
+*(Note: The plot is interactive!)*

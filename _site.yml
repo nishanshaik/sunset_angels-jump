@@ -1,14 +1,93 @@
 name: "Dr Nishan"  
 output:  
-  html_document:  
+  html_document:
+    includes:
+      in_header: GAnalytics.html
     self_contained: false  
-    theme: darkly
+    theme: flatly
     highlight: textmate
 navbar:  
   title: "Dr Nishan"
   left:
     - text: "Weekly Effective R" 
       href: index.html
+    - text: "State Level Trends"
+      href: Daily_Overview.html
+    - text: "District Level Trends"
+      menu:
+      - text: "Andaman & Nicobar Islands"
+        href: andamans.html
+      - text: "Andhra Pradesh"
+        href: pavan.html
+      - text: "Arunachal Pradesh"
+        href: lasumi.html
+      - text: "Assam"
+        href: assam.html
+      - text: "Bihar"
+        href: bhavesh.html
+      - text: "Chandigarh"
+        href: kohli.html
+      - text: "Chhattisgarh"
+        href: joshi.html
+      - text: "Delhi"
+        href: warsi.html
+      - text: "Goa"
+        href: fenny.html
+      - text: "Gujarat"
+        href: hardik.html
+      - text: "Haryana"
+        href: smriti.html
+      - text: "Himachal Pradesh"
+        href: ashish.html
+      - text: "Jammu and Kashmir"
+        href: abheet.html
+      - text: "Jharkhand"
+        href: razak.html
+      - text: "Karnataka"
+        href: arun.html
+      - text: "Kerala"
+        href: aida.html
+      - text: "Ladakh"
+        href: ladakh.html
+      - text: "Madhya Pradesh"
+        href: sriram.html
+      - text: "Maharashtra"
+        href: shetty.html
+      - text: "Manipur"
+        href: sidd_rk.html
+      - text: "Meghalaya"
+        href: meghalaya.html
+      - text: "Mizoram"
+        href: atei.html
+      - text: "Odisha"
+        href: rakesh.html
+      - text: "Puducherry"
+        href: pondy.html
+      - text: "Punjab"
+        href: paaji.html
+      - text: "Rajasthan"
+        href: rajveer.html
+      - text: "Tamil Nadu"
+        href: mammu.html
+      - text: "Telangana"
+        href: janjal.html
+      - text: "Tripura"
+        href: nilanjan.html
+      - text: "Uttar Pradesh"
+        href: mangal.html
+      - text: "Uttarakhand"
+        href: vijay.html
+      - text: "West Bengal"
+        href: debu.html
+      - text: "Sikkim"
+        href: sikkim.html
+      - text: "Dadra and Nagar Haveli & Daman and Diu"
+        href: dnh.html
+      - text: "Nagaland"
+        href: nondiya.html
+      - text: "Lakshadweep"
+        href: ali.html
+  right:
     - text: "Archive" 
       href: archives.html
     - text: "About" 
