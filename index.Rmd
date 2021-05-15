@@ -1,177 +1,32 @@
 ---
-title: "Effective Reproductive Numbers for India (Update 2)"
+title: "Dr. Shaik Nishan Ashraf, MBBS, MPH"
 ---
-
 <style>
 body {
 text-align: justify}
 </style>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+\
 
-```{r preliminaries, include= FALSE}
-# Load packages =====================
-library(knitr)
-library(tidyverse)
-library(kableExtra)
-library(DT)
-
-# Load datasets =====================
-districts <- read_csv("Rt_Districts.csv")
-states <- read_csv("Rt_States.csv")
-nation <- read_csv("Rt_Nation.csv")
-
-# Preparing district dataset ================
-districts <- districts %>% 
-  select(-week_17) %>% 
-  mutate(Remarks = case_when(week_19 < week_18 ~ "Improved",
-                             week_19 == week_18 ~ "No Change",
-                             week_19 > week_18 ~ "Worsened"),
-         Spread = case_when(week_19 > 1 ~ "> 1",
-                            week_19 == 1 ~ "1",
-                            week_19 < 1 ~ "< 1"))
-
-districts$State[districts$State == "Dadra and Nagar Haveli and Daman and Diu"] <- "D&NH & D&D"
-
-districts_overview <- addmargins(table(State = districts$State, districts$Remarks))
-districts_overview2 <- addmargins(table(State = districts$State, districts$Spread))
-districts_overview3 <- addmargins(table(State = districts$Remarks, districts$Spread))
-
-districts <- districts %>% 
-  mutate(Spread = case_when(week_19 > 1 ~ "Increasing",
-                            week_19 == 1 ~ "Endemic",
-                            week_19 < 1 ~ "Getting contained")) %>% 
-  unite("Status", c(Remarks, Spread), sep = " & ", remove = TRUE)%>% 
-  rename(`April 25 - May 1` = week_18,
-         `May 2 - May 8` = week_19)
-
-
-# Preparing states dataset ==================
-states <- states %>% 
-  mutate(Remarks = case_when(week_19 < week_18 ~ "Improved",
-                             week_19 == week_18 ~ "No Change",
-                             week_19 > week_18 ~ "Worsened"),
-         Spread = case_when(week_19 > 1 ~ "> 1",
-                            week_19 == 1 ~ "1",
-                            week_19 < 1 ~ "< 1"))
-
-states_overview <- addmargins(table(states$Remarks, states$Spread))
-
-states$State[states$State == "Dadra and Nagar Haveli and Daman and Diu"] <- "D&NH & D&D"
-
-states <- states %>%
-  select(-week_17) %>% 
-  mutate(Spread = case_when(week_19 > 1 ~ "Increasing",
-                            week_19 == 1 ~ "Endemic",
-                            week_19 < 1 ~ "Getting contained")) %>% 
-  unite("Status", c(Remarks, Spread), sep = " & ", remove = TRUE)%>% 
-  rename(`April 25 - May 1` = week_18,
-         `May 2 - May 8` = week_19)
-
-# Preparing national dataset ==================
-nation <- nation %>% 
-  select(-Week_17) %>% 
-  mutate(Remarks = case_when(Week_19 < Week_18 ~ "Improved",
-                             Week_19 == Week_18 ~ "No Change",
-                             Week_19 > Week_18 ~ "Worsened"))%>% 
-  rename(`April 25 - May 1` = Week_18,
-         `May 2 - May 8` = Week_19)
-```
+***Please read the user guide before moving to the weekly and daily reports***
 
 \
 
-# Introduction
-Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population. The outbreak will spread rapidly if Rt is greater than 1, while the outbreak will get contained when Rt falls below one.
+# About me
+I love data, analytics, R, health economics, public health research, and disease modelling.
 
-The instantaneous rate of spread of infection as measure by Rt can be influenced by the biological characteristics of the virus and other social, behavioural and medical factors. An effective vaccine can reduce the number of susceptible individuals in an area bringing down the Rt. Lockdowns, curfews, masking, and other physical distancing measures can also control the Rt by reducing the contacts between individuals that lead to secondary infections.
+Hello, 
 
-\
+I am an MBBS-MPH graduate with governmental, non-governmental, and corporate professional exposure. Adept in research methodologies, health economics, HEOR, biostatistics and public health with a grounding in health financing and health policy.
 
-# Methodology
-Daily incidence data of COVID-19 outbreak in India from https://covid19india.org was used to derive the Rt from 25 April 2021 till 8 May 2021 using time-dependent method. Data from 634 districts from 36 states in India was used to assess the Rt at three levels - national, state and district. The daily Rt was smoothed over 7-day intervals to account for the 'weekend effect' in testing and reporting of incident cases. 
+I love R and thoroughly enjoy working with data. I have been able to expand my understanding to effectively deploy R probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and even web development. This website and all the work that you see on this site are built exclusively using R!
 
-The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 2 May to 8 May have been interpreted in the tables below. 
+I enjoy teaching and guiding on topics that I have good grip on, namely, R programming, analytics, HEOR and modelling.
 
-A weekly change matrix was derived to better understand the change in Rt numbers in the two weeks. Those districts and states whose Rt values increased are classified as 'worsened', 'improved' is assigned if the Rt decreased, and 'no change' if no change was observed. Based on the absolute value of smoothed Rt in the previous week, the observed pattern of spread is classified as 'increasing' when Rt is above 1, and 'getting contained' if Rt is less than 1. By some chance the Rt is exactly 1, the outbreak spreads linearly and is labelled as 'endemic'.
-
-\
-
-# National Level
-Effective reproductive number for India was 1.05 from 25 April to 1 May (week 1). This improved to 1 from 2 May to 8 May (week 2). The Rt before rounding off has fallen just below 1 - the infection has been spreading in a near-linear manner.
-
-```{r, echo = FALSE}
-datatable(nation, caption = "Effective reproductive numbers at national level")
-```
-
-
-\
-
-# State Level
-Data from 36 states was included in the analysis. Rt was found to have improved in 26 (72%) states. Half of these states continue to have Rt above 1. Worsening in Rt values was observed in 8 (22%) states, out of which 6 states have Rt greater than 1. Rt continued without change in two (6%) states, of which one has Rt above 1.
-
-Overall, Rt in week two was below 1 in 16 (44%) states while 20 (56%) states have Rt above 1. Details are furnished in the table below.
-
-
-
-```{r, echo = FALSE}
-colnames(states_overview) <- c("Getting contained", "Increasing exponentially", "Total")
-kable(states_overview, caption = "State level change vs spread matrix", booktabs = TRUE, longtable = TRUE)
-```
-
-\
-
-Detailed breakup of state level numbers are shown in the table below.
-
-```{r, echo = FALSE}
-datatable(states, caption = "Effective reproductive numbers at state level")
-```
+If you wish to know more about my interest areas, I would be glad to help in any way I could.
 
 \
 
 
-# District Level
-Data from 634 districts from 36 states was used to estimate effective reproduction number for each district. The effective reproductive number improved in 366 (58%), worsened in 259 (41%) and remained unchanged in 9 (1%)  of the districts analysed.
-
-The Rt is above 1 and spreading at increased rate in 319 (50%), below 1 and getting contained in 298 (47%) and exactly 1 (spreading endemically) in 17 (3%) of the districts.
-
-```{r, echo = FALSE}
-kable(districts_overview, caption = "Weekly change in Rt at district level in each state", align = "lcccc", booktabs = TRUE, longtable = TRUE) %>% 
-  kable_styling(font_size = 11,
-                latex_options = c("repeat_header"),
-                repeat_header_continued = "\\textit{(Continued on Next Page...)}")
-
-kable(districts_overview2, caption = "Spread of COVID-19 at district level in each state", align = "lcccc", booktabs = TRUE, longtable = TRUE) %>% 
-  kable_styling(font_size = 11,
-                latex_options = c("repeat_header"),
-                repeat_header_continued = "\\textit{(Continued on Next Page...)}")
-
-kable(districts_overview3, caption = "District level change vs spread matrix", booktabs = TRUE, longtable = TRUE) %>%
-  kable_styling(font_size = 11,
-                latex_options = c("repeat_header"),
-                repeat_header_continued = "\\textit{(Continued on Next Page...)}")
-```
 
 
-\
-
-Full data at district level is shown in the table below. 
-
-```{r, echo = FALSE}
-datatable(districts, caption = "Effective reproductive numbers at district level")
-```
-
-\
-
-# Conclusions
-The containment efforts taken may be showing effect as the effective reproductive numbers are seen to be decreasing in a large share of states and districts. Further caution needs to be taken in areas where the Rt or spread is observed to have increased. Given the observation that the effective R value is above 1 in many parts of the country, all possible methods the social and economic situation will permit to contain the spread of infection may be taken.
-
-The current trends are reason enough to incite hope and guarded optimism towards future trends of the outbreak.
-
-\
-
-# Limitations of this analysis
-Only reported numbers are included in the analysis. Time delays in reporting in certain regions are not accounted for in this analysis. All incidence numbers are taken as is. An attempt has been made to make best use of the data available in the hope that this might help decision makers make better decisions. 
-
-The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 25 April to 1 May to differ from those in the last update. 

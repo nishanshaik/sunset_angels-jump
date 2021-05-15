@@ -1,0 +1,64 @@
+---
+title: "User Guide and FAQs"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+\
+
+# User Interface
+
+\
+
+## Leveraging the Effective R trend plots to greater effect.
+The plots show all the data that each one is capable of showing upon loading. To override this follow the below steps:
+
+- Double-click on any item in the legend - This clears off the clutter in the plot area. 
+- Select all the regions that you with to compare by single clicking on the region names in the legend.
+- Single clicking toggles between select and unselect - please use this as you wish.
+- The right top corner of each plot has a control panel that allows you to toggle the mouse-hover characteristics. 
+- Choosing the single-arrow icon (third from right) would cause the date and R value for a specific region to be shown on mouse hover. 
+- While the two-arrow icon (second from right) would let you see the dates and R values for all the selected regions for a given date simultaneously. 
+- Selecting a region on the plot using mouse click-and-drag allows to zoom into areas on interest.
+- All district-level plots have Effective R trends for India and the corresponding state to allow for easy comparison.
+- Each plot contains a large amount of data. The above selection flow is recommended help you use the information in the plots to greater effect. 
+
+\
+
+## Utilising tables in Weekly Effective R reports
+SOme of tables shown in the weekly effective R reports are interactive with their own search bar and column-wise sorting options. The user is recommended to use these features as they deem fit to seek out data relevant for them.
+
+\
+
+# Reproduction Number
+
+\
+
+## What is effective reproductive number?
+Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population at any given point in time.
+
+\
+
+## How do I interpret effective reproductive number?
+- Effective R (Rt) is a number between 0 to positive infinity (well, theoretically).
+- If the Rt = 1, each case would transmit the disease to one other person. Hence, the number of new cases will remain constant. The cumulative incidence would show a linear increase.
+- If Rt > 1, each case will transmit the disease to more than one other person (equal to Rt value). The daily number of reported new cases will increase, and cumulative incidence increases exponentially.
+- If Rt < 1, each case would transmit to less than one other person (again, equal to the Rt value), this would mean that the daily number of reported new cases would come down, eventually the infection would get contained.
+- A simplified analogy to understand this is to see the daily growth rate in cases as velocity/speed. The effective Rt is like acceleration.
+
+\
+
+## Would lockdowns show an immediate change in effective reproductive numbers?
+Ideally a lag is to be expected from the commencement of lockdown till perceivable change in effective R is seen due to the following reasons:
+
+- The serial interval - the time between an infector becomes symptomatic till the infected (person who got infected by the infector) became symptomatic. Current estimates are about 5 days. [If you are really curious, you may also read up about generation interval which is quite difficult to estimate accurately in real-world setting].
+- Testing and reporting lags - as the number of samples collected each day increases, the testing system gets stressed leading to delays in testing and reporting. This may or may not be significant in your context. This can be a significant contributor to the lag of indicators.
+- Community vs Household transmission - Getting infected from the outside community can be controlled by lockdown, however, getting infected inside ones' own home via a person who got infected in the community will happen even with lockdown in place. There will be a drop in this eventually as lockdown causes less people to get infected in the community and take the pathogen to their homes. Household transmission may lead to a share of positive cases despite the lockdown being in place - but then again, lockdowns are less effective, and not designed to reduce household transmissions.
+
+

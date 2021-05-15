@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>User Guide and FAQs</title>
+
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SDW4HLH9JK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SDW4HLH9JK');
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dr Nishan</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Main</a>
+</li>
+<li>
+  <a href="weekly_report.html">Effective R - Weekly Report</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Effective R - Daily Trends
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Daily_Overview.html">State Level</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">District Level (A-L)</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="AN.html">Andaman &amp; Nicobar Islands</a>
+        </li>
+        <li>
+          <a href="AP.html">Andhra Pradesh</a>
+        </li>
+        <li>
+          <a href="AR.html">Arunachal Pradesh</a>
+        </li>
+        <li>
+          <a href="AS.html">Assam</a>
+        </li>
+        <li>
+          <a href="BR.html">Bihar</a>
+        </li>
+        <li>
+          <a href="CH.html">Chandigarh</a>
+        </li>
+        <li>
+          <a href="CG.html">Chhattisgarh</a>
+        </li>
+        <li>
+          <a href="DD.html">Dadra and Nagar Haveli &amp; Daman and Diu</a>
+        </li>
+        <li>
+          <a href="DL.html">Delhi</a>
+        </li>
+        <li>
+          <a href="GA.html">Goa</a>
+        </li>
+        <li>
+          <a href="GJ.html">Gujarat</a>
+        </li>
+        <li>
+          <a href="HR.html">Haryana</a>
+        </li>
+        <li>
+          <a href="HP.html">Himachal Pradesh</a>
+        </li>
+        <li>
+          <a href="JK.html">Jammu and Kashmir</a>
+        </li>
+        <li>
+          <a href="JH.html">Jharkhand</a>
+        </li>
+        <li>
+          <a href="KA.html">Karnataka</a>
+        </li>
+        <li>
+          <a href="KL.html">Kerala</a>
+        </li>
+        <li>
+          <a href="LA.html">Ladakh</a>
+        </li>
+        <li>
+          <a href="LD.html">Lakshadweep</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">District Level (M-W)</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="MP.html">Madhya Pradesh</a>
+        </li>
+        <li>
+          <a href="MH.html">Maharashtra</a>
+        </li>
+        <li>
+          <a href="MN.html">Manipur</a>
+        </li>
+        <li>
+          <a href="ML.html">Meghalaya</a>
+        </li>
+        <li>
+          <a href="MZ.html">Mizoram</a>
+        </li>
+        <li>
+          <a href="NL.html">Nagaland</a>
+        </li>
+        <li>
+          <a href="OD.html">Odisha</a>
+        </li>
+        <li>
+          <a href="PY.html">Puducherry</a>
+        </li>
+        <li>
+          <a href="PB.html">Punjab</a>
+        </li>
+        <li>
+          <a href="RJ.html">Rajasthan</a>
+        </li>
+        <li>
+          <a href="SK.html">Sikkim</a>
+        </li>
+        <li>
+          <a href="TN.html">Tamil Nadu</a>
+        </li>
+        <li>
+          <a href="TS.html">Telangana</a>
+        </li>
+        <li>
+          <a href="TR.html">Tripura</a>
+        </li>
+        <li>
+          <a href="UP.html">Uttar Pradesh</a>
+        </li>
+        <li>
+          <a href="UK.html">Uttarakhand</a>
+        </li>
+        <li>
+          <a href="WB.html">West Bengal</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="archives.html">Archive</a>
+</li>
+<li>
+  <a href="about.html">Contact</a>
+</li>
+<li>
+  <a href="help.html">User Guide</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">User Guide and FAQs</h1>
+
+</div>
+
+
+<style>
+body {
+text-align: justify}
+</style>
+<p><br />
+</p>
+<div id="user-interface" class="section level1">
+<h1>User Interface</h1>
+<p><br />
+</p>
+<div id="leveraging-the-effective-r-trend-plots-to-greater-effect." class="section level2">
+<h2>Leveraging the Effective R trend plots to greater effect.</h2>
+<p>The plots show all the data that each one is capable of showing upon loading. To override this follow the below steps:</p>
+<ul>
+<li>Double-click on any item in the legend - This clears off the clutter in the plot area.</li>
+<li>Select all the regions that you with to compare by single clicking on the region names in the legend.</li>
+<li>Single clicking toggles between select and unselect - please use this as you wish.</li>
+<li>The right top corner of each plot has a control panel that allows you to toggle the mouse-hover characteristics.</li>
+<li>Choosing the single-arrow icon (third from right) would cause the date and R value for a specific region to be shown on mouse hover.</li>
+<li>While the two-arrow icon (second from right) would let you see the dates and R values for all the selected regions for a given date simultaneously.</li>
+<li>Selecting a region on the plot using mouse click-and-drag allows to zoom into areas on interest.</li>
+<li>All district-level plots have Effective R trends for India and the corresponding state to allow for easy comparison.</li>
+<li>Each plot contains a large amount of data. The above selection flow is recommended help you use the information in the plots to greater effect.</li>
+</ul>
+<p><br />
+</p>
+</div>
+<div id="utilising-tables-in-weekly-effective-r-reports" class="section level2">
+<h2>Utilising tables in Weekly Effective R reports</h2>
+<p>SOme of tables shown in the weekly effective R reports are interactive with their own search bar and column-wise sorting options. The user is recommended to use these features as they deem fit to seek out data relevant for them.</p>
+<p><br />
+</p>
+</div>
+</div>
+<div id="reproduction-number" class="section level1">
+<h1>Reproduction Number</h1>
+<p><br />
+</p>
+<div id="what-is-effective-reproductive-number" class="section level2">
+<h2>What is effective reproductive number?</h2>
+<p>Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population at any given point in time.</p>
+<p><br />
+</p>
+</div>
+<div id="how-do-i-interpret-effective-reproductive-number" class="section level2">
+<h2>How do I interpret effective reproductive number?</h2>
+<ul>
+<li>Effective R (Rt) is a number between 0 to positive infinity (well, theoretically).</li>
+<li>If the Rt = 1, each case would transmit the disease to one other person. Hence, the number of new cases will remain constant. The cumulative incidence would show a linear increase.</li>
+<li>If Rt &gt; 1, each case will transmit the disease to more than one other person (equal to Rt value). The daily number of reported new cases will increase, and cumulative incidence increases exponentially.</li>
+<li>If Rt &lt; 1, each case would transmit to less than one other person (again, equal to the Rt value), this would mean that the daily number of reported new cases would come down, eventually the infection would get contained.</li>
+<li>A simplified analogy to understand this is to see the daily growth rate in cases as velocity/speed. The effective Rt is like acceleration.</li>
+</ul>
+<p><br />
+</p>
+</div>
+<div id="would-lockdowns-show-an-immediate-change-in-effective-reproductive-numbers" class="section level2">
+<h2>Would lockdowns show an immediate change in effective reproductive numbers?</h2>
+<p>Ideally a lag is to be expected from the commencement of lockdown till perceivable change in effective R is seen due to the following reasons:</p>
+<ul>
+<li>The serial interval - the time between an infector becomes symptomatic till the infected (person who got infected by the infector) became symptomatic. Current estimates are about 5 days. [If you are really curious, you may also read up about generation interval which is quite difficult to estimate accurately in real-world setting].</li>
+<li>Testing and reporting lags - as the number of samples collected each day increases, the testing system gets stressed leading to delays in testing and reporting. This may or may not be significant in your context. This can be a significant contributor to the lag of indicators.</li>
+<li>Community vs Household transmission - Getting infected from the outside community can be controlled by lockdown, however, getting infected inside ones’ own home via a person who got infected in the community will happen even with lockdown in place. There will be a drop in this eventually as lockdown causes less people to get infected in the community and take the pathogen to their homes. Household transmission may lead to a share of positive cases despite the lockdown being in place - but then again, lockdowns are less effective, and not designed to reduce household transmissions.</li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
