@@ -95,10 +95,12 @@ navbar:
         - text: "West Bengal"
           href: WB.html
   right:
+    - text: "User Guide"
+      href: help.html
     - text: "Archive" 
       href: archives.html
     - text: "Contact" 
       href: about.html
-    - text: "User Guide"
-      href: help.html
+    - text: "Licenses"
+      href: legal.html
 output_dir: "."
