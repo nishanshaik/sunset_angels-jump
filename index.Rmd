@@ -1,6 +1,21 @@
 ---
-title: "Dr. Shaik Nishan Ashraf, MBBS, MPH"
+title: "Dr. Shaik Nishan Ashraf"
+author: "MBBS, MPH"
+date: "Independent Research (Public Health) Consultant"
 ---
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
+h4.author {
+  text-align: center;
+}
+h4.date {
+  text-align: center;
+}
+</style>
+
 <style>
 body {
 text-align: justify}
@@ -8,21 +23,53 @@ text-align: justify}
 
 \
 
-### Note to users:
-***Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile or smaller screens.***
+***Note to users:*** *Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile or smaller screens.*
 
 \
 
-# About
-He love data, analytics, R, health economics, public health research, and disease modelling.
+![](R_Banner.jpg)
 
-He is an MBBS-MPH graduate with governmental, non-governmental, and corporate professional exposure. Adept in research methodologies, health economics, HEOR, biostatistics and public health with a grounding in health financing and health policy.
+\
 
-He is passionate about R and thoroughly enjoy working with data and have been able to expand his understanding to effectively deploy R for probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and even web development. This website and all the work that is on this site are built exclusively using R!
+# Effective Reproduction Number
 
-He enjoys teaching and guiding on topics that he has a good grip on, namely, R programming, analytics, HEOR and modelling.
+\
 
-If you wish to know more about his interest areas check out the [contact](./about.html) page.
+## Definition
+Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population at any given point in time. It can vary during the course of the outbreak based on the rate at which the infection is spreading. Infection control measures such as universal masking, good hand hygiene, physical distancing, lockdowns and containment strategies, and vaccination can help in reducing the effective R number.
+
+\
+
+## Interpreting the effective reproductive number
+- Effective R (Rt) is a number between 0 to positive infinity (well, theoretically).
+- If the Rt = 1, each case would transmit the disease to one other person. Hence, the number of new cases will remain constant. The cumulative incidence would show a linear increase.
+- If Rt > 1, each case will transmit the disease to more than one other person (equal to Rt value). The daily number of reported new cases will increase, and cumulative incidence increases exponentially.
+- If Rt < 1, each case would transmit to less than one other person (again, equal to the Rt value), this would mean that the daily number of reported new cases would come down, eventually the infection would get contained.
+- A simplified analogy to understand this is to see the daily growth rate in cases as velocity/speed. The effective Rt is like acceleration.
+
+\
+
+## Lockdowns help in reducing the R-value - but with a delay.
+Ideally a lag is to be expected from the commencement of lockdown till perceivable change in effective R is seen due to the following reasons:
+
+- The serial interval - the time between an infector becomes symptomatic till the infected (person who got infected by the infector) became symptomatic. Current estimates are about 5 days. [If you are really curious, you may also read up about generation interval which is quite difficult to estimate accurately in real-world setting].
+- Testing and reporting lags - as the number of samples collected each day increases, the testing system gets stressed leading to delays in testing and reporting. This may or may not be significant in your context. This can be a significant contributor to the lag of indicators.
+- Community vs Household transmission - Getting infected from the outside community can be controlled by lockdown, however, getting infected inside ones' own home via a person who got infected in the community will happen even with lockdown in place. There will be a drop in this eventually as lockdown causes less people to get infected in the community and take the pathogen to their homes. Household transmission may lead to a share of positive cases despite the lockdown being in place - but then again, lockdowns are less effective, and not designed to reduce household transmissions.
+
+\
+
+## R value does not translate to risk of contracting the infection on its own.
+An effective R above 1 does point to higher risk, but to righly assess the risk, you need more than just the R-values. A better indicator for household level decision making are the test positivity rates. 
+
+Regardless of what the numbers show, it is highly recommended that you take all necessary precautions like double masking, proper hand hygiene, physical distancing, and practice full compliance to lockdowns and/or other locally relevant containment strategies at all times.
+
+\
+
+## Stay Safe!
+
+\
+
+![](COVID_Banner.jpg)
 
 
 

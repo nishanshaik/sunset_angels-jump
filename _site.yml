@@ -7,9 +7,9 @@ output:
     theme: flatly
     highlight: textmate
 navbar:  
-  title: "Dr Nishan"
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"logo_1.png\" />"
   left:
-    - text: "Main" 
+    - text: "Home" 
       href: index.html
     - text: "Effective R - Weekly Report"
       href: weekly_report.html
@@ -99,6 +99,8 @@ navbar:
       href: help.html
     - text: "Archive" 
       href: archives.html
+    - text: "Bio"
+      href: nishan.html
     - text: "Contact" 
       href: about.html
     - text: "Licenses"
