@@ -81,3 +81,27 @@ Ideally a lag is to be expected from the commencement of lockdown till perceivab
 In a way, yes. But it may not be that intuitive for daily use. An effective R above 1 does point to higher risk. A better indicator for household level decision making are the test positivity rates. 
 
 Regardless of what the numbers show, it is highly recommended that you take all necessary precautions like double masking, proper hand hygiene, physical distancing, and practice full compliance to lockdowns and/or other locally relevant containment strategies at all times.
+
+\
+
+
+\
+
+# Legal
+
+\
+
+## MIT 
+Copyright 2021 Dr. Shaik Nishan AShraf
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+\
+
+## Creative Commons
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/4.0/.

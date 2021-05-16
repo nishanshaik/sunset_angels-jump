@@ -8,7 +8,6 @@ text-align: justify}
 
 \
 
-# Note to Users
 ***Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile/smaller screens.***
 
 \
