@@ -8,18 +8,17 @@ text-align: justify}
 
 \
 
-***Please read the user guide before moving to the weekly and daily reports***
+### Note to Users
+***Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile/smaller screens.***
 
 \
 
 # About me
 I love data, analytics, R, health economics, public health research, and disease modelling.
 
-Hello, 
-
 I am an MBBS-MPH graduate with governmental, non-governmental, and corporate professional exposure. Adept in research methodologies, health economics, HEOR, biostatistics and public health with a grounding in health financing and health policy.
 
-I love R and thoroughly enjoy working with data. I have been able to expand my understanding to effectively deploy R probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and even web development. This website and all the work that you see on this site are built exclusively using R!
+I love R and thoroughly enjoy working with data and have been able to expand my understanding to effectively deploy R for probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and even web development. This website and all the work that you see on this site are built exclusively using R!
 
 I enjoy teaching and guiding on topics that I have good grip on, namely, R programming, analytics, HEOR and modelling.
 
