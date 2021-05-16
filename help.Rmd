@@ -43,6 +43,13 @@ Daily R plots provide the users with a near-runtime situation analysis while als
 
 \
 
+## Will there be further updates?
+This website will be updated a minimum of once daily. Aim is to make the updated visualisations available before 9 AM (UTC +5:30) to the users. Automation of updates is being worked upon to ensure consistent and reliable updates into the future.
+
+\
+
+\
+
 # Reproduction Number
 
 \
@@ -74,12 +81,3 @@ Ideally a lag is to be expected from the commencement of lockdown till perceivab
 In a way, yes. But it may not be that intuitive for daily use. An effective R above 1 does point to higher risk. A better indicator for household level decision making are the test positivity rates. 
 
 Regardless of what the numbers show, it is highly recommended that you take all necessary precautions like double masking, proper hand hygiene, physical distancing, and practice full compliance to lockdowns and/or other locally relevant containment strategies at all times.
-
-\
-
-# Legal
-
-\
-
-## License
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Weekly and Daily Effective Reproductive Numbers for COVID-19 in India</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="drnishan.com" property="cc:attributionName" rel="cc:attributionURL">Dr. Shaik Nishan Ashraf</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="covid19india.org" rel="dct:source">covid19india.org</a>.
