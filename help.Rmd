@@ -44,7 +44,7 @@ Daily R plots provide the users with a near-runtime situation analysis while als
 \
 
 ## Will there be further updates?
-This website will be updated a minimum of once daily. Aim is to make the updated visualisations available before 9 AM (UTC +5:30) to the users. Automation of updates is being worked upon to ensure consistent and reliable updates into the future.
+This website will be updated a minimum of once daily. Aim is to make the updated visualisations available before 9 AM (IST) to the users. Automation of updates is being worked upon to ensure consistent and reliable updates into the future.
 
 \
 
@@ -103,5 +103,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 \
 
 ## Creative Commons
-This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by/4.0/.
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit the [Creative Commons website](https://bit.ly/Rtv10305)http://creativecommons.org/licenses/by/4.0/).
