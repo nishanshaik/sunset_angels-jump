@@ -8,7 +8,7 @@ text-align: justify}
 
 \
 
-### Note to Users
+# Note to Users
 ***Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile/smaller screens.***
 
 \
@@ -23,9 +23,6 @@ He is passionate about R and thoroughly enjoy working with data and have been ab
 He enjoys teaching and guiding on topics that he has a good grip on, namely, R programming, analytics, HEOR and modelling.
 
 If you wish to know more about his interest areas check out the contact page.
-
-\
-
 
 
 
