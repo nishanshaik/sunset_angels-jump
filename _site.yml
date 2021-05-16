@@ -102,5 +102,5 @@ navbar:
     - text: "User Guide"
       href: help.html
     - text: "License"
-      href: license.html
+      href: legal.html
 output_dir: "."
