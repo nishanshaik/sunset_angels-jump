@@ -171,7 +171,7 @@ datatable(districts, caption = "Effective reproductive numbers at district level
 # Conclusions
 The containment efforts taken may be showing effect as the effective reproductive numbers are seen to be decreasing in a large share of states and districts. Further caution needs to be taken in areas where the Rt or spread is observed to have increased. Given the observation that the effective R value is above 1 in many parts of the country, all possible methods the social and economic situation will permit to contain the spread of infection may be taken.
 
-The current trends are reason enough to incite hope and guarded optimism towards future trends of the outbreak. The gradual, yet sustained reduction in Rt values in the country calls for sustaining the ongoing efforts, augment them to further reduce the spread. Attention needs to be given in those areas where Rt is above and and has increased as compared to previous week.
+The current trends are reason enough to incite hope and guarded optimism towards future trends of the outbreak. The gradual, yet sustained reduction in Rt values in the country calls for sustaining the ongoing efforts, and augmenting them to further reduce the spread. Attention needs to be given in those areas where Rt is above 1 and and has increased as compared to previous week.
 
 \
 
