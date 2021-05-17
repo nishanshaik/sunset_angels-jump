@@ -96,7 +96,7 @@ The instantaneous rate of spread of infection as measure by Rt can be influenced
 # Methodology
 Daily incidence data of COVID-19 outbreak in India from https://covid19india.org was used to derive the Rt from 2 May 2021 till 15 May 2021 using time-dependent method. Data from 634 districts from 36 states in India was used to assess the Rt at three levels - national, state and district. The daily Rt was smoothed over 7-day intervals to account for the 'weekend effect' in testing and reporting of incident cases. 
 
-The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 2 May to 8 May have been interpreted in the tables below. 
+The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 9 May to 15 May have been interpreted in the tables below. 
 
 A weekly change matrix was derived to better understand the change in Rt numbers in the two weeks. Those districts and states whose Rt values increased are classified as 'worsened', 'improved' is assigned if the Rt decreased, and 'no change' if no change was observed. Based on the absolute value of smoothed Rt in the previous week, the observed pattern of spread is classified as 'increasing' when Rt is above 1, and 'getting contained' if Rt is less than 1. By some chance the Rt is exactly 1, the outbreak spreads linearly and is labelled as 'endemic'.
 
@@ -178,4 +178,6 @@ The current trends are reason enough to incite hope and guarded optimism towards
 # Limitations of this analysis
 Only reported numbers are included in the analysis. Time delays in reporting in certain regions are not accounted for in this analysis. All incidence numbers are taken as is. An attempt has been made to make best use of the data available in the hope that this might help decision makers make better decisions. 
 
-The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 2 May to 8 May to differ from those in the last update. 
+The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 2 May to 8 May to differ from those in the last update.
+
+The PDF version of this document can be found [here](http://bit.ly/Rtv31705).
