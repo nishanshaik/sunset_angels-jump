@@ -1,0 +1,23 @@
+---
+title: "Your slot has been booked successfully!"
+---
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
+
+</style>
+
+<style>
+body {
+text-align: justify}
+</style>
+
+\
+
+# Thank you for scheduling. Looking forward to talk to you.
+
+\
+
+Click [here](./index.html) to return to main page. 

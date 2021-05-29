@@ -6,10 +6,10 @@ body {
 text-align: justify}
 </style>
 
-Have something to share? 
-Want to give me feedbacks?
-Have an interesting opportunity to collaborate?
-Want me to help you get started in R, HEOR, analytics, or disease modelling?
+Have something to share? \
+Want to give me feedbacks? \
+Have an interesting opportunity to collaborate? \
+Want me to help you get started in R, HEOR, analytics, or disease modelling? \
 
 I would be glad to hear from you. Feel free to choose any medium from below!
 

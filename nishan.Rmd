@@ -16,8 +16,8 @@ text-align: justify}
 
 \
 
-<p align="center">
-  <img width="400" height="400" src="nishan.png">
+<p align="left">
+  <img width="200" height="200" src="nishan.png">
 </p>
 
 \
