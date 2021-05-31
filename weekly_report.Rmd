@@ -1,7 +1,7 @@
 ---
 title: "Effective Reproductive Numbers for India"
-author: "Update 4"
-date: "24 May 2021"
+author: "Update 5"
+date: "31 May 2021"
 output:
   html_document:
     toc: true
@@ -31,13 +31,13 @@ nation <- read_csv("Rt_Nation.csv")
 
 # Preparing district dataset ================
 districts <- districts %>% 
-  select(-week_17, -week_18, -week_19) %>% 
-  mutate(Remarks = case_when(week_21 < week_20 ~ "Improved",
-                             week_21 == week_20 ~ "No Change",
-                             week_21 > week_20 ~ "Worsened"),
-         Spread = case_when(week_21 > 1 ~ "> 1",
-                            week_21 == 1 ~ "1",
-                            week_21 < 1 ~ "< 1"))
+  select(State, District, week_21, week_22) %>% 
+  mutate(Remarks = case_when(week_22 < week_21 ~ "Improved",
+                             week_22 == week_21 ~ "No Change",
+                             week_22 > week_21 ~ "Worsened"),
+         Spread = case_when(week_22 > 1 ~ "> 1",
+                            week_22 == 1 ~ "1",
+                            week_22 < 1 ~ "< 1"))
 
 districts$State[districts$State == "Dadra and Nagar Haveli and Daman and Diu"] <- "D&NH & D&D"
 
@@ -46,44 +46,44 @@ districts_overview2 <- addmargins(table(States = districts$State, districts$Spre
 districts_overview3 <- addmargins(table(districts$Remarks, districts$Spread))
 
 districts <- districts %>% 
-  mutate(Spread = case_when(week_21 > 1 ~ "Increasing",
-                            week_21 == 1 ~ "Endemic",
-                            week_21 < 1 ~ "Getting contained")) %>% 
+  mutate(Spread = case_when(week_22 > 1 ~ "Increasing",
+                            week_22 == 1 ~ "Endemic",
+                            week_22 < 1 ~ "Getting contained")) %>% 
   unite("Status", c(Remarks, Spread), sep = " & ", remove = TRUE)%>% 
-  rename(`May 9 - May 15` = week_20,
-         `May 16 - May 22`= week_21)
+  rename(`May 16 - May 22`= week_21,
+         `May 23 - May 29`= week_22)
 
 
 # Preparing states dataset ==================
 states <- states %>% 
-  mutate(Remarks = case_when(week_21 < week_20 ~ "Improved",
-                             week_21 == week_20 ~ "No Change",
-                             week_21 > week_20 ~ "Worsened"),
-         Spread = case_when(week_21 > 1 ~ "> 1",
-                            week_21 == 1 ~ "1",
-                            week_21 < 1 ~ "< 1"))
+  mutate(Remarks = case_when(week_22 < week_21 ~ "Improved",
+                             week_22 == week_21 ~ "No Change",
+                             week_22 > week_21 ~ "Worsened"),
+         Spread = case_when(week_22 > 1 ~ "> 1",
+                            week_22 == 1 ~ "1",
+                            week_22 < 1 ~ "< 1"))
 
 states_overview <- addmargins(table(states$Remarks, states$Spread))
 
 states$State[states$State == "Dadra and Nagar Haveli and Daman and Diu"] <- "D&NH & D&D"
 
 states <- states %>%
-  select(-week_17, -week_18, -week_19) %>% 
-  mutate(Spread = case_when(week_21 > 1 ~ "Increasing",
-                            week_21 == 1 ~ "Endemic",
-                            week_21 < 1 ~ "Getting contained")) %>% 
+  select(State, Remarks, Spread, week_21, week_22) %>% 
+  mutate(Spread = case_when(week_22 > 1 ~ "Increasing",
+                            week_22 == 1 ~ "Endemic",
+                            week_22 < 1 ~ "Getting contained")) %>% 
   unite("Status", c(Remarks, Spread), sep = " & ", remove = TRUE)%>% 
-  rename(`May 9 - May 15` = week_20,
-         `May 16 - May 22`= week_21)
+  rename(`May 16 - May 22`= week_21,
+         `May 23 - May 29`= week_22)
 
 # Preparing national dataset ==================
 nation <- nation %>% 
-  select(-week_17, -week_18, -week_19) %>% 
-  mutate(Remarks = case_when(week_21 < week_20 ~ "Improved",
-                             week_21 == week_20 ~ "No Change",
-                             week_21 > week_20 ~ "Worsened"))%>% 
-  rename(`May 9 - May 15` = week_20,
-         `May 16 - May 22`= week_21)
+  select(Nation, week_21, week_22) %>% 
+  mutate(Remarks = case_when(week_22 < week_21 ~ "Improved",
+                             week_22 == week_21 ~ "No Change",
+                             week_22 > week_21 ~ "Worsened"))%>% 
+  rename(`May 16 - May 22`= week_21,
+         `May 23 - May 29`= week_22)
 ```
 
 \
@@ -96,16 +96,16 @@ The instantaneous rate of spread of infection as measure by Rt can be influenced
 \
 
 # Methodology
-Daily incidence data of COVID-19 outbreak in India from https://covid19india.org was used to derive the Rt from 9 May 2021 till 22 May 2021 using time-dependent method. Data from 634 districts from 36 states in India was used to assess the Rt at three levels - national, state and district. The daily Rt was smoothed over 7-day intervals to account for the 'weekend effect' in testing and reporting of incident cases. 
+Daily incidence data of COVID-19 outbreak in India from https://covid19india.org was used to derive the Rt from 16 May 2021 till 29 May 2021 using time-dependent method. Data from 634 districts from 36 states in India was used to assess the Rt at three levels - national, state and district. The daily Rt was smoothed over 7-day intervals to account for the 'weekend effect' in testing and reporting of incident cases. 
 
-The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 16 May to 22 May have been interpreted in the tables below. 
+The effective reproduction numbers thus smoothed were compared to each other and the magnitude of Rt from 23 May to 29 May have been interpreted in the tables below. 
 
 A weekly change matrix was derived to better understand the change in Rt numbers in the two weeks. Those districts and states whose Rt values increased are classified as 'worsened', 'improved' is assigned if the Rt decreased, and 'no change' if no change was observed. Based on the absolute value of smoothed Rt in the previous week, the observed pattern of spread is classified as 'increasing' when Rt is above 1, and 'getting contained' if Rt is less than 1. By some chance the Rt is exactly 1, the outbreak spreads linearly and is labelled as 'endemic'.
 
 \
 
 # National Level
-Effective reproductive number for India was 0.83 from 9 May to 15 May (week 1). This increased to 0.89 from 16 May to 22 May (week 2). The Rt is still below 1 - the infection is gradually getting contained, albeit at a slower rate than week 1.
+Effective reproductive number for India was 0.82 from 16 May to 22 May (week 1). This decreased to 0.76 from 23 May to 29 May (week 2). The Rt is still below 1 - the infection is gradually getting contained, albeit at a slower rate than week 1.
 
 \
 
@@ -167,7 +167,7 @@ kable(districts_overview3, caption = "District level change vs spread matrix", b
 
 \
 
-Full data at district level is shown in the table below. 
+Full data at district level is shown in the table below.
 
 \
 
@@ -180,7 +180,7 @@ datatable(districts, caption = "Effective reproductive numbers at district level
 # Conclusions
 The containment efforts taken may be showing effect as the effective reproductive numbers are seen to be decreasing in a large share of states and districts. Further caution needs to be taken in areas where the Rt or spread is observed to have increased. Given the observation that the effective R value is above 1 in many parts of the country, all possible methods the social and economic situation will permit to contain the spread of infection may be taken.
 
-The current trends are reason enough to incite hope and guarded optimism towards future trends of the outbreak. The gradual, yet sustained reduction in Rt values in the country calls for sustaining the ongoing efforts, and augmenting them to further reduce the spread. Attention needs to be given in those areas where Rt is above 1 and and has increased as compared to previous week.
+Based on the reported numbers, last week was the third consecutive time India reported effective R values less than 1. It is now safe to say that the current trends are reason enough to incite hope and guarded optimism towards future trends of the outbreak. The gradual, yet sustained reduction in Rt values in the country calls for sustaining the ongoing efforts, augment them to further reduce the spread. Attention needs to be given in those areas where Rt is above and and has increased as compared to previous week.
 
 \
 
@@ -189,4 +189,4 @@ Only reported numbers are included in the analysis. Time delays in reporting in 
 
 The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 9 May to 15 May to differ from those in the last update.
 
-The PDF version of this document can be found [here](http://bit.ly/Rtv42405).
+The PDF version of this document can be found [here](http://bit.ly/Rtv53105_1).

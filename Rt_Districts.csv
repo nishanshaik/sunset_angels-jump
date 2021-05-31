@@ -1,635 +1,635 @@
-"State","District","week_17","week_18","week_19","week_20","week_21"
-"Andhra Pradesh","Anantapur",1.57,1.44,1.01,1.24,0.66
-"Andhra Pradesh","Chittoor",1.24,1.2,0.98,1.14,0.97
-"Andhra Pradesh","East Godavari",1.42,1.6,1.08,1.15,1.02
-"Andhra Pradesh","Guntur",1.37,1.01,1.08,0.86,0.89
-"Andhra Pradesh","Krishna",1.15,1.52,1.02,1,0.96
-"Andhra Pradesh","Kurnool",0.95,2.04,0.67,0.88,1.2
-"Andhra Pradesh","Prakasam",1.49,2.19,0.73,1.15,1.32
-"Andhra Pradesh","S.P.S. Nellore",1.47,0.89,1.22,0.87,0.81
-"Andhra Pradesh","Srikakulam",1.12,1.36,0.68,1.11,0.73
-"Andhra Pradesh","Visakhapatnam",1.36,1.56,1.03,1,0.79
-"Andhra Pradesh","Vizianagaram",1.46,1.49,0.8,1.14,0.87
-"Andhra Pradesh","West Godavari",2.88,2.19,0.98,1.3,1.05
-"Andhra Pradesh","Y.S.R. Kadapa",1.52,1.68,1.41,0.82,0.79
-"Arunachal Pradesh","Anjaw",1.24,3.47,0.53,2.28,0.28
-"Arunachal Pradesh","Capital Complex",1,1,1,1,1
-"Arunachal Pradesh","Changlang",1.83,1.39,1.73,1.29,3.9
-"Arunachal Pradesh","East Kameng",1,1.43,1.22,2.24,0.21
-"Arunachal Pradesh","East Siang",1.06,1.54,1.05,0.98,0.6
-"Arunachal Pradesh","Kamle",1,1,1.14,5.88,0.55
-"Arunachal Pradesh","Kra Daadi",1,1,1.43,0.73,1
-"Arunachal Pradesh","Kurung Kumey",1,1,1.43,0.7,5
-"Arunachal Pradesh","Lepa Rada",0.7,1.28,1.66,0.5,0.81
-"Arunachal Pradesh","Lohit",2.24,1.4,1.89,1.05,0.5
-"Arunachal Pradesh","Longding",2.57,0.42,1.14,1.12,0.56
-"Arunachal Pradesh","Lower Dibang Valley",2.19,0.67,0.74,1.08,1.4
-"Arunachal Pradesh","Lower Siang",1.43,2.16,0.76,1.07,0.34
-"Arunachal Pradesh","Lower Subansiri",1.81,1.82,1.23,1.25,0.64
-"Arunachal Pradesh","Namsai",1.06,3.02,1.35,1.31,0.47
-"Arunachal Pradesh","Pakke Kessang",2.38,0.39,1,1.56,1.2
-"Arunachal Pradesh","Papum Pare",1.48,1.3,0.93,1.07,0.78
-"Arunachal Pradesh","Shi Yomi",1,1,1,1.29,0.88
-"Arunachal Pradesh","Siang",1,1.14,0.88,1,1
-"Arunachal Pradesh","Tawang",2.11,0.88,1.45,2.21,0.9
-"Arunachal Pradesh","Tirap",1.31,1.36,0.54,1.21,0.98
-"Arunachal Pradesh","Upper Dibang Valley",1,2.29,1.12,0.98,0.37
-"Arunachal Pradesh","Upper Siang",1,1.8,0.7,2.51,1.19
-"Arunachal Pradesh","Upper Subansiri",1.39,1.36,1.27,3.23,0.54
-"Arunachal Pradesh","West Kameng",0.94,1.23,0.69,1.55,2.36
-"Arunachal Pradesh","West Siang",1.6,1.18,1.17,1.05,0.51
-"Bihar","Araria",1.33,1.35,1.02,0.88,0.68
-"Bihar","Arwal",1.26,1.05,0.87,0.54,0.39
-"Bihar","Aurangabad",1.25,0.82,0.82,0.5,0.57
-"Bihar","Banka",1.38,1.07,0.86,0.71,1.17
-"Bihar","Begusarai",1.38,0.86,0.88,0.72,0.7
-"Bihar","Bhagalpur",1.13,0.92,0.62,0.86,0.98
-"Bihar","Bhojpur",0.99,0.92,0.75,0.62,1.17
-"Bihar","Buxar",1.11,0.79,0.68,0.74,1.43
-"Bihar","Darbhanga",1.36,1.21,0.78,0.94,1.13
-"Bihar","East Champaran",1.09,0.93,1.45,0.68,0.41
-"Bihar","Gaya",1.2,0.76,0.61,0.85,0.69
-"Bihar","Gopalganj",1.62,1.25,0.91,0.83,0.46
-"Bihar","Jamui",1.24,1.45,0.66,0.62,0.42
-"Bihar","Jehanabad",1.39,0.54,0.66,0.6,0.47
-"Bihar","Kaimur",1.47,0.82,0.72,0.51,0.55
-"Bihar","Katihar",1.19,1.33,1.08,0.53,0.85
-"Bihar","Khagaria",1.41,1.07,0.95,0.44,0.76
-"Bihar","Kishanganj",1.18,1.27,0.94,1.13,0.51
-"Bihar","Lakhisarai",1.06,0.93,0.99,0.74,0.64
-"Bihar","Madhepura",1.33,1.19,0.81,0.8,0.67
-"Bihar","Madhubani",1.52,1.24,0.9,0.8,0.51
-"Bihar","Munger",0.92,1.07,1.03,0.6,0.47
-"Bihar","Muzaffarpur",1,1.14,0.76,0.72,1.09
-"Bihar","Nalanda",1.3,1.27,0.73,0.71,0.43
-"Bihar","Nawada",1.22,0.88,0.69,0.63,0.64
-"Bihar","Patna",0.89,1.17,0.67,0.82,0.83
-"Bihar","Purnia",1.45,0.88,1.07,0.66,0.47
-"Bihar","Rohtas",1.36,0.82,0.79,0.49,0.45
-"Bihar","Saharsa",1.34,1.26,0.7,0.69,0.96
-"Bihar","Samastipur",1.82,1.07,1.14,0.6,0.74
-"Bihar","Saran",1.18,0.82,0.82,0.59,0.46
-"Bihar","Sheikhpura",1.02,2.28,0.54,0.45,0.38
-"Bihar","Sheohar",1.35,1.45,0.83,0.72,1.33
-"Bihar","Sitamarhi",1.52,1.19,0.7,0.9,0.67
-"Bihar","Siwan",1.09,1.02,0.9,0.64,0.59
-"Bihar","Supaul",1.93,0.93,0.93,0.87,0.67
-"Bihar","Vaishali",1.24,2.07,0.66,0.57,0.65
-"Bihar","West Champaran",1.48,1.09,0.65,0.63,0.57
-"Chandigarh","Chandigarh",1.19,1.02,1,0.73,0.66
-"Chhattisgarh","Balod",1.03,0.94,0.75,0.64,0.66
-"Chhattisgarh","Baloda Bazar",1.07,0.88,0.91,0.63,0.54
-"Chhattisgarh","Balrampur",1.2,1.07,1.2,0.77,0.67
-"Chhattisgarh","Bametara",1.17,0.87,0.6,0.69,0.64
-"Chhattisgarh","Bastar",1.13,0.84,1.12,0.89,0.69
-"Chhattisgarh","Bijapur",0.9,1.36,0.99,1,1.07
-"Chhattisgarh","Bilaspur",1.05,0.91,0.59,0.53,0.49
-"Chhattisgarh","Dakshin Bastar Dantewada",1.35,1.11,0.88,0.94,0.86
-"Chhattisgarh","Dhamtari",1.01,0.99,0.68,0.7,0.54
-"Chhattisgarh","Durg",0.86,0.71,0.56,0.56,0.62
-"Chhattisgarh","Gariaband",0.93,0.9,0.75,0.65,0.61
-"Chhattisgarh","Gaurela Pendra Marwahi",1.07,1.4,0.86,0.72,0.55
-"Chhattisgarh","Janjgir Champa",1.06,1.21,0.67,0.7,0.6
-"Chhattisgarh","Jashpur",1.14,1.23,0.86,0.7,0.75
-"Chhattisgarh","Kabeerdham",1.34,0.86,0.85,0.52,0.51
-"Chhattisgarh","Kondagaon",1.11,1.44,0.69,0.66,0.96
-"Chhattisgarh","Korba",1.15,1.07,0.64,0.69,0.32
-"Chhattisgarh","Koriya",1.4,1.25,1.01,0.84,0.56
-"Chhattisgarh","Mahasamund",1.15,1.07,0.67,0.66,0.6
-"Chhattisgarh","Mungeli",1.34,1.05,0.91,0.49,0.66
-"Chhattisgarh","Narayanpur",1.19,1.27,1.23,0.96,0.75
-"Chhattisgarh","Raigarh",1.15,1.03,0.82,0.64,0.59
-"Chhattisgarh","Raipur",0.68,0.76,0.7,0.59,0.58
-"Chhattisgarh","Rajnandgaon",0.99,0.8,0.58,0.56,0.44
-"Chhattisgarh","Sukma",1.75,0.96,1.18,0.81,0.42
-"Chhattisgarh","Surajpur",1.28,1.2,1.1,0.81,0.62
-"Chhattisgarh","Surguja",0.88,1.18,0.85,0.84,0.69
-"Chhattisgarh","Uttar Bastar Kanker",1.23,1.02,0.74,0.56,0.54
-"Delhi","Delhi",0.94,0.89,0.73,0.48,0.41
-"Dadra and Nagar Haveli and Daman and Diu","Dadra and Nagar Haveli",0.81,0.8,0.58,0.51,0.54
-"Dadra and Nagar Haveli and Daman and Diu","Daman",0.92,1.07,0.76,0.65,0.97
-"Dadra and Nagar Haveli and Daman and Diu","Diu",0.86,1.11,1.26,0.62,0.15
-"Gujarat","Ahmedabad",1.16,0.85,0.76,0.7,0.31
-"Gujarat","Amreli",1.32,0.96,1.46,0.75,0.44
-"Gujarat","Anand",1.41,1.26,1.14,0.97,0.58
-"Gujarat","Aravalli",1.44,1.2,1.05,0.74,0.23
-"Gujarat","Banaskantha",1.14,0.77,1.19,0.53,1.23
-"Gujarat","Bharuch",0.97,0.79,1.44,0.78,0.64
-"Gujarat","Bhavnagar",1.49,1.1,0.82,0.57,0.75
-"Gujarat","Botad",0.91,0.98,0.94,0.42,0.93
-"Gujarat","Chhota Udaipur",1.85,1.27,0.84,0.55,0.69
-"Gujarat","Dahod",1.69,0.83,1.01,0.76,0.46
-"Gujarat","Dang",1.31,0.74,0.95,0.52,1
-"Gujarat","Devbhumi Dwarka",0.97,1.08,1.82,0.56,2.24
-"Gujarat","Gandhinagar",1.2,0.96,0.89,0.66,0.52
-"Gujarat","Gir Somnath",1.74,1.21,1.14,0.72,0.4
-"Gujarat","Jamnagar",1.32,1.03,0.81,0.59,0.63
-"Gujarat","Junagadh",1.39,1.24,1.28,0.74,0.38
-"Gujarat","Kheda",1.31,1.09,1,0.81,0.6
-"Gujarat","Kutch",1.12,0.94,1.07,0.73,0.84
-"Gujarat","Mahisagar",2.28,0.74,1.06,0.64,0.58
-"Gujarat","Mehsana",0.99,1.23,0.82,0.44,0.59
-"Gujarat","Morbi",1.05,1.28,0.65,0.55,0.45
-"Gujarat","Narmada",0.72,1.6,0.87,0.68,0.92
-"Gujarat","Navsari",1.2,1.13,0.78,0.67,0.75
-"Gujarat","Panchmahal",1.22,1.19,1.32,0.78,0.62
-"Gujarat","Patan",1.24,0.76,1.04,0.68,0.91
-"Gujarat","Porbandar",1.2,1.05,0.94,1.61,0.93
-"Gujarat","Rajkot",0.83,1.04,1.04,0.65,0.94
-"Gujarat","Sabarkantha",1.16,1.16,0.92,1.03,0.73
-"Gujarat","Surat",0.94,0.83,0.74,0.61,0.87
-"Gujarat","Surendranagar",2.13,0.57,0.91,0.59,0.72
-"Gujarat","Tapi",1.17,0.71,0.75,0.44,0.67
-"Gujarat","Vadodara",1.12,1.17,1.14,0.71,0.75
-"Gujarat","Valsad",1.35,0.99,0.96,0.8,0.51
-"Himachal Pradesh","Bilaspur",1.49,1.78,1.1,0.71,0.44
-"Himachal Pradesh","Chamba",1.94,1.58,1.37,0.78,0.53
-"Himachal Pradesh","Hamirpur",1.3,1.24,1.35,0.72,0.86
-"Himachal Pradesh","Kangra",1.46,1.39,1.29,0.8,0.38
-"Himachal Pradesh","Kinnaur",1.34,1.34,1.03,1,0.45
-"Himachal Pradesh","Kullu",1.18,1.11,1.07,0.93,0.43
-"Himachal Pradesh","Lahaul and Spiti",1.07,1.08,0.77,0.87,0.47
-"Himachal Pradesh","Mandi",1.47,1.44,1.28,0.65,0.61
-"Himachal Pradesh","Shimla",1.38,1.29,1.18,0.77,0.74
-"Himachal Pradesh","Sirmaur",1.33,1.24,1.15,0.7,0.89
-"Himachal Pradesh","Solan",1.15,1.29,0.96,0.72,0.92
-"Himachal Pradesh","Una",0.94,1.61,1.41,0.71,0.56
-"Haryana","Ambala",1.37,1.11,0.95,0.71,0.69
-"Haryana","Bhiwani",1.28,1.77,1.1,0.75,0.83
-"Haryana","Charkhi Dadri",1.37,0.94,2.12,0.78,0.6
-"Haryana","Faridabad",1.18,1.06,0.88,0.48,0.57
-"Haryana","Fatehabad",1.14,1.32,0.99,0.81,0.99
-"Haryana","Gurugram",1.27,1.04,0.76,0.61,0.3
-"Haryana","Hisar",1.35,1.18,1.02,0.7,0.69
-"Haryana","Jhajjar",1.31,1.39,0.95,1.05,0.86
-"Haryana","Jind",1.73,0.76,1.05,0.73,0.44
-"Haryana","Kaithal",1.86,0.91,0.86,0.84,1.03
-"Haryana","Karnal",1.32,0.94,0.9,0.68,0.58
-"Haryana","Kurukshetra",0.89,1.13,1,0.74,0.58
-"Haryana","Mahendragarh",3.82,1.62,0.93,0.75,0.42
-"Haryana","Nuh",1.5,2.35,0.69,0.66,0.84
-"Haryana","Palwal",1.62,1.56,1.36,0.98,0.51
-"Haryana","Panchkula",1.26,1.04,1.04,0.71,0.53
-"Haryana","Panipat",1.34,1.21,0.87,0.6,0.6
-"Haryana","Rewari",1.34,1.57,0.77,1.19,1.06
-"Haryana","Rohtak",1.75,1.17,1.11,0.88,0.59
-"Haryana","Sirsa",1.96,1.24,1.19,0.62,0.54
-"Haryana","Sonipat",1.07,1.25,0.79,0.69,0.61
-"Haryana","Yamunanagar",1.33,1.14,0.89,1,0.64
-"Jharkhand","Bokaro",1.25,1.16,0.89,0.65,0.56
-"Jharkhand","Chatra",1.19,0.94,1.01,0.43,0.62
-"Jharkhand","Deoghar",1.11,0.82,0.89,0.61,1.45
-"Jharkhand","Dhanbad",1.07,0.81,1.05,1.05,0.52
-"Jharkhand","Dumka",1.33,0.63,0.73,0.38,0.89
-"Jharkhand","East Singhbhum",1.12,1.05,0.81,0.69,0.46
-"Jharkhand","Garhwa",1.41,0.8,1.29,0.67,0.73
-"Jharkhand","Giridih",2.21,1.25,0.73,0.69,0.88
-"Jharkhand","Godda",1.22,1.13,0.73,0.51,0.37
-"Jharkhand","Gumla",1.25,1.2,0.79,0.63,0.75
-"Jharkhand","Hazaribagh",1.23,1.2,0.67,0.54,0.5
-"Jharkhand","Jamtara",1.18,0.88,0.95,0.46,0.52
-"Jharkhand","Khunti",0.87,1.04,1,0.56,0.6
-"Jharkhand","Koderma",0.92,0.93,0.83,0.55,0.6
-"Jharkhand","Latehar",1.42,1.17,0.82,0.56,0.84
-"Jharkhand","Lohardaga",2.14,0.86,0.66,0.61,0.69
-"Jharkhand","Pakur",0.95,2.64,2.58,0.07,0.81
-"Jharkhand","Palamu",1.33,1.09,1.45,0.39,0.66
-"Jharkhand","Ramgarh",1.12,1.04,0.75,0.61,0.38
-"Jharkhand","Ranchi",1.11,0.74,0.7,0.56,0.64
-"Jharkhand","Sahibganj",0.49,1,0.79,0.78,0.68
-"Jharkhand","Saraikela-Kharsawan",0.97,1.15,0.72,0.73,0.75
-"Jharkhand","Simdega",1.03,1.09,0.96,0.78,1
-"Jharkhand","West Singhbhum",1.25,1.2,0.92,0.76,0.48
-"Jammu and Kashmir","Anantnag",1.92,1.5,0.97,0.92,1.03
-"Jammu and Kashmir","Bandipora",2.52,1.32,1.02,1.32,0.86
-"Jammu and Kashmir","Baramulla",1.38,1.28,0.95,0.83,1.28
-"Jammu and Kashmir","Budgam",1.79,1.56,1.02,1.1,0.89
-"Jammu and Kashmir","Doda",2.32,1.14,1.86,0.9,1.03
-"Jammu and Kashmir","Ganderbal",1.68,1.31,1.18,1.14,1.1
-"Jammu and Kashmir","Jammu",1.07,1.14,1.07,0.9,0.81
-"Jammu and Kashmir","Kathua",1.07,1.73,1.24,0.86,0.64
-"Jammu and Kashmir","Kishtwar",1.92,1.24,1.77,0.82,0.61
-"Jammu and Kashmir","Kulgam",1.87,1.34,1.12,0.83,0.86
-"Jammu and Kashmir","Kupwara",1.9,1.15,1.39,0.9,2.05
-"Jammu and Kashmir","Pulwama",1.25,2.38,1,0.79,1.25
-"Jammu and Kashmir","Punch",1.69,1.79,1.06,1.09,0.62
-"Jammu and Kashmir","Rajouri",1.84,1.74,1.11,0.82,0.72
-"Jammu and Kashmir","Ramban",1.36,1.49,0.94,1.39,0.73
-"Jammu and Kashmir","Reasi",0.72,0.86,1.34,0.76,1.14
-"Jammu and Kashmir","Samba",1.47,1.71,0.97,0.96,0.92
-"Jammu and Kashmir","Shopiyan",1.7,2.18,1.13,0.74,0.7
-"Jammu and Kashmir","Srinagar",1.45,1.2,0.8,0.83,0.79
-"Jammu and Kashmir","Udhampur",1.05,1.62,1.17,1.09,0.43
-"Karnataka","Bagalkote",2.38,1.7,1.14,0.59,0.74
-"Karnataka","Ballari",1.45,1.12,1.41,0.99,0.75
-"Karnataka","Belagavi",1.52,1.55,1.07,1.76,0.54
-"Karnataka","Bengaluru Rural",1.61,1.05,1.09,0.95,0.46
-"Karnataka","Bengaluru Urban",1.32,1.1,0.83,0.7,0.85
-"Karnataka","Bidar",1.04,1.23,0.7,0.62,0.43
-"Karnataka","Chamarajanagara",1.62,1.48,1.13,0.8,1.1
-"Karnataka","Chikkaballapura",1.72,1.19,0.87,0.99,1.58
-"Karnataka","Chikkamagaluru",1.72,1.45,1,1.34,1.22
-"Karnataka","Chitradurga",1.04,1.25,1.15,1.88,1.01
-"Karnataka","Dakshina Kannada",1.47,1.43,1.02,0.84,1.11
-"Karnataka","Davanagere",1.17,1.47,0.93,1.78,0.61
-"Karnataka","Dharwad",1.37,1.48,0.98,1.09,0.9
-"Karnataka","Gadag",1.45,1.38,1.72,1.17,0.78
-"Karnataka","Hassan",1.44,1.8,0.95,0.9,1.6
-"Karnataka","Haveri",1.66,2.37,1.02,0.8,1.48
-"Karnataka","Kalaburagi",1.15,1.2,0.85,0.76,0.44
-"Karnataka","Kodagu",3.19,1.11,1,0.6,1.82
-"Karnataka","Kolar",1.79,0.99,1,1.04,0.56
-"Karnataka","Koppal",2.1,1.3,0.86,1.28,0.74
-"Karnataka","Mandya",1.79,1.3,1.04,0.68,0.89
-"Karnataka","Mysuru",1.69,1.43,0.75,1.05,1.19
-"Karnataka","Raichur",1.86,0.98,0.89,1.03,1.1
-"Karnataka","Ramanagara",1.2,1.81,0.9,0.99,0.72
-"Karnataka","Shivamogga",1.42,1.58,1.28,1.01,0.67
-"Karnataka","Tumakuru",1.18,1.42,1.05,0.94,0.81
-"Karnataka","Udupi",1.69,1.6,1,0.91,1.17
-"Karnataka","Uttara Kannada",1.66,1.99,1.16,0.99,1.01
-"Karnataka","Vijayapura",1.28,0.98,1.2,0.65,1.06
-"Karnataka","Yadgir",2.22,1.51,1.18,0.59,1.01
-"Kerala","Alappuzha",1.41,1.35,0.92,0.91,0.85
-"Kerala","Ernakulam",1.24,1.1,0.96,0.78,0.89
-"Kerala","Idukki",1.27,0.98,1.05,0.92,1.1
-"Kerala","Kannur",1.18,1.01,1.09,0.8,0.88
-"Kerala","Kasaragod",1.21,0.98,0.99,0.81,0.85
-"Kerala","Kollam",1.47,1.36,1.23,0.95,0.76
-"Kerala","Kottayam",1.36,0.97,0.96,0.79,0.82
-"Kerala","Kozhikode",1.42,1.07,0.82,0.71,0.86
-"Kerala","Malappuram",1.42,1.12,1.12,0.94,0.96
-"Kerala","Palakkad",1.48,1.19,1.14,0.93,0.96
-"Kerala","Pathanamthitta",1.24,1.04,1,0.9,0.85
-"Kerala","Thiruvananthapuram",1.54,1.12,1.11,0.87,0.94
-"Kerala","Thrissur",1.41,1.04,1.02,0.78,1.05
-"Kerala","Wayanad",1.23,1.04,0.9,0.8,0.86
-"Ladakh","Kargil",1.06,1.92,1.39,0.64,0.31
-"Ladakh","Leh",0.77,1.14,0.82,1.07,0.26
-"Lakshadweep","Lakshadweep",1.09,0.9,1.04,1.52,1.07
-"Maharashtra","Ahmednagar",0.96,1.12,0.92,0.88,0.85
-"Maharashtra","Akola",0.85,1.11,1.03,1.1,0.89
-"Maharashtra","Amravati",1.03,1.22,1.12,1.03,0.95
-"Maharashtra","Aurangabad",1.05,0.77,0.89,0.86,0.93
-"Maharashtra","Beed",1.13,1.05,0.9,0.9,0.75
-"Maharashtra","Bhandara",1.09,0.63,0.65,0.52,0.68
-"Maharashtra","Buldhana",2.24,1.78,0.79,0.67,1.16
-"Maharashtra","Chandrapur",0.94,0.93,0.94,0.56,0.89
-"Maharashtra","Dhule",0.98,0.85,1.22,0.91,0.63
-"Maharashtra","Gadchiroli",0.98,0.92,0.82,0.75,0.67
-"Maharashtra","Gondia",0.87,0.81,1.13,0.34,0.36
-"Maharashtra","Hingoli",0.99,0.96,0.68,1,0.87
-"Maharashtra","Jalgaon",0.91,0.93,0.96,0.75,0.52
-"Maharashtra","Jalna",0.98,0.97,0.75,0.85,1.99
-"Maharashtra","Kolhapur",1.2,1.39,1.15,0.8,1.14
-"Maharashtra","Latur",0.86,0.96,0.69,0.72,0.88
-"Maharashtra","Mumbai",0.69,0.78,0.72,0.73,1.33
-"Maharashtra","Nagpur",0.99,0.76,0.66,0.57,0.9
-"Maharashtra","Nanded",0.79,0.7,0.7,0.64,0.64
-"Maharashtra","Nandurbar",1.69,0.39,0.74,0.78,0.66
-"Maharashtra","Nashik",1.21,0.8,0.66,0.84,0.49
-"Maharashtra","Osmanabad",1.08,0.88,0.98,0.99,1.07
-"Maharashtra","Palghar",1.01,0.95,0.92,0.55,1.24
-"Maharashtra","Parbhani",1.15,0.9,0.84,0.63,1.16
-"Maharashtra","Pune",0.91,0.99,0.88,0.64,0.85
-"Maharashtra","Raigad",0.92,0.87,0.84,0.78,1.59
-"Maharashtra","Ratnagiri",1.63,0.93,1.09,0.76,1.87
-"Maharashtra","Sangli",1.2,1.15,0.94,1.06,0.86
-"Maharashtra","Satara",1.12,1.17,0.93,0.86,1.56
-"Maharashtra","Sindhudurg",0.86,1.61,1.16,0.62,2.54
-"Maharashtra","Solapur",1.24,1.1,0.85,1.26,0.64
-"Maharashtra","Thane",0.8,0.76,0.73,0.74,0.99
-"Maharashtra","Wardha",1.05,0.89,0.84,0.75,0.78
-"Maharashtra","Washim",0.97,1.23,0.94,1.05,1.15
-"Maharashtra","Yavatmal",1.19,0.87,0.77,0.88,1
-"Meghalaya","East Garo Hills",1.43,1.27,1.67,1.41,1.32
-"Meghalaya","East Jaintia Hills",1.87,1.4,1.38,1.29,0.71
-"Meghalaya","East Khasi Hills",1.12,1.42,1.27,1.58,0.94
-"Meghalaya","North Garo Hills",1.01,1.53,1.38,3.02,0.82
-"Meghalaya","Ribhoi",0.96,1.65,1.51,1.69,1.19
-"Meghalaya","South Garo Hills",1.86,2.22,0.77,2.11,1.44
-"Meghalaya","South West Garo Hills",1.14,3.76,1.68,1.65,1.26
-"Meghalaya","South West Khasi Hills",1,1.11,1.25,2.25,5
-"Meghalaya","West Garo Hills",2.2,2.13,1.73,1.08,1.09
-"Meghalaya","West Jaintia Hills",0.58,1.32,1.74,1.5,1.2
-"Meghalaya","West Khasi Hills",1.6,2.02,0.94,1.42,0.56
-"Madhya Pradesh","Agar Malwa",0.73,1.21,0.68,0.8,0.81
-"Madhya Pradesh","Alirajpur",0.83,0.71,0.72,0.39,1.45
-"Madhya Pradesh","Anuppur",0.89,1.06,0.8,0.79,0.74
-"Madhya Pradesh","Ashoknagar",1.49,0.49,0.69,0.77,2.18
-"Madhya Pradesh","Balaghat",0.89,0.95,0.97,0.73,0.66
-"Madhya Pradesh","Barwani",0.7,0.95,0.77,0.39,0.62
-"Madhya Pradesh","Betul",0.94,1.02,0.76,0.7,0.42
-"Madhya Pradesh","Bhind",1.01,0.9,0.84,0.72,0.56
-"Madhya Pradesh","Bhopal",1.05,0.92,0.89,0.65,0.84
-"Madhya Pradesh","Burhanpur",0.89,0.81,1.19,0.43,0.73
-"Madhya Pradesh","Chhatarpur",1.17,0.58,0.76,0.55,0.63
-"Madhya Pradesh","Chhindwara",0.82,1,0.79,0.86,0.51
-"Madhya Pradesh","Damoh",0.83,1.56,0.86,0.84,0.56
-"Madhya Pradesh","Datia",1.28,0.73,0.86,0.37,1.37
-"Madhya Pradesh","Dewas",1.08,0.9,0.77,0.92,0.53
-"Madhya Pradesh","Dhar",1.26,0.97,0.71,0.67,0.5
-"Madhya Pradesh","Dindori",0.83,1.23,0.84,0.86,0.62
-"Madhya Pradesh","Guna",0.72,1.05,0.65,0.86,0.45
-"Madhya Pradesh","Gwalior",0.99,0.96,0.74,0.44,0.53
-"Madhya Pradesh","Harda",1,1.05,0.94,0.45,0.33
-"Madhya Pradesh","Hoshangabad",1.01,1.03,0.78,0.75,0.42
-"Madhya Pradesh","Indore",1.03,0.99,0.93,0.83,0.65
-"Madhya Pradesh","Jabalpur",0.97,0.98,0.87,0.67,0.56
-"Madhya Pradesh","Jhabua",1.05,0.63,0.7,0.27,1.08
-"Madhya Pradesh","Katni",0.73,0.92,0.71,0.81,0.27
-"Madhya Pradesh","Khandwa",1.08,1.04,0.69,0.58,1.12
-"Madhya Pradesh","Khargone",1.07,0.9,0.8,0.79,0.49
-"Madhya Pradesh","Mandla",0.97,0.82,0.71,0.78,0.27
-"Madhya Pradesh","Mandsaur",0.98,1.48,0.74,0.71,0.62
-"Madhya Pradesh","Morena",0.98,0.89,0.68,0.59,0.78
-"Madhya Pradesh","Narsinghpur",1.27,0.83,0.99,0.61,0.26
-"Madhya Pradesh","Neemuch",1.29,0.77,0.77,0.71,0.45
-"Madhya Pradesh","Niwari",1.12,1.03,0.54,0.47,0.52
-"Madhya Pradesh","Panna",1.15,0.9,0.69,0.7,0.64
-"Madhya Pradesh","Raisen",0.95,1.04,0.88,0.67,0.48
-"Madhya Pradesh","Rajgarh",0.62,1.35,0.82,0.6,0.85
-"Madhya Pradesh","Ratlam",1.34,1.18,1.01,0.64,0.64
-"Madhya Pradesh","Rewa",1.03,0.98,0.84,0.75,0.64
-"Madhya Pradesh","Sagar",1.22,0.88,0.86,1.05,0.46
-"Madhya Pradesh","Satna",1.05,1.03,0.77,0.61,0.51
-"Madhya Pradesh","Sehore",1.12,0.96,0.81,0.67,0.59
-"Madhya Pradesh","Seoni",0.85,0.91,0.67,0.78,0.65
-"Madhya Pradesh","Shahdol",0.98,0.95,0.95,0.63,0.72
-"Madhya Pradesh","Shajapur",0.54,0.93,1.05,0.88,0.77
-"Madhya Pradesh","Sheopur",0.9,1.1,0.9,0.57,0.66
-"Madhya Pradesh","Shivpuri",1.19,1.21,0.87,0.53,0.62
-"Madhya Pradesh","Sidhi",1.22,0.93,1.01,0.52,0.64
-"Madhya Pradesh","Singrauli",1.15,0.97,0.66,0.78,0.79
-"Madhya Pradesh","Tikamgarh",1.26,0.6,0.57,0.66,0.33
-"Madhya Pradesh","Ujjain",1.14,1.04,0.91,0.79,0.55
-"Madhya Pradesh","Umaria",0.82,1.45,0.76,0.78,0.79
-"Madhya Pradesh","Vidisha",0.83,0.94,0.7,0.66,0.83
-"Mizoram","Aizawl",1.35,1.23,1.02,1.18,0.98
-"Mizoram","Champhai",0.9,1.37,3.55,0.34,1.35
-"Mizoram","Hnahthial",1,1,1,1,1
-"Mizoram","Khawzawl",1.57,0.64,3,0.39,1.12
-"Mizoram","Kolasib",2.08,1.13,1.18,1.7,0.96
-"Mizoram","Lawngtlai",0.77,0.86,0.68,1.36,7.25
-"Mizoram","Lunglei",0.86,5.54,0.69,1.52,0.71
-"Mizoram","Mamit",6.37,0.78,0.39,0.84,1.08
-"Mizoram","Saiha",1,5.71,0.89,0.37,1.92
-"Mizoram","Saitual",0.88,3,1,1.1,0.47
-"Mizoram","Serchhip",7.27,1.04,0.69,0.82,1.98
-"Nagaland","Dimapur",2.13,1.09,1.05,0.9,0.62
-"Nagaland","Kiphire",1,1,4.14,0.41,0.85
-"Nagaland","Kohima",1.34,2.26,1.06,1.21,0.72
-"Nagaland","Longleng",1.29,1.22,1.45,1.87,0.71
-"Nagaland","Mokokchung",2.12,1.24,1.45,1.32,0.77
-"Nagaland","Mon",1.43,2.7,1.18,2.08,0.27
-"Nagaland","Peren",1,1.43,1.4,1.27,0.2
-"Nagaland","Phek",1,1.14,2.4,1.15,1.67
-"Nagaland","Tuensang",2.16,1.37,1.67,0.84,16.25
-"Nagaland","Wokha",1,1,2.71,0.92,1.28
-"Nagaland","Zunheboto",1,1.43,2.45,1.93,1.02
-"Odisha","Angul",1.99,1.4,1.18,1.15,1.73
-"Odisha","Balangir",1.22,1.05,1.06,1.09,0.83
-"Odisha","Balasore",1.47,1.24,1.54,1.16,1.71
-"Odisha","Bargarh",1.12,1.4,0.92,0.94,1.26
-"Odisha","Bhadrak",1.29,1.54,1.06,1.59,0.55
-"Odisha","Boudh",2.21,1.96,1.16,1.19,1.43
-"Odisha","Cuttack",1.38,1.36,1.15,1.08,1.36
-"Odisha","Deogarh",1.38,1.48,1.24,0.94,0.94
-"Odisha","Dhenkanal",0.79,3.38,1.55,1.03,4.06
-"Odisha","Gajapati",1.78,1.25,0.86,0.9,1.22
-"Odisha","Ganjam",1.78,1,1.1,0.96,1.55
-"Odisha","Jagatsinghpur",1.67,1.39,1.21,1.26,1.68
-"Odisha","Jajpur",2.17,1.15,1.11,1.04,1.08
-"Odisha","Jharsuguda",1.31,0.94,1.13,0.86,1.04
-"Odisha","Kalahandi",1.1,1.05,1.04,0.89,1.16
-"Odisha","Kandhamal",1.46,1.39,1.27,0.94,1.77
-"Odisha","Kendrapara",1.18,1.62,1.34,0.97,1.62
-"Odisha","Kendujhar",1.29,0.84,1.3,0.97,0.9
-"Odisha","Khordha",1.29,1.11,1.09,0.97,1.23
-"Odisha","Koraput",1.45,1.65,1.13,1.52,0.82
-"Odisha","Malkangiri",1.68,1.77,1.03,1.45,1.17
-"Odisha","Mayurbhanj",1.75,0.98,1.12,1.55,1.3
-"Odisha","Nabarangapur",1.5,1.24,0.84,1.17,1
-"Odisha","Nayagarh",1.48,1.58,1.17,1.05,1.24
-"Odisha","Nuapada",0.97,0.79,1.15,0.78,0.41
-"Odisha","Puri",1.02,1.41,1.08,0.92,1.1
-"Odisha","Rayagada",1.36,1.29,1,1.12,1.26
-"Odisha","Sambalpur",1.19,1.46,0.99,1.04,0.84
-"Odisha","Subarnapur",1.83,1.69,1.02,1.15,0.74
-"Odisha","Sundargarh",1.08,1.27,1.03,0.92,1.02
-"Punjab","Amritsar",1.06,1.15,0.92,0.77,0.97
-"Punjab","Barnala",1.66,0.83,1.34,1.25,0.85
-"Punjab","Bathinda",1.24,1.27,1.06,0.88,0.64
-"Punjab","Faridkot",1.31,1.03,1.25,0.88,0.58
-"Punjab","Fatehgarh Sahib",1.09,1.53,0.94,1.26,0.61
-"Punjab","Fazilka",1.43,1.31,1.43,0.83,0.93
-"Punjab","Ferozepur",1.18,1.07,1.18,1.13,0.59
-"Punjab","Gurdaspur",1.12,1.01,0.98,0.9,0.99
-"Punjab","Hoshiarpur",1.13,1.06,1.29,0.82,1
-"Punjab","Jalandhar",1.27,1.23,0.88,0.93,0.69
-"Punjab","Kapurthala",1.35,0.88,1.69,0.64,0.58
-"Punjab","Ludhiana",1.27,1.1,1.08,0.7,0.64
-"Punjab","Mansa",1.55,1.22,1.07,0.65,3.46
-"Punjab","Moga",1.13,1.15,1.02,0.76,0.57
-"Punjab","Pathankot",1.2,1.3,0.98,0.98,0.61
-"Punjab","Patiala",1.19,1.13,1,0.73,0.76
-"Punjab","Rupnagar",1.14,1.1,1.22,0.77,0.69
-"Punjab","S.A.S. Nagar",1.13,0.95,1.11,0.7,0.63
-"Punjab","Sangrur",1.17,1.33,0.93,0.97,0.86
-"Punjab","Shahid Bhagat Singh Nagar",1.22,1.34,0.93,1.02,0.96
-"Punjab","Sri Muktsar Sahib",1.6,1.06,1.05,1.29,0.62
-"Punjab","Tarn Taran",1.1,0.7,1.07,0.97,0.98
-"Puducherry","Karaikal",1.09,1.27,1.4,1.04,0.9
-"Puducherry","Mahe",1.2,0.95,0.92,0.92,0.9
-"Puducherry","Puducherry",1.36,1.15,1.25,1,0.85
-"Puducherry","Yanam",1.45,1.67,0.93,0.95,0.55
-"Rajasthan","Ajmer",1.33,0.8,0.99,0.65,0.57
-"Rajasthan","Alwar",1.57,0.75,1.08,0.72,0.84
-"Rajasthan","BSF Camp",1,1,1,1,1
-"Rajasthan","Banswara",1.96,0.64,0.73,0.77,1.1
-"Rajasthan","Baran",1.09,1.39,0.57,0.74,0.72
-"Rajasthan","Barmer",1.16,1.34,1.15,0.74,0.58
-"Rajasthan","Bharatpur",0.97,1.17,3.27,0.63,0.29
-"Rajasthan","Bhilwara",0.97,0.93,0.84,0.57,1.19
-"Rajasthan","Bikaner",1.14,1.05,0.84,0.75,1.04
-"Rajasthan","Bundi",1.32,0.97,0.87,0.81,0.47
-"Rajasthan","Chittorgarh",1.31,1.68,0.78,0.58,0.81
-"Rajasthan","Churu",0.72,2.24,0.95,0.61,0.86
-"Rajasthan","Dausa",1.15,1.11,1.04,0.8,0.23
-"Rajasthan","Dholpur",1.07,0.9,0.72,0.59,0.55
-"Rajasthan","Dungarpur",0.84,1.2,1.18,0.56,0.63
-"Rajasthan","Ganganagar",1.24,1.52,1.01,0.81,1.74
-"Rajasthan","Hanumangarh",1.87,1.09,0.76,0.84,4.59
-"Rajasthan","Jaipur",1.27,1.09,0.98,0.73,0.6
-"Rajasthan","Jaisalmer",2.39,1.16,1.41,0.75,0.76
-"Rajasthan","Jalore",1.58,0.96,0.57,0.38,2.2
-"Rajasthan","Jhalawar",1.41,1.49,0.72,0.71,0.65
-"Rajasthan","Jhunjhunu",1.37,1.49,1.2,0.89,1.2
-"Rajasthan","Jodhpur",1.08,1.04,0.85,0.54,0.68
-"Rajasthan","Karauli",1.09,1.24,0.98,0.58,1.06
-"Rajasthan","Kota",0.71,0.88,1.31,0.63,0.57
-"Rajasthan","Nagaur",1.03,1.13,1.12,0.75,0.67
-"Rajasthan","Pali",1.95,0.96,0.58,0.73,1.39
-"Rajasthan","Pratapgarh",1.49,1.11,0.6,0.73,1.66
-"Rajasthan","Rajsamand",1.27,0.84,1.22,0.67,0.5
-"Rajasthan","Sawai Madhopur",1.69,0.72,0.78,0.6,0.48
-"Rajasthan","Sikar",1.86,0.84,0.92,0.86,0.61
-"Rajasthan","Sirohi",0.75,0.99,1.09,0.59,0.59
-"Rajasthan","Tonk",1.03,1.01,1.07,0.62,0.53
-"Rajasthan","Udaipur",0.99,1.05,1.05,0.59,0.73
-"Tamil Nadu","Ariyalur",1.23,1.4,1.61,1.37,1.58
-"Tamil Nadu","Chengalpattu",1.14,1.31,1.24,0.94,0.91
-"Tamil Nadu","Chennai",1.21,1.23,1.11,0.89,0.88
-"Tamil Nadu","Coimbatore",1.27,1.48,1.37,1.14,1.2
-"Tamil Nadu","Cuddalore",1.2,1.34,1.34,1.32,1.15
-"Tamil Nadu","Dharmapuri",1.21,1.2,1.14,1.23,1.17
-"Tamil Nadu","Dindigul",1.15,1.08,1.28,1.04,1.54
-"Tamil Nadu","Erode",1.53,1.28,1.29,1.43,0.99
-"Tamil Nadu","Kallakurichi",1.7,1,1.52,1.47,1.21
-"Tamil Nadu","Kancheepuram",1.28,1.43,1.07,1.21,1.04
-"Tamil Nadu","Kanyakumari",1.32,1.49,1.68,1.08,1.35
-"Tamil Nadu","Karur",1.29,1.68,1.02,1.09,1.01
-"Tamil Nadu","Krishnagiri",1.37,0.99,1.35,1.11,1.26
-"Tamil Nadu","Madurai",1.28,1.32,1.24,1.02,1.13
-"Tamil Nadu","Nagapattinam",1.47,1.16,1.07,1.58,0.79
-"Tamil Nadu","Namakkal",1.29,1.23,1.04,1.07,2.3
-"Tamil Nadu","Nilgiris",1.11,1.77,1.41,1.52,1.12
-"Tamil Nadu","Perambalur",2.03,1.81,2.16,1.14,1.73
-"Tamil Nadu","Pudukkottai",1.24,1.22,1.48,1.31,1.65
-"Tamil Nadu","Ramanathapuram",1.81,1.19,1.21,1.14,1.32
-"Tamil Nadu","Ranipet",1.53,1.3,0.95,1.14,1.4
-"Tamil Nadu","Salem",1.2,1.19,1,1.1,1.35
-"Tamil Nadu","Sivaganga",1.49,1.36,1.33,1.09,1.08
-"Tamil Nadu","Tenkasi",1.22,0.94,1.49,1.17,1.04
-"Tamil Nadu","Thanjavur",1.23,1.05,1.73,1.03,1.95
-"Tamil Nadu","Theni",1.47,1.34,1.23,1.38,0.9
-"Tamil Nadu","Thiruvallur",1.32,1.41,1.03,1.27,0.73
-"Tamil Nadu","Thiruvarur",1.21,1.27,1.35,1.78,0.82
-"Tamil Nadu","Thoothukkudi",1.47,1.26,1.05,1.31,0.71
-"Tamil Nadu","Tiruchirappalli",1.21,1.31,1.28,1.42,1.03
-"Tamil Nadu","Tirunelveli",1.57,0.97,1.16,0.83,0.92
-"Tamil Nadu","Tirupathur",1.27,0.99,2.04,1.37,0.87
-"Tamil Nadu","Tiruppur",1.49,1.09,1.24,1.62,1.1
-"Tamil Nadu","Tiruvannamalai",1.48,0.84,2.09,0.88,2.04
-"Tamil Nadu","Vellore",1.33,1.26,1.09,0.91,1.11
-"Tamil Nadu","Viluppuram",1.75,1.3,1.18,0.95,1.8
-"Tamil Nadu","Virudhunagar",1.46,1.07,1.8,0.95,1.68
-"Tripura","Dhalai",1.67,1.67,1.56,0.83,1.68
-"Tripura","Gomati",1.48,2.06,1.3,1.59,1.92
-"Tripura","Khowai",1.56,1.35,1.53,1.71,1.27
-"Tripura","North Tripura",1.23,2.77,1.12,1.41,1.05
-"Tripura","Sipahijala",1.5,2.34,1.75,2.2,1.53
-"Tripura","South Tripura",1.28,1.44,1.62,2.26,1.82
-"Tripura","Unokoti",1.97,1.81,1.34,1.39,1.44
-"Tripura","West Tripura",1.51,1.49,1.31,1.52,1.05
-"Uttar Pradesh","Agra",1.27,0.59,0.78,0.53,0.53
-"Uttar Pradesh","Aligarh",1.27,1.27,0.8,0.6,0.4
-"Uttar Pradesh","Ambedkar Nagar",0.93,0.73,1.65,0.81,0.48
-"Uttar Pradesh","Amethi",0.81,0.82,1.31,0.51,0.67
-"Uttar Pradesh","Amroha",1.3,1.54,0.62,0.54,0.55
-"Uttar Pradesh","Auraiya",0.97,0.62,1.19,0.44,0.73
-"Uttar Pradesh","Ayodhya",0.93,0.74,0.97,0.76,0.47
-"Uttar Pradesh","Azamgarh",1.27,1.16,0.53,0.44,0.84
-"Uttar Pradesh","Baghpat",1.34,1.44,0.92,0.8,0.49
-"Uttar Pradesh","Bahraich",1.11,0.79,1,0.62,0.22
-"Uttar Pradesh","Ballia",1.04,0.83,1.04,0.38,0.25
-"Uttar Pradesh","Balrampur",0.89,0.85,1.15,0.86,0.34
-"Uttar Pradesh","Banda",1.55,0.84,0.56,0.5,0.31
-"Uttar Pradesh","Barabanki",1.03,0.7,1.04,0.58,0.56
-"Uttar Pradesh","Bareilly",1.3,0.71,0.98,0.37,0.58
-"Uttar Pradesh","Basti",1.13,0.81,0.95,0.71,0.68
-"Uttar Pradesh","Bhadohi",0.95,0.77,0.56,0.76,1.29
-"Uttar Pradesh","Bijnor",1.43,0.5,1.39,0.51,0.46
-"Uttar Pradesh","Budaun",1.47,1.51,0.59,0.51,0.56
-"Uttar Pradesh","Bulandshahr",1.18,0.86,1.28,0.78,0.65
-"Uttar Pradesh","Chandauli",0.94,0.86,0.58,0.45,0.32
-"Uttar Pradesh","Chitrakoot",1.08,1.13,0.58,0.52,0.25
-"Uttar Pradesh","Deoria",0.73,2.42,0.71,0.77,0.38
-"Uttar Pradesh","Etah",1.44,0.86,0.73,0.6,0.34
-"Uttar Pradesh","Etawah",0.85,1.05,0.72,0.5,0.54
-"Uttar Pradesh","Farrukhabad",0.85,0.69,1.77,0.47,0.52
-"Uttar Pradesh","Fatehpur",0.94,0.67,0.53,0.53,0.25
-"Uttar Pradesh","Firozabad",1.49,0.78,0.88,0.69,0.45
-"Uttar Pradesh","Gautam Buddha Nagar",1.51,1.3,0.73,0.49,0.53
-"Uttar Pradesh","Ghaziabad",1.09,1.24,0.66,0.63,0.88
-"Uttar Pradesh","Ghazipur",0.98,0.6,0.98,0.48,0.72
-"Uttar Pradesh","Gonda",1.09,0.82,0.85,0.52,0.92
-"Uttar Pradesh","Gorakhpur",1.17,0.89,0.89,0.6,0.96
-"Uttar Pradesh","Hamirpur",1.28,1.08,0.31,0.48,1.22
-"Uttar Pradesh","Hapur",1.35,1.31,1.13,0.5,0.53
-"Uttar Pradesh","Hardoi",1.03,0.76,0.66,0.72,0.84
-"Uttar Pradesh","Hathras",1.36,0.97,1.09,0.59,0.23
-"Uttar Pradesh","Jalaun",0.94,1.22,1.1,0.31,0.26
-"Uttar Pradesh","Jaunpur",0.93,0.88,0.67,0.73,0.68
-"Uttar Pradesh","Jhansi",1.09,1.04,0.59,0.33,4.56
-"Uttar Pradesh","Kannauj",1.17,0.91,0.42,0.58,0.55
-"Uttar Pradesh","Kanpur Dehat",0.85,0.86,0.69,0.26,0.37
-"Uttar Pradesh","Kanpur Nagar",1.14,0.68,0.49,0.49,0.66
-"Uttar Pradesh","Kasganj",1.88,0.76,1.03,0.4,0.2
-"Uttar Pradesh","Kaushambi",0.97,0.73,0.43,0.52,0.23
-"Uttar Pradesh","Kushinagar",1.47,1.7,1.13,0.4,0.67
-"Uttar Pradesh","Lakhimpur Kheri",1.2,0.85,0.7,0.55,0.49
-"Uttar Pradesh","Lalitpur",0.97,1.26,0.47,0.49,0.97
-"Uttar Pradesh","Lucknow",0.86,0.71,0.56,0.53,0.61
-"Uttar Pradesh","Maharajganj",2.24,0.74,1.88,0.4,0.4
-"Uttar Pradesh","Mahoba",1.12,1.15,0.45,0.32,1.88
-"Uttar Pradesh","Mainpuri",1.34,0.71,0.74,0.6,0.45
-"Uttar Pradesh","Mathura",1.12,0.94,0.82,0.66,0.19
-"Uttar Pradesh","Mau",1.26,0.77,0.58,0.57,0.93
-"Uttar Pradesh","Meerut",1.06,0.91,1.19,0.48,0.64
-"Uttar Pradesh","Mirzapur",0.46,0.98,0.78,0.37,0.43
-"Uttar Pradesh","Moradabad",1.21,1.2,0.67,0.49,0.57
-"Uttar Pradesh","Muzaffarnagar",1.16,0.92,1.16,0.51,0.53
-"Uttar Pradesh","Pilibhit",1.55,0.96,1.18,0.53,1.36
-"Uttar Pradesh","Pratapgarh",1.56,1.1,0.64,0.49,0.39
-"Uttar Pradesh","Prayagraj",0.76,0.67,0.55,0.56,0.46
-"Uttar Pradesh","Rae Bareli",0.86,0.72,0.57,0.97,0.42
-"Uttar Pradesh","Rampur",1.64,1.13,0.6,0.64,0.8
-"Uttar Pradesh","Saharanpur",1.38,1.78,0.89,0.55,0.65
-"Uttar Pradesh","Sambhal",0.76,1.58,0.65,0.49,0.51
-"Uttar Pradesh","Sant Kabir Nagar",1.03,0.64,1.07,0.9,0.32
-"Uttar Pradesh","Shahjahanpur",1.68,0.91,0.67,0.77,0.32
-"Uttar Pradesh","Shamli",1.31,1.13,0.97,0.53,1.14
-"Uttar Pradesh","Shrawasti",1.4,0.81,1.01,0.5,0.79
-"Uttar Pradesh","Siddharthnagar",0.79,1.2,0.88,0.58,0.67
-"Uttar Pradesh","Sitapur",0.92,0.79,1.16,0.46,0.96
-"Uttar Pradesh","Sonbhadra",1.03,0.8,0.7,0.71,0.82
-"Uttar Pradesh","Sultanpur",0.82,0.59,0.67,0.88,0.31
-"Uttar Pradesh","Unnao",1.09,0.98,0.51,0.62,0.45
-"Uttar Pradesh","Varanasi",0.9,0.7,0.76,0.57,0.7
-"Uttarakhand","Almora",1.53,1.19,1.05,1.05,0.41
-"Uttarakhand","Bageshwar",3.29,1.67,0.68,1.67,0.48
-"Uttarakhand","Chamoli",1.98,1.5,0.95,1.22,0.74
-"Uttarakhand","Champawat",1.66,1.62,0.81,0.88,0.62
-"Uttarakhand","Dehradun",1.42,1.19,0.88,0.55,0.61
-"Uttarakhand","Haridwar",1.42,0.73,1.12,0.72,0.74
-"Uttarakhand","Nainital",1.47,1.03,0.97,0.74,0.61
-"Uttarakhand","Pauri Garhwal",1.38,1.15,1.08,0.96,0.43
-"Uttarakhand","Pithoragarh",1.91,2.05,0.92,0.89,1.39
-"Uttarakhand","Rudraprayag",1.53,1.54,1.51,1.09,0.67
-"Uttarakhand","Tehri Garhwal",0.94,1.98,1.11,0.91,0.69
-"Uttarakhand","Udham Singh Nagar",1.17,1.49,0.97,0.6,1.21
-"Uttarakhand","Uttarkashi",1.64,1.57,1.52,0.62,0.4
-"West Bengal","Alipurduar",2.41,0.95,1.58,1.2,1.4
-"West Bengal","Bankura",1.51,1.36,1.06,1.18,1.65
-"West Bengal","Birbhum",1.29,0.97,1.11,0.57,0.97
-"West Bengal","Cooch Behar",1.89,1.14,1.19,1.02,1.03
-"West Bengal","Dakshin Dinajpur",1.99,1.22,1.14,0.8,1.03
-"West Bengal","Darjeeling",1.46,1.34,1.14,1.03,0.96
-"West Bengal","Hooghly",1.51,1.01,1.2,1.05,1.13
-"West Bengal","Howrah",1.39,1.04,1.15,1,1.01
-"West Bengal","Jalpaiguri",1.42,1.17,1.37,1.02,1.43
-"West Bengal","Jhargram",3.21,1.28,1.37,1.07,1.06
-"West Bengal","Kalimpong",3.09,1,1.2,1.22,0.73
-"West Bengal","Kolkata",1.41,1.02,1,0.94,0.84
-"West Bengal","Malda",1.22,0.9,0.83,0.71,0.83
-"West Bengal","Murshidabad",1.22,0.91,1.05,0.92,0.45
-"West Bengal","Nadia",1.61,1.16,1.16,0.98,1.12
-"West Bengal","North 24 Parganas",1.49,1.08,1.02,1.02,0.93
-"West Bengal","Paschim Bardhaman",1.38,1.07,1,0.87,0.95
-"West Bengal","Paschim Medinipur",1.78,1.43,1.71,1.03,0.76
-"West Bengal","Purba Bardhaman",1.56,0.96,1.19,0.93,1.08
-"West Bengal","Purba Medinipur",1.55,1.18,1.26,0.92,1.08
-"West Bengal","Purulia",1.36,0.68,0.88,0.74,0.66
-"West Bengal","South 24 Parganas",1.4,1,1.12,1.05,1.05
-"West Bengal","Uttar Dinajpur",1.34,1.16,0.97,1.06,0.8
+"State","District","week_17","week_18","week_19","week_20","week_21","week_22"
+"Andhra Pradesh","Anantapur",1.57,1.44,1.01,1.24,0.68,1.07
+"Andhra Pradesh","Chittoor",1.24,1.2,0.98,1.14,0.88,1.03
+"Andhra Pradesh","East Godavari",1.42,1.6,1.08,1.15,0.9,0.92
+"Andhra Pradesh","Guntur",1.37,1.01,1.08,0.86,0.72,0.99
+"Andhra Pradesh","Krishna",1.15,1.52,1.02,1,0.75,1.58
+"Andhra Pradesh","Kurnool",0.95,2.04,0.67,0.88,1.04,0.62
+"Andhra Pradesh","Prakasam",1.49,2.19,0.73,1.15,0.82,0.88
+"Andhra Pradesh","S.P.S. Nellore",1.47,0.89,1.22,0.87,0.76,1.05
+"Andhra Pradesh","Srikakulam",1.12,1.36,0.68,1.11,0.74,0.69
+"Andhra Pradesh","Visakhapatnam",1.36,1.56,1.03,1,0.86,0.59
+"Andhra Pradesh","Vizianagaram",1.46,1.49,0.8,1.14,0.75,0.66
+"Andhra Pradesh","West Godavari",2.88,2.19,0.98,1.3,0.8,0.75
+"Andhra Pradesh","Y.S.R. Kadapa",1.52,1.68,1.41,0.82,0.75,1.28
+"Arunachal Pradesh","Anjaw",1.24,3.47,0.53,2.28,0.47,1.49
+"Arunachal Pradesh","Capital Complex",1,1,1,1,1,1
+"Arunachal Pradesh","Changlang",1.83,1.39,1.73,1.29,1.79,0.43
+"Arunachal Pradesh","East Kameng",1,1.43,1.22,2.24,1.25,0.52
+"Arunachal Pradesh","East Siang",1.06,1.54,1.05,0.98,1.55,0.51
+"Arunachal Pradesh","Kamle",1,1,1.14,5.88,0.72,0.33
+"Arunachal Pradesh","Kra Daadi",1,1,1.43,0.73,2.14,0.28
+"Arunachal Pradesh","Kurung Kumey",1,1,1.43,0.7,2.07,0.83
+"Arunachal Pradesh","Lepa Rada",0.7,1.28,1.66,0.5,2.09,0.35
+"Arunachal Pradesh","Lohit",2.24,1.4,1.89,1.05,1.02,0.57
+"Arunachal Pradesh","Longding",2.57,0.42,1.14,1.12,1.45,2.64
+"Arunachal Pradesh","Lower Dibang Valley",2.19,0.67,0.74,1.08,1.24,0.72
+"Arunachal Pradesh","Lower Siang",1.43,2.16,0.76,1.07,0.52,1
+"Arunachal Pradesh","Lower Subansiri",1.81,1.82,1.23,1.25,1,0.77
+"Arunachal Pradesh","Namsai",1.06,3.02,1.35,1.31,1.25,0.49
+"Arunachal Pradesh","Pakke Kessang",2.38,0.39,1,1.56,0.8,0.76
+"Arunachal Pradesh","Papum Pare",1.48,1.3,0.93,1.07,1.1,0.69
+"Arunachal Pradesh","Shi Yomi",1,1,1,1.29,1.44,0.92
+"Arunachal Pradesh","Siang",1,1.14,0.88,1,1,1.81
+"Arunachal Pradesh","Tawang",2.11,0.88,1.45,2.21,1.56,0.51
+"Arunachal Pradesh","Tirap",1.31,1.36,0.54,1.21,0.57,1
+"Arunachal Pradesh","Upper Dibang Valley",1,2.29,1.12,0.98,1.33,1.84
+"Arunachal Pradesh","Upper Siang",1,1.8,0.7,2.51,1.13,0.35
+"Arunachal Pradesh","Upper Subansiri",1.39,1.36,1.27,3.23,0.72,1.27
+"Arunachal Pradesh","West Kameng",0.94,1.23,0.69,1.55,1.31,0.34
+"Arunachal Pradesh","West Siang",1.6,1.18,1.17,1.05,0.5,1.98
+"Bihar","Araria",1.33,1.35,1.02,0.88,0.66,0.65
+"Bihar","Arwal",1.26,1.05,0.87,0.54,0.45,0.4
+"Bihar","Aurangabad",1.25,0.82,0.82,0.5,0.63,0.24
+"Bihar","Banka",1.38,1.07,0.86,0.71,0.54,0.42
+"Bihar","Begusarai",1.38,0.86,0.88,0.72,0.77,0.32
+"Bihar","Bhagalpur",1.13,0.92,0.62,0.86,0.5,0.53
+"Bihar","Bhojpur",0.99,0.92,0.75,0.62,0.78,0.36
+"Bihar","Buxar",1.11,0.79,0.68,0.74,0.73,0.16
+"Bihar","Darbhanga",1.36,1.21,0.78,0.94,0.86,0.4
+"Bihar","East Champaran",1.09,0.93,1.45,0.68,0.48,0.48
+"Bihar","Gaya",1.2,0.76,0.61,0.85,0.52,0.31
+"Bihar","Gopalganj",1.62,1.25,0.91,0.83,0.61,0.56
+"Bihar","Jamui",1.24,1.45,0.66,0.62,0.34,0.61
+"Bihar","Jehanabad",1.39,0.54,0.66,0.6,0.63,0.3
+"Bihar","Kaimur",1.47,0.82,0.72,0.51,0.71,0.26
+"Bihar","Katihar",1.19,1.33,1.08,0.53,0.81,0.4
+"Bihar","Khagaria",1.41,1.07,0.95,0.44,0.67,0.9
+"Bihar","Kishanganj",1.18,1.27,0.94,1.13,0.62,0.55
+"Bihar","Lakhisarai",1.06,0.93,0.99,0.74,0.57,0.46
+"Bihar","Madhepura",1.33,1.19,0.81,0.8,0.57,0.58
+"Bihar","Madhubani",1.52,1.24,0.9,0.8,0.43,1.03
+"Bihar","Munger",0.92,1.07,1.03,0.6,0.52,1
+"Bihar","Muzaffarpur",1,1.14,0.76,0.72,0.77,0.46
+"Bihar","Nalanda",1.3,1.27,0.73,0.71,0.59,0.78
+"Bihar","Nawada",1.22,0.88,0.69,0.63,0.59,0.6
+"Bihar","Patna",0.89,1.17,0.67,0.82,0.54,0.48
+"Bihar","Purnia",1.45,0.88,1.07,0.66,0.63,0.35
+"Bihar","Rohtas",1.36,0.82,0.79,0.49,0.64,0.37
+"Bihar","Saharsa",1.34,1.26,0.7,0.69,0.61,0.6
+"Bihar","Samastipur",1.82,1.07,1.14,0.6,0.75,0.26
+"Bihar","Saran",1.18,0.82,0.82,0.59,0.47,0.82
+"Bihar","Sheikhpura",1.02,2.28,0.54,0.45,0.52,0.3
+"Bihar","Sheohar",1.35,1.45,0.83,0.72,0.72,0.39
+"Bihar","Sitamarhi",1.52,1.19,0.7,0.9,0.68,0.25
+"Bihar","Siwan",1.09,1.02,0.9,0.64,0.72,0.47
+"Bihar","Supaul",1.93,0.93,0.93,0.87,0.6,0.64
+"Bihar","Vaishali",1.24,2.07,0.66,0.57,0.66,0.36
+"Bihar","West Champaran",1.48,1.09,0.65,0.63,0.62,0.42
+"Chandigarh","Chandigarh",1.19,1.02,1,0.73,0.61,0.64
+"Chhattisgarh","Balod",1.03,0.94,0.75,0.64,0.75,0.55
+"Chhattisgarh","Baloda Bazar",1.07,0.88,0.91,0.63,0.65,0.53
+"Chhattisgarh","Balrampur",1.2,1.07,1.2,0.77,0.76,0.4
+"Chhattisgarh","Bametara",1.17,0.87,0.6,0.69,0.58,0.31
+"Chhattisgarh","Bastar",1.13,0.84,1.12,0.89,0.73,0.85
+"Chhattisgarh","Bijapur",0.9,1.36,0.99,1,0.98,0.91
+"Chhattisgarh","Bilaspur",1.05,0.91,0.59,0.53,0.58,0.43
+"Chhattisgarh","Dakshin Bastar Dantewada",1.35,1.11,0.88,0.94,0.87,0.57
+"Chhattisgarh","Dhamtari",1.01,0.99,0.68,0.7,0.79,0.62
+"Chhattisgarh","Durg",0.86,0.71,0.56,0.56,0.63,0.58
+"Chhattisgarh","Gariaband",0.93,0.9,0.75,0.65,0.65,0.71
+"Chhattisgarh","Gaurela Pendra Marwahi",1.07,1.4,0.86,0.72,0.55,0.57
+"Chhattisgarh","Janjgir Champa",1.06,1.21,0.67,0.7,0.66,0.52
+"Chhattisgarh","Jashpur",1.14,1.23,0.86,0.7,0.74,0.62
+"Chhattisgarh","Kabeerdham",1.34,0.86,0.85,0.52,0.57,0.65
+"Chhattisgarh","Kondagaon",1.11,1.44,0.69,0.66,0.9,0.57
+"Chhattisgarh","Korba",1.15,1.07,0.64,0.69,0.43,1.01
+"Chhattisgarh","Koriya",1.4,1.25,1.01,0.84,0.69,0.36
+"Chhattisgarh","Mahasamund",1.15,1.07,0.67,0.66,0.7,0.46
+"Chhattisgarh","Mungeli",1.34,1.05,0.91,0.49,0.75,0.38
+"Chhattisgarh","Narayanpur",1.19,1.27,1.23,0.96,0.64,1.05
+"Chhattisgarh","Raigarh",1.15,1.03,0.82,0.64,0.67,0.55
+"Chhattisgarh","Raipur",0.68,0.76,0.7,0.59,0.64,0.4
+"Chhattisgarh","Rajnandgaon",0.99,0.8,0.58,0.56,0.62,0.35
+"Chhattisgarh","Sukma",1.75,0.96,1.18,0.81,0.95,0.86
+"Chhattisgarh","Surajpur",1.28,1.2,1.1,0.81,0.69,0.67
+"Chhattisgarh","Surguja",0.88,1.18,0.85,0.84,0.81,0.6
+"Chhattisgarh","Uttar Bastar Kanker",1.23,1.02,0.74,0.56,0.55,0.41
+"Delhi","Delhi",0.94,0.89,0.73,0.48,0.45,0.62
+"Dadra and Nagar Haveli and Daman and Diu","Dadra and Nagar Haveli",0.81,0.8,0.58,0.51,0.57,0.62
+"Dadra and Nagar Haveli and Daman and Diu","Daman",0.92,1.07,0.76,0.65,0.75,0.28
+"Dadra and Nagar Haveli and Daman and Diu","Diu",0.86,1.11,1.26,0.62,0.2,1.96
+"Gujarat","Ahmedabad",1.16,0.85,0.76,0.7,0.36,0.52
+"Gujarat","Amreli",1.32,0.96,1.46,0.75,0.61,0.43
+"Gujarat","Anand",1.41,1.26,1.14,0.97,0.58,0.32
+"Gujarat","Aravalli",1.44,1.2,1.05,0.74,0.5,1
+"Gujarat","Banaskantha",1.14,0.77,1.19,0.53,1.04,0.53
+"Gujarat","Bharuch",0.97,0.79,1.44,0.78,0.66,1.14
+"Gujarat","Bhavnagar",1.49,1.1,0.82,0.57,0.7,0.59
+"Gujarat","Botad",0.91,0.98,0.94,0.42,0.63,3.95
+"Gujarat","Chhota Udaipur",1.85,1.27,0.84,0.55,0.52,0.42
+"Gujarat","Dahod",1.69,0.83,1.01,0.76,0.39,0.26
+"Gujarat","Dang",1.31,0.74,0.95,0.52,0.87,0.2
+"Gujarat","Devbhumi Dwarka",0.97,1.08,1.82,0.56,1.01,0.83
+"Gujarat","Gandhinagar",1.2,0.96,0.89,0.66,0.56,0.43
+"Gujarat","Gir Somnath",1.74,1.21,1.14,0.72,0.48,1
+"Gujarat","Jamnagar",1.32,1.03,0.81,0.59,0.57,0.64
+"Gujarat","Junagadh",1.39,1.24,1.28,0.74,0.6,0.64
+"Gujarat","Kheda",1.31,1.09,1,0.81,0.71,0.38
+"Gujarat","Kutch",1.12,0.94,1.07,0.73,0.75,0.43
+"Gujarat","Mahisagar",2.28,0.74,1.06,0.64,0.59,0.64
+"Gujarat","Mehsana",0.99,1.23,0.82,0.44,0.63,0.48
+"Gujarat","Morbi",1.05,1.28,0.65,0.55,0.58,0.29
+"Gujarat","Narmada",0.72,1.6,0.87,0.68,0.77,0.32
+"Gujarat","Navsari",1.2,1.13,0.78,0.67,0.78,3.15
+"Gujarat","Panchmahal",1.22,1.19,1.32,0.78,0.65,0.55
+"Gujarat","Patan",1.24,0.76,1.04,0.68,0.71,0.23
+"Gujarat","Porbandar",1.2,1.05,0.94,1.61,0.9,1.52
+"Gujarat","Rajkot",0.83,1.04,1.04,0.65,0.77,0.72
+"Gujarat","Sabarkantha",1.16,1.16,0.92,1.03,0.71,0.64
+"Gujarat","Surat",0.94,0.83,0.74,0.61,0.79,0.56
+"Gujarat","Surendranagar",2.13,0.57,0.91,0.59,0.71,0.24
+"Gujarat","Tapi",1.17,0.71,0.75,0.44,0.82,0.26
+"Gujarat","Vadodara",1.12,1.17,1.14,0.71,0.78,0.76
+"Gujarat","Valsad",1.35,0.99,0.96,0.8,0.67,0.61
+"Himachal Pradesh","Bilaspur",1.49,1.78,1.1,0.71,0.64,0.48
+"Himachal Pradesh","Chamba",1.94,1.58,1.37,0.78,0.67,0.8
+"Himachal Pradesh","Hamirpur",1.3,1.24,1.35,0.72,0.63,0.67
+"Himachal Pradesh","Kangra",1.46,1.39,1.29,0.8,0.58,0.44
+"Himachal Pradesh","Kinnaur",1.34,1.34,1.03,1,1.09,0.58
+"Himachal Pradesh","Kullu",1.18,1.11,1.07,0.93,0.67,0.65
+"Himachal Pradesh","Lahaul and Spiti",1.07,1.08,0.77,0.87,0.58,1.13
+"Himachal Pradesh","Mandi",1.47,1.44,1.28,0.65,0.7,0.36
+"Himachal Pradesh","Shimla",1.38,1.29,1.18,0.77,0.71,0.51
+"Himachal Pradesh","Sirmaur",1.33,1.24,1.15,0.7,0.67,0.77
+"Himachal Pradesh","Solan",1.15,1.29,0.96,0.72,0.72,0.56
+"Himachal Pradesh","Una",0.94,1.61,1.41,0.71,0.71,0.94
+"Haryana","Ambala",1.37,1.11,0.95,0.71,0.59,0.59
+"Haryana","Bhiwani",1.28,1.77,1.1,0.75,0.74,0.38
+"Haryana","Charkhi Dadri",1.37,0.94,2.12,0.78,0.52,0.75
+"Haryana","Faridabad",1.18,1.06,0.88,0.48,0.46,0.81
+"Haryana","Fatehabad",1.14,1.32,0.99,0.81,0.68,0.92
+"Haryana","Gurugram",1.27,1.04,0.76,0.61,0.29,0.53
+"Haryana","Hisar",1.35,1.18,1.02,0.7,0.58,0.52
+"Haryana","Jhajjar",1.31,1.39,0.95,1.05,0.69,0.29
+"Haryana","Jind",1.73,0.76,1.05,0.73,0.62,0.46
+"Haryana","Kaithal",1.86,0.91,0.86,0.84,0.77,1.04
+"Haryana","Karnal",1.32,0.94,0.9,0.68,0.63,0.5
+"Haryana","Kurukshetra",0.89,1.13,1,0.74,0.65,0.52
+"Haryana","Mahendragarh",3.82,1.62,0.93,0.75,0.38,0.48
+"Haryana","Nuh",1.5,2.35,0.69,0.66,0.63,0.41
+"Haryana","Palwal",1.62,1.56,1.36,0.98,0.5,0.27
+"Haryana","Panchkula",1.26,1.04,1.04,0.71,0.59,0.39
+"Haryana","Panipat",1.34,1.21,0.87,0.6,0.43,0.41
+"Haryana","Rewari",1.34,1.57,0.77,1.19,1.03,0.28
+"Haryana","Rohtak",1.75,1.17,1.11,0.88,0.57,0.39
+"Haryana","Sirsa",1.96,1.24,1.19,0.62,0.78,0.53
+"Haryana","Sonipat",1.07,1.25,0.79,0.69,0.51,0.46
+"Haryana","Yamunanagar",1.33,1.14,0.89,1,0.64,0.73
+"Jharkhand","Bokaro",1.25,1.16,0.89,0.65,0.51,0.48
+"Jharkhand","Chatra",1.19,0.94,1.01,0.43,0.68,1.74
+"Jharkhand","Deoghar",1.11,0.82,0.89,0.61,0.76,0.5
+"Jharkhand","Dhanbad",1.07,0.81,1.05,1.05,0.59,0.8
+"Jharkhand","Dumka",1.33,0.63,0.73,0.38,1.16,0.5
+"Jharkhand","East Singhbhum",1.12,1.05,0.81,0.69,0.59,0.69
+"Jharkhand","Garhwa",1.41,0.8,1.29,0.67,0.64,0.61
+"Jharkhand","Giridih",2.21,1.25,0.73,0.69,0.75,0.4
+"Jharkhand","Godda",1.22,1.13,0.73,0.51,0.53,1.17
+"Jharkhand","Gumla",1.25,1.2,0.79,0.63,0.68,0.54
+"Jharkhand","Hazaribagh",1.23,1.2,0.67,0.54,0.6,0.77
+"Jharkhand","Jamtara",1.18,0.88,0.95,0.46,0.53,0.59
+"Jharkhand","Khunti",0.87,1.04,1,0.56,0.6,0.4
+"Jharkhand","Koderma",0.92,0.93,0.83,0.55,0.6,0.59
+"Jharkhand","Latehar",1.42,1.17,0.82,0.56,0.65,0.66
+"Jharkhand","Lohardaga",2.14,0.86,0.66,0.61,0.81,0.49
+"Jharkhand","Pakur",0.95,2.64,2.58,0.07,0.54,1.19
+"Jharkhand","Palamu",1.33,1.09,1.45,0.39,0.59,0.33
+"Jharkhand","Ramgarh",1.12,1.04,0.75,0.61,0.51,0.72
+"Jharkhand","Ranchi",1.11,0.74,0.7,0.56,0.69,0.38
+"Jharkhand","Sahibganj",0.49,1,0.79,0.78,0.64,0.42
+"Jharkhand","Saraikela-Kharsawan",0.97,1.15,0.72,0.73,0.73,0.72
+"Jharkhand","Simdega",1.03,1.09,0.96,0.78,0.62,0.46
+"Jharkhand","West Singhbhum",1.25,1.2,0.92,0.76,0.49,0.28
+"Jammu and Kashmir","Anantnag",1.92,1.5,0.97,0.92,0.85,0.86
+"Jammu and Kashmir","Bandipora",2.52,1.32,1.02,1.32,0.72,0.75
+"Jammu and Kashmir","Baramulla",1.38,1.28,0.95,0.83,0.9,0.82
+"Jammu and Kashmir","Budgam",1.79,1.56,1.02,1.1,0.74,0.64
+"Jammu and Kashmir","Doda",2.32,1.14,1.86,0.9,0.98,1.22
+"Jammu and Kashmir","Ganderbal",1.68,1.31,1.18,1.14,1.05,1.72
+"Jammu and Kashmir","Jammu",1.07,1.14,1.07,0.9,0.84,0.77
+"Jammu and Kashmir","Kathua",1.07,1.73,1.24,0.86,0.61,0.44
+"Jammu and Kashmir","Kishtwar",1.92,1.24,1.77,0.82,0.85,0.67
+"Jammu and Kashmir","Kulgam",1.87,1.34,1.12,0.83,0.82,0.76
+"Jammu and Kashmir","Kupwara",1.9,1.15,1.39,0.9,1.12,0.86
+"Jammu and Kashmir","Pulwama",1.25,2.38,1,0.79,0.95,0.95
+"Jammu and Kashmir","Punch",1.69,1.79,1.06,1.09,0.68,1.29
+"Jammu and Kashmir","Rajouri",1.84,1.74,1.11,0.82,0.71,0.96
+"Jammu and Kashmir","Ramban",1.36,1.49,0.94,1.39,0.9,0.73
+"Jammu and Kashmir","Reasi",0.72,0.86,1.34,0.76,1.03,0.94
+"Jammu and Kashmir","Samba",1.47,1.71,0.97,0.96,0.65,0.45
+"Jammu and Kashmir","Shopiyan",1.7,2.18,1.13,0.74,0.78,0.51
+"Jammu and Kashmir","Srinagar",1.45,1.2,0.8,0.83,0.74,0.77
+"Jammu and Kashmir","Udhampur",1.05,1.62,1.17,1.09,0.52,0.73
+"Karnataka","Bagalkote",2.38,1.7,1.14,0.59,0.72,0.89
+"Karnataka","Ballari",1.45,1.12,1.41,0.99,0.67,0.79
+"Karnataka","Belagavi",1.52,1.55,1.07,1.76,0.69,1.02
+"Karnataka","Bengaluru Rural",1.61,1.05,1.09,0.95,0.76,0.64
+"Karnataka","Bengaluru Urban",1.32,1.1,0.83,0.7,0.71,0.77
+"Karnataka","Bidar",1.04,1.23,0.7,0.62,0.52,0.83
+"Karnataka","Chamarajanagara",1.62,1.48,1.13,0.8,0.85,1.22
+"Karnataka","Chikkaballapura",1.72,1.19,0.87,0.99,0.81,1.37
+"Karnataka","Chikkamagaluru",1.72,1.45,1,1.34,0.86,0.92
+"Karnataka","Chitradurga",1.04,1.25,1.15,1.88,0.99,1.88
+"Karnataka","Dakshina Kannada",1.47,1.43,1.02,0.84,0.89,0.99
+"Karnataka","Davanagere",1.17,1.47,0.93,1.78,0.98,1.27
+"Karnataka","Dharwad",1.37,1.48,0.98,1.09,0.92,0.7
+"Karnataka","Gadag",1.45,1.38,1.72,1.17,0.78,1.06
+"Karnataka","Hassan",1.44,1.8,0.95,0.9,1.1,1.45
+"Karnataka","Haveri",1.66,2.37,1.02,0.8,1.12,0.99
+"Karnataka","Kalaburagi",1.15,1.2,0.85,0.76,0.48,0.55
+"Karnataka","Kodagu",3.19,1.11,1,0.6,0.99,1.19
+"Karnataka","Kolar",1.79,0.99,1,1.04,0.91,0.75
+"Karnataka","Koppal",2.1,1.3,0.86,1.28,0.78,1.55
+"Karnataka","Mandya",1.79,1.3,1.04,0.68,0.89,1.99
+"Karnataka","Mysuru",1.69,1.43,0.75,1.05,1.2,0.69
+"Karnataka","Raichur",1.86,0.98,0.89,1.03,0.95,0.6
+"Karnataka","Ramanagara",1.2,1.81,0.9,0.99,0.75,0.73
+"Karnataka","Shivamogga",1.42,1.58,1.28,1.01,0.83,0.87
+"Karnataka","Tumakuru",1.18,1.42,1.05,0.94,0.77,0.66
+"Karnataka","Udupi",1.69,1.6,1,0.91,1.05,0.94
+"Karnataka","Uttara Kannada",1.66,1.99,1.16,0.99,0.97,0.55
+"Karnataka","Vijayapura",1.28,0.98,1.2,0.65,0.96,1.21
+"Karnataka","Yadgir",2.22,1.51,1.18,0.59,0.8,0.62
+"Kerala","Alappuzha",1.41,1.35,0.92,0.91,0.93,0.76
+"Kerala","Ernakulam",1.24,1.1,0.96,0.78,0.89,0.74
+"Kerala","Idukki",1.27,0.98,1.05,0.92,0.88,0.85
+"Kerala","Kannur",1.18,1.01,1.09,0.8,0.79,0.84
+"Kerala","Kasaragod",1.21,0.98,0.99,0.81,0.88,0.93
+"Kerala","Kollam",1.47,1.36,1.23,0.95,0.9,0.78
+"Kerala","Kottayam",1.36,0.97,0.96,0.79,0.8,0.65
+"Kerala","Kozhikode",1.42,1.07,0.82,0.71,0.81,0.78
+"Kerala","Malappuram",1.42,1.12,1.12,0.94,1.01,0.71
+"Kerala","Palakkad",1.48,1.19,1.14,0.93,1.01,0.71
+"Kerala","Pathanamthitta",1.24,1.04,1,0.9,0.9,0.64
+"Kerala","Thiruvananthapuram",1.54,1.12,1.11,0.87,0.93,0.84
+"Kerala","Thrissur",1.41,1.04,1.02,0.78,0.87,0.93
+"Kerala","Wayanad",1.23,1.04,0.9,0.8,0.79,0.66
+"Ladakh","Kargil",1.06,1.92,1.39,0.64,1.11,0.25
+"Ladakh","Leh",0.77,1.14,0.82,1.07,1.25,0.23
+"Lakshadweep","Lakshadweep",1.09,0.9,1.04,1.52,0.91,0.95
+"Maharashtra","Ahmednagar",0.96,1.12,0.92,0.88,0.8,0.59
+"Maharashtra","Akola",0.85,1.11,1.03,1.1,0.78,0.41
+"Maharashtra","Amravati",1.03,1.22,1.12,1.03,0.72,0.77
+"Maharashtra","Aurangabad",1.05,0.77,0.89,0.86,0.76,0.66
+"Maharashtra","Beed",1.13,1.05,0.9,0.9,0.8,0.66
+"Maharashtra","Bhandara",1.09,0.63,0.65,0.52,0.95,1.16
+"Maharashtra","Buldhana",2.24,1.78,0.79,0.67,1.28,0.43
+"Maharashtra","Chandrapur",0.94,0.93,0.94,0.56,0.63,0.92
+"Maharashtra","Dhule",0.98,0.85,1.22,0.91,0.53,0.65
+"Maharashtra","Gadchiroli",0.98,0.92,0.82,0.75,0.59,0.97
+"Maharashtra","Gondia",0.87,0.81,1.13,0.34,0.66,0.81
+"Maharashtra","Hingoli",0.99,0.96,0.68,1,0.63,0.88
+"Maharashtra","Jalgaon",0.91,0.93,0.96,0.75,0.56,0.64
+"Maharashtra","Jalna",0.98,0.97,0.75,0.85,0.76,0.53
+"Maharashtra","Kolhapur",1.2,1.39,1.15,0.8,1.26,1.23
+"Maharashtra","Latur",0.86,0.96,0.69,0.72,0.65,0.81
+"Maharashtra","Mumbai",0.69,0.78,0.72,0.73,0.96,0.96
+"Maharashtra","Nagpur",0.99,0.76,0.66,0.57,0.65,0.65
+"Maharashtra","Nanded",0.79,0.7,0.7,0.64,0.71,0.37
+"Maharashtra","Nandurbar",1.69,0.39,0.74,0.78,0.54,1
+"Maharashtra","Nashik",1.21,0.8,0.66,0.84,0.66,0.55
+"Maharashtra","Osmanabad",1.08,0.88,0.98,0.99,0.78,0.7
+"Maharashtra","Palghar",1.01,0.95,0.92,0.55,1.01,1.37
+"Maharashtra","Parbhani",1.15,0.9,0.84,0.63,0.94,0.47
+"Maharashtra","Pune",0.91,0.99,0.88,0.64,0.74,0.85
+"Maharashtra","Raigad",0.92,0.87,0.84,0.78,1,1.01
+"Maharashtra","Ratnagiri",1.63,0.93,1.09,0.76,1.19,0.93
+"Maharashtra","Sangli",1.2,1.15,0.94,1.06,0.87,0.85
+"Maharashtra","Satara",1.12,1.17,0.93,0.86,1.28,0.89
+"Maharashtra","Sindhudurg",0.86,1.61,1.16,0.62,1.62,1.53
+"Maharashtra","Solapur",1.24,1.1,0.85,1.26,0.56,0.76
+"Maharashtra","Thane",0.8,0.76,0.73,0.74,0.81,1.05
+"Maharashtra","Wardha",1.05,0.89,0.84,0.75,0.68,0.76
+"Maharashtra","Washim",0.97,1.23,0.94,1.05,0.71,0.74
+"Maharashtra","Yavatmal",1.19,0.87,0.77,0.88,0.97,0.6
+"Meghalaya","East Garo Hills",1.43,1.27,1.67,1.41,1.59,0.61
+"Meghalaya","East Jaintia Hills",1.87,1.4,1.38,1.29,1.05,0.78
+"Meghalaya","East Khasi Hills",1.12,1.42,1.27,1.58,0.96,0.76
+"Meghalaya","North Garo Hills",1.01,1.53,1.38,3.02,0.94,1.11
+"Meghalaya","Ribhoi",0.96,1.65,1.51,1.69,0.85,0.62
+"Meghalaya","South Garo Hills",1.86,2.22,0.77,2.11,0.94,0.54
+"Meghalaya","South West Garo Hills",1.14,3.76,1.68,1.65,1.34,0.82
+"Meghalaya","South West Khasi Hills",1,1.11,1.25,2.25,3.08,54.72
+"Meghalaya","West Garo Hills",2.2,2.13,1.73,1.08,1.07,1.12
+"Meghalaya","West Jaintia Hills",0.58,1.32,1.74,1.5,1.34,0.6
+"Meghalaya","West Khasi Hills",1.6,2.02,0.94,1.42,0.96,0.66
+"Madhya Pradesh","Agar Malwa",0.73,1.21,0.68,0.8,0.45,0.54
+"Madhya Pradesh","Alirajpur",0.83,0.71,0.72,0.39,0.98,0.82
+"Madhya Pradesh","Anuppur",0.89,1.06,0.8,0.79,0.59,0.52
+"Madhya Pradesh","Ashoknagar",1.49,0.49,0.69,0.77,1,1.62
+"Madhya Pradesh","Balaghat",0.89,0.95,0.97,0.73,0.55,0.84
+"Madhya Pradesh","Barwani",0.7,0.95,0.77,0.39,0.65,2.57
+"Madhya Pradesh","Betul",0.94,1.02,0.76,0.7,0.59,0.48
+"Madhya Pradesh","Bhind",1.01,0.9,0.84,0.72,0.48,0.77
+"Madhya Pradesh","Bhopal",1.05,0.92,0.89,0.65,0.77,0.54
+"Madhya Pradesh","Burhanpur",0.89,0.81,1.19,0.43,0.59,0.2
+"Madhya Pradesh","Chhatarpur",1.17,0.58,0.76,0.55,0.53,0.64
+"Madhya Pradesh","Chhindwara",0.82,1,0.79,0.86,0.53,0.47
+"Madhya Pradesh","Damoh",0.83,1.56,0.86,0.84,0.63,0.69
+"Madhya Pradesh","Datia",1.28,0.73,0.86,0.37,0.77,0.2
+"Madhya Pradesh","Dewas",1.08,0.9,0.77,0.92,0.46,0.29
+"Madhya Pradesh","Dhar",1.26,0.97,0.71,0.67,0.52,0.61
+"Madhya Pradesh","Dindori",0.83,1.23,0.84,0.86,0.43,0.32
+"Madhya Pradesh","Guna",0.72,1.05,0.65,0.86,0.43,1.75
+"Madhya Pradesh","Gwalior",0.99,0.96,0.74,0.44,0.55,0.64
+"Madhya Pradesh","Harda",1,1.05,0.94,0.45,0.54,0.18
+"Madhya Pradesh","Hoshangabad",1.01,1.03,0.78,0.75,0.4,0.35
+"Madhya Pradesh","Indore",1.03,0.99,0.93,0.83,0.65,0.7
+"Madhya Pradesh","Jabalpur",0.97,0.98,0.87,0.67,0.46,0.73
+"Madhya Pradesh","Jhabua",1.05,0.63,0.7,0.27,0.99,0.41
+"Madhya Pradesh","Katni",0.73,0.92,0.71,0.81,0.28,0.22
+"Madhya Pradesh","Khandwa",1.08,1.04,0.69,0.58,0.62,0.26
+"Madhya Pradesh","Khargone",1.07,0.9,0.8,0.79,0.52,0.45
+"Madhya Pradesh","Mandla",0.97,0.82,0.71,0.78,0.23,0.42
+"Madhya Pradesh","Mandsaur",0.98,1.48,0.74,0.71,0.53,0.36
+"Madhya Pradesh","Morena",0.98,0.89,0.68,0.59,0.6,1.4
+"Madhya Pradesh","Narsinghpur",1.27,0.83,0.99,0.61,0.24,1.09
+"Madhya Pradesh","Neemuch",1.29,0.77,0.77,0.71,0.54,0.7
+"Madhya Pradesh","Niwari",1.12,1.03,0.54,0.47,0.41,1.74
+"Madhya Pradesh","Panna",1.15,0.9,0.69,0.7,0.52,0.33
+"Madhya Pradesh","Raisen",0.95,1.04,0.88,0.67,0.52,0.4
+"Madhya Pradesh","Rajgarh",0.62,1.35,0.82,0.6,0.79,0.26
+"Madhya Pradesh","Ratlam",1.34,1.18,1.01,0.64,0.52,0.45
+"Madhya Pradesh","Rewa",1.03,0.98,0.84,0.75,0.48,0.36
+"Madhya Pradesh","Sagar",1.22,0.88,0.86,1.05,0.53,0.58
+"Madhya Pradesh","Satna",1.05,1.03,0.77,0.61,0.41,0.42
+"Madhya Pradesh","Sehore",1.12,0.96,0.81,0.67,0.55,0.76
+"Madhya Pradesh","Seoni",0.85,0.91,0.67,0.78,0.6,0.7
+"Madhya Pradesh","Shahdol",0.98,0.95,0.95,0.63,0.56,0.24
+"Madhya Pradesh","Shajapur",0.54,0.93,1.05,0.88,0.45,0.32
+"Madhya Pradesh","Sheopur",0.9,1.1,0.9,0.57,0.55,1.17
+"Madhya Pradesh","Shivpuri",1.19,1.21,0.87,0.53,0.54,0.3
+"Madhya Pradesh","Sidhi",1.22,0.93,1.01,0.52,0.52,0.58
+"Madhya Pradesh","Singrauli",1.15,0.97,0.66,0.78,0.43,0.32
+"Madhya Pradesh","Tikamgarh",1.26,0.6,0.57,0.66,0.43,0.67
+"Madhya Pradesh","Ujjain",1.14,1.04,0.91,0.79,0.45,0.39
+"Madhya Pradesh","Umaria",0.82,1.45,0.76,0.78,0.51,0.26
+"Madhya Pradesh","Vidisha",0.83,0.94,0.7,0.66,0.61,0.42
+"Mizoram","Aizawl",1.35,1.23,1.02,1.18,1.07,0.83
+"Mizoram","Champhai",0.9,1.37,3.55,0.34,1,0.69
+"Mizoram","Hnahthial",1,1,1,1,1,1
+"Mizoram","Khawzawl",1.57,0.64,3,0.39,1.38,0.89
+"Mizoram","Kolasib",2.08,1.13,1.18,1.7,0.54,5.25
+"Mizoram","Lawngtlai",0.77,0.86,0.68,1.36,4.28,1.52
+"Mizoram","Lunglei",0.86,5.54,0.69,1.52,1.27,2.17
+"Mizoram","Mamit",6.37,0.78,0.39,0.84,1.29,1
+"Mizoram","Saiha",1,5.71,0.89,0.37,1.69,0.84
+"Mizoram","Saitual",0.88,3,1,1.1,0.41,2.44
+"Mizoram","Serchhip",7.27,1.04,0.69,0.82,1.27,3.05
+"Nagaland","Dimapur",2.13,1.09,1.05,0.9,0.81,0.69
+"Nagaland","Kiphire",1,1,4.14,0.41,1.86,0.53
+"Nagaland","Kohima",1.34,2.26,1.06,1.21,0.8,0.48
+"Nagaland","Longleng",1.29,1.22,1.45,1.87,0.6,0.92
+"Nagaland","Mokokchung",2.12,1.24,1.45,1.32,1.42,1.28
+"Nagaland","Mon",1.43,2.7,1.18,2.08,0.2,5.1
+"Nagaland","Peren",1,1.43,1.4,1.27,0.5,1.61
+"Nagaland","Phek",1,1.14,2.4,1.15,1.61,0.76
+"Nagaland","Tuensang",2.16,1.37,1.67,0.84,2.11,0.57
+"Nagaland","Wokha",1,1,2.71,0.92,1.06,4.1
+"Nagaland","Zunheboto",1,1.43,2.45,1.93,0.82,1.66
+"Odisha","Angul",1.99,1.4,1.18,1.15,1.19,0.63
+"Odisha","Balangir",1.22,1.05,1.06,1.09,0.65,0.51
+"Odisha","Balasore",1.47,1.24,1.54,1.16,0.94,0.63
+"Odisha","Bargarh",1.12,1.4,0.92,0.94,1,0.83
+"Odisha","Bhadrak",1.29,1.54,1.06,1.59,0.82,2.4
+"Odisha","Boudh",2.21,1.96,1.16,1.19,1.15,0.53
+"Odisha","Cuttack",1.38,1.36,1.15,1.08,0.99,0.79
+"Odisha","Deogarh",1.38,1.48,1.24,0.94,0.86,0.61
+"Odisha","Dhenkanal",0.79,3.38,1.55,1.03,2.07,0.35
+"Odisha","Gajapati",1.78,1.25,0.86,0.9,0.85,1.42
+"Odisha","Ganjam",1.78,1,1.1,0.96,1,0.61
+"Odisha","Jagatsinghpur",1.67,1.39,1.21,1.26,1,0.84
+"Odisha","Jajpur",2.17,1.15,1.11,1.04,1.24,0.85
+"Odisha","Jharsuguda",1.31,0.94,1.13,0.86,0.75,0.52
+"Odisha","Kalahandi",1.1,1.05,1.04,0.89,1.2,0.81
+"Odisha","Kandhamal",1.46,1.39,1.27,0.94,1.15,1.19
+"Odisha","Kendrapara",1.18,1.62,1.34,0.97,1.29,0.56
+"Odisha","Kendujhar",1.29,0.84,1.3,0.97,0.8,0.71
+"Odisha","Khordha",1.29,1.11,1.09,0.97,0.96,0.91
+"Odisha","Koraput",1.45,1.65,1.13,1.52,0.83,0.91
+"Odisha","Malkangiri",1.68,1.77,1.03,1.45,0.9,1.16
+"Odisha","Mayurbhanj",1.75,0.98,1.12,1.55,0.93,0.71
+"Odisha","Nabarangapur",1.5,1.24,0.84,1.17,0.91,0.7
+"Odisha","Nayagarh",1.48,1.58,1.17,1.05,0.95,0.92
+"Odisha","Nuapada",0.97,0.79,1.15,0.78,0.35,0.88
+"Odisha","Puri",1.02,1.41,1.08,0.92,1.03,0.98
+"Odisha","Rayagada",1.36,1.29,1,1.12,0.95,1.06
+"Odisha","Sambalpur",1.19,1.46,0.99,1.04,0.79,0.64
+"Odisha","Subarnapur",1.83,1.69,1.02,1.15,0.85,0.99
+"Odisha","Sundargarh",1.08,1.27,1.03,0.92,0.91,0.78
+"Punjab","Amritsar",1.06,1.15,0.92,0.77,0.89,0.47
+"Punjab","Barnala",1.66,0.83,1.34,1.25,0.73,0.38
+"Punjab","Bathinda",1.24,1.27,1.06,0.88,0.66,0.82
+"Punjab","Faridkot",1.31,1.03,1.25,0.88,0.75,0.89
+"Punjab","Fatehgarh Sahib",1.09,1.53,0.94,1.26,0.71,0.46
+"Punjab","Fazilka",1.43,1.31,1.43,0.83,0.75,0.48
+"Punjab","Ferozepur",1.18,1.07,1.18,1.13,0.83,1.1
+"Punjab","Gurdaspur",1.12,1.01,0.98,0.9,1,0.51
+"Punjab","Hoshiarpur",1.13,1.06,1.29,0.82,0.81,0.57
+"Punjab","Jalandhar",1.27,1.23,0.88,0.93,0.77,0.53
+"Punjab","Kapurthala",1.35,0.88,1.69,0.64,0.81,0.79
+"Punjab","Ludhiana",1.27,1.1,1.08,0.7,0.66,0.66
+"Punjab","Mansa",1.55,1.22,1.07,0.65,1.23,0.63
+"Punjab","Moga",1.13,1.15,1.02,0.76,0.73,0.63
+"Punjab","Pathankot",1.2,1.3,0.98,0.98,0.79,0.4
+"Punjab","Patiala",1.19,1.13,1,0.73,0.8,0.63
+"Punjab","Rupnagar",1.14,1.1,1.22,0.77,0.79,0.97
+"Punjab","S.A.S. Nagar",1.13,0.95,1.11,0.7,0.6,0.56
+"Punjab","Sangrur",1.17,1.33,0.93,0.97,0.82,0.74
+"Punjab","Shahid Bhagat Singh Nagar",1.22,1.34,0.93,1.02,0.68,1
+"Punjab","Sri Muktsar Sahib",1.6,1.06,1.05,1.29,0.68,0.44
+"Punjab","Tarn Taran",1.1,0.7,1.07,0.97,0.88,0.43
+"Puducherry","Karaikal",1.09,1.27,1.4,1.04,0.94,0.74
+"Puducherry","Mahe",1.2,0.95,0.92,0.92,0.87,0.92
+"Puducherry","Puducherry",1.36,1.15,1.25,1,0.75,0.84
+"Puducherry","Yanam",1.45,1.67,0.93,0.95,0.57,0.45
+"Rajasthan","Ajmer",1.33,0.8,0.99,0.65,0.58,0.49
+"Rajasthan","Alwar",1.57,0.75,1.08,0.72,0.63,0.67
+"Rajasthan","BSF Camp",1,1,1,1,1,1
+"Rajasthan","Banswara",1.96,0.64,0.73,0.77,0.64,0.77
+"Rajasthan","Baran",1.09,1.39,0.57,0.74,0.54,0.43
+"Rajasthan","Barmer",1.16,1.34,1.15,0.74,0.52,0.52
+"Rajasthan","Bharatpur",0.97,1.17,3.27,0.63,0.34,0.49
+"Rajasthan","Bhilwara",0.97,0.93,0.84,0.57,0.52,0.49
+"Rajasthan","Bikaner",1.14,1.05,0.84,0.75,0.53,0.69
+"Rajasthan","Bundi",1.32,0.97,0.87,0.81,0.51,0.69
+"Rajasthan","Chittorgarh",1.31,1.68,0.78,0.58,0.56,0.6
+"Rajasthan","Churu",0.72,2.24,0.95,0.61,0.55,0.47
+"Rajasthan","Dausa",1.15,1.11,1.04,0.8,0.27,0.85
+"Rajasthan","Dholpur",1.07,0.9,0.72,0.59,0.58,0.28
+"Rajasthan","Dungarpur",0.84,1.2,1.18,0.56,0.68,0.16
+"Rajasthan","Ganganagar",1.24,1.52,1.01,0.81,0.78,1.13
+"Rajasthan","Hanumangarh",1.87,1.09,0.76,0.84,0.84,0.83
+"Rajasthan","Jaipur",1.27,1.09,0.98,0.73,0.55,0.59
+"Rajasthan","Jaisalmer",2.39,1.16,1.41,0.75,0.58,0.59
+"Rajasthan","Jalore",1.58,0.96,0.57,0.38,0.56,0.53
+"Rajasthan","Jhalawar",1.41,1.49,0.72,0.71,0.39,0.7
+"Rajasthan","Jhunjhunu",1.37,1.49,1.2,0.89,0.68,0.5
+"Rajasthan","Jodhpur",1.08,1.04,0.85,0.54,0.55,0.97
+"Rajasthan","Karauli",1.09,1.24,0.98,0.58,0.56,0.31
+"Rajasthan","Kota",0.71,0.88,1.31,0.63,0.46,0.44
+"Rajasthan","Nagaur",1.03,1.13,1.12,0.75,0.68,0.56
+"Rajasthan","Pali",1.95,0.96,0.58,0.73,0.9,0.55
+"Rajasthan","Pratapgarh",1.49,1.11,0.6,0.73,0.9,0.34
+"Rajasthan","Rajsamand",1.27,0.84,1.22,0.67,0.45,0.64
+"Rajasthan","Sawai Madhopur",1.69,0.72,0.78,0.6,0.44,1.24
+"Rajasthan","Sikar",1.86,0.84,0.92,0.86,0.52,0.71
+"Rajasthan","Sirohi",0.75,0.99,1.09,0.59,0.53,0.41
+"Rajasthan","Tonk",1.03,1.01,1.07,0.62,0.61,0.52
+"Rajasthan","Udaipur",0.99,1.05,1.05,0.59,0.58,0.45
+"Tamil Nadu","Ariyalur",1.23,1.4,1.61,1.37,1.08,1.14
+"Tamil Nadu","Chengalpattu",1.14,1.31,1.24,0.94,0.84,0.67
+"Tamil Nadu","Chennai",1.21,1.23,1.11,0.89,0.76,0.62
+"Tamil Nadu","Coimbatore",1.27,1.48,1.37,1.14,1.21,0.96
+"Tamil Nadu","Cuddalore",1.2,1.34,1.34,1.32,0.89,1.08
+"Tamil Nadu","Dharmapuri",1.21,1.2,1.14,1.23,1.05,0.85
+"Tamil Nadu","Dindigul",1.15,1.08,1.28,1.04,1.18,0.68
+"Tamil Nadu","Erode",1.53,1.28,1.29,1.43,1.09,1.17
+"Tamil Nadu","Kallakurichi",1.7,1,1.52,1.47,1.02,0.84
+"Tamil Nadu","Kancheepuram",1.28,1.43,1.07,1.21,0.9,0.74
+"Tamil Nadu","Kanyakumari",1.32,1.49,1.68,1.08,1.07,0.82
+"Tamil Nadu","Karur",1.29,1.68,1.02,1.09,1.12,1.52
+"Tamil Nadu","Krishnagiri",1.37,0.99,1.35,1.11,1.02,0.61
+"Tamil Nadu","Madurai",1.28,1.32,1.24,1.02,1.13,0.63
+"Tamil Nadu","Nagapattinam",1.47,1.16,1.07,1.58,1.01,1.15
+"Tamil Nadu","Namakkal",1.29,1.23,1.04,1.07,1.69,1.16
+"Tamil Nadu","Nilgiris",1.11,1.77,1.41,1.52,1.18,1.14
+"Tamil Nadu","Perambalur",2.03,1.81,2.16,1.14,1.23,0.96
+"Tamil Nadu","Pudukkottai",1.24,1.22,1.48,1.31,1.02,0.94
+"Tamil Nadu","Ramanathapuram",1.81,1.19,1.21,1.14,0.97,0.96
+"Tamil Nadu","Ranipet",1.53,1.3,0.95,1.14,1.1,0.86
+"Tamil Nadu","Salem",1.2,1.19,1,1.1,1.21,1.38
+"Tamil Nadu","Sivaganga",1.49,1.36,1.33,1.09,1.05,0.77
+"Tamil Nadu","Tenkasi",1.22,0.94,1.49,1.17,0.98,1.01
+"Tamil Nadu","Thanjavur",1.23,1.05,1.73,1.03,1.28,0.73
+"Tamil Nadu","Theni",1.47,1.34,1.23,1.38,0.85,0.94
+"Tamil Nadu","Thiruvallur",1.32,1.41,1.03,1.27,0.78,0.68
+"Tamil Nadu","Thiruvarur",1.21,1.27,1.35,1.78,1.03,0.72
+"Tamil Nadu","Thoothukkudi",1.47,1.26,1.05,1.31,0.77,0.93
+"Tamil Nadu","Tiruchirappalli",1.21,1.31,1.28,1.42,1,0.98
+"Tamil Nadu","Tirunelveli",1.57,0.97,1.16,0.83,0.87,0.88
+"Tamil Nadu","Tirupathur",1.27,0.99,2.04,1.37,0.88,0.86
+"Tamil Nadu","Tiruppur",1.49,1.09,1.24,1.62,1.26,0.88
+"Tamil Nadu","Tiruvannamalai",1.48,0.84,2.09,0.88,1.44,0.58
+"Tamil Nadu","Vellore",1.33,1.26,1.09,0.91,0.97,0.84
+"Tamil Nadu","Viluppuram",1.75,1.3,1.18,0.95,1.3,1.06
+"Tamil Nadu","Virudhunagar",1.46,1.07,1.8,0.95,1.49,0.68
+"Tripura","Dhalai",1.67,1.67,1.56,0.83,1.5,1.65
+"Tripura","Gomati",1.48,2.06,1.3,1.59,1.28,1.29
+"Tripura","Khowai",1.56,1.35,1.53,1.71,1.3,0.85
+"Tripura","North Tripura",1.23,2.77,1.12,1.41,0.86,1.16
+"Tripura","Sipahijala",1.5,2.34,1.75,2.2,0.98,0.79
+"Tripura","South Tripura",1.28,1.44,1.62,2.26,1.08,1.01
+"Tripura","Unokoti",1.97,1.81,1.34,1.39,1.06,1.3
+"Tripura","West Tripura",1.51,1.49,1.31,1.52,0.86,1.08
+"Uttar Pradesh","Agra",1.27,0.59,0.78,0.53,0.5,0.46
+"Uttar Pradesh","Aligarh",1.27,1.27,0.8,0.6,0.38,0.68
+"Uttar Pradesh","Ambedkar Nagar",0.93,0.73,1.65,0.81,0.67,0.3
+"Uttar Pradesh","Amethi",0.81,0.82,1.31,0.51,0.69,0.61
+"Uttar Pradesh","Amroha",1.3,1.54,0.62,0.54,0.48,0.68
+"Uttar Pradesh","Auraiya",0.97,0.62,1.19,0.44,0.46,0.86
+"Uttar Pradesh","Ayodhya",0.93,0.74,0.97,0.76,0.46,1.04
+"Uttar Pradesh","Azamgarh",1.27,1.16,0.53,0.44,0.77,2.9
+"Uttar Pradesh","Baghpat",1.34,1.44,0.92,0.8,0.55,0.3
+"Uttar Pradesh","Bahraich",1.11,0.79,1,0.62,0.52,0.31
+"Uttar Pradesh","Ballia",1.04,0.83,1.04,0.38,0.24,0.56
+"Uttar Pradesh","Balrampur",0.89,0.85,1.15,0.86,0.39,0.32
+"Uttar Pradesh","Banda",1.55,0.84,0.56,0.5,0.38,0.32
+"Uttar Pradesh","Barabanki",1.03,0.7,1.04,0.58,0.67,0.14
+"Uttar Pradesh","Bareilly",1.3,0.71,0.98,0.37,0.54,0.61
+"Uttar Pradesh","Basti",1.13,0.81,0.95,0.71,0.55,0.37
+"Uttar Pradesh","Bhadohi",0.95,0.77,0.56,0.76,0.92,0.38
+"Uttar Pradesh","Bijnor",1.43,0.5,1.39,0.51,0.5,0.48
+"Uttar Pradesh","Budaun",1.47,1.51,0.59,0.51,0.45,1.45
+"Uttar Pradesh","Bulandshahr",1.18,0.86,1.28,0.78,0.61,0.45
+"Uttar Pradesh","Chandauli",0.94,0.86,0.58,0.45,0.56,0.53
+"Uttar Pradesh","Chitrakoot",1.08,1.13,0.58,0.52,0.45,6.43
+"Uttar Pradesh","Deoria",0.73,2.42,0.71,0.77,0.47,0.49
+"Uttar Pradesh","Etah",1.44,0.86,0.73,0.6,0.31,0.7
+"Uttar Pradesh","Etawah",0.85,1.05,0.72,0.5,0.6,0.73
+"Uttar Pradesh","Farrukhabad",0.85,0.69,1.77,0.47,0.66,0.44
+"Uttar Pradesh","Fatehpur",0.94,0.67,0.53,0.53,0.42,4.08
+"Uttar Pradesh","Firozabad",1.49,0.78,0.88,0.69,0.44,0.84
+"Uttar Pradesh","Gautam Buddha Nagar",1.51,1.3,0.73,0.49,0.51,0.6
+"Uttar Pradesh","Ghaziabad",1.09,1.24,0.66,0.63,0.77,0.6
+"Uttar Pradesh","Ghazipur",0.98,0.6,0.98,0.48,1.01,0.31
+"Uttar Pradesh","Gonda",1.09,0.82,0.85,0.52,0.62,0.54
+"Uttar Pradesh","Gorakhpur",1.17,0.89,0.89,0.6,0.72,0.57
+"Uttar Pradesh","Hamirpur",1.28,1.08,0.31,0.48,0.54,0.41
+"Uttar Pradesh","Hapur",1.35,1.31,1.13,0.5,0.54,1.06
+"Uttar Pradesh","Hardoi",1.03,0.76,0.66,0.72,0.61,1.07
+"Uttar Pradesh","Hathras",1.36,0.97,1.09,0.59,0.36,0.55
+"Uttar Pradesh","Jalaun",0.94,1.22,1.1,0.31,0.33,0.35
+"Uttar Pradesh","Jaunpur",0.93,0.88,0.67,0.73,0.8,0.23
+"Uttar Pradesh","Jhansi",1.09,1.04,0.59,0.33,1.12,0.35
+"Uttar Pradesh","Kannauj",1.17,0.91,0.42,0.58,0.64,0.51
+"Uttar Pradesh","Kanpur Dehat",0.85,0.86,0.69,0.26,0.43,0.6
+"Uttar Pradesh","Kanpur Nagar",1.14,0.68,0.49,0.49,0.6,0.43
+"Uttar Pradesh","Kasganj",1.88,0.76,1.03,0.4,0.3,1.91
+"Uttar Pradesh","Kaushambi",0.97,0.73,0.43,0.52,0.34,0.72
+"Uttar Pradesh","Kushinagar",1.47,1.7,1.13,0.4,0.62,0.31
+"Uttar Pradesh","Lakhimpur Kheri",1.2,0.85,0.7,0.55,0.59,0.85
+"Uttar Pradesh","Lalitpur",0.97,1.26,0.47,0.49,0.68,0.57
+"Uttar Pradesh","Lucknow",0.86,0.71,0.56,0.53,0.53,0.57
+"Uttar Pradesh","Maharajganj",2.24,0.74,1.88,0.4,0.58,0.28
+"Uttar Pradesh","Mahoba",1.12,1.15,0.45,0.32,0.84,0.54
+"Uttar Pradesh","Mainpuri",1.34,0.71,0.74,0.6,0.46,0.42
+"Uttar Pradesh","Mathura",1.12,0.94,0.82,0.66,0.24,1.08
+"Uttar Pradesh","Mau",1.26,0.77,0.58,0.57,0.94,0.45
+"Uttar Pradesh","Meerut",1.06,0.91,1.19,0.48,0.58,0.46
+"Uttar Pradesh","Mirzapur",0.46,0.98,0.78,0.37,0.56,0.96
+"Uttar Pradesh","Moradabad",1.21,1.2,0.67,0.49,0.35,10.22
+"Uttar Pradesh","Muzaffarnagar",1.16,0.92,1.16,0.51,0.6,0.6
+"Uttar Pradesh","Pilibhit",1.55,0.96,1.18,0.53,0.53,0.44
+"Uttar Pradesh","Pratapgarh",1.56,1.1,0.64,0.49,0.69,0.49
+"Uttar Pradesh","Prayagraj",0.76,0.67,0.55,0.56,0.57,0.83
+"Uttar Pradesh","Rae Bareli",0.86,0.72,0.57,0.97,0.6,0.63
+"Uttar Pradesh","Rampur",1.64,1.13,0.6,0.64,0.6,2.01
+"Uttar Pradesh","Saharanpur",1.38,1.78,0.89,0.55,0.7,0.38
+"Uttar Pradesh","Sambhal",0.76,1.58,0.65,0.49,0.62,0.2
+"Uttar Pradesh","Sant Kabir Nagar",1.03,0.64,1.07,0.9,0.4,0.34
+"Uttar Pradesh","Shahjahanpur",1.68,0.91,0.67,0.77,0.32,0.58
+"Uttar Pradesh","Shamli",1.31,1.13,0.97,0.53,0.69,0.3
+"Uttar Pradesh","Shrawasti",1.4,0.81,1.01,0.5,0.52,0.43
+"Uttar Pradesh","Siddharthnagar",0.79,1.2,0.88,0.58,0.78,0.29
+"Uttar Pradesh","Sitapur",0.92,0.79,1.16,0.46,0.6,0.41
+"Uttar Pradesh","Sonbhadra",1.03,0.8,0.7,0.71,0.6,0.31
+"Uttar Pradesh","Sultanpur",0.82,0.59,0.67,0.88,0.39,0.26
+"Uttar Pradesh","Unnao",1.09,0.98,0.51,0.62,0.58,0.31
+"Uttar Pradesh","Varanasi",0.9,0.7,0.76,0.57,0.66,0.32
+"Uttarakhand","Almora",1.53,1.19,1.05,1.05,0.75,0.34
+"Uttarakhand","Bageshwar",3.29,1.67,0.68,1.67,0.56,0.39
+"Uttarakhand","Chamoli",1.98,1.5,0.95,1.22,0.71,0.53
+"Uttarakhand","Champawat",1.66,1.62,0.81,0.88,0.5,0.43
+"Uttarakhand","Dehradun",1.42,1.19,0.88,0.55,0.62,0.52
+"Uttarakhand","Haridwar",1.42,0.73,1.12,0.72,0.63,0.78
+"Uttarakhand","Nainital",1.47,1.03,0.97,0.74,0.66,0.43
+"Uttarakhand","Pauri Garhwal",1.38,1.15,1.08,0.96,0.61,0.82
+"Uttarakhand","Pithoragarh",1.91,2.05,0.92,0.89,1.07,1.99
+"Uttarakhand","Rudraprayag",1.53,1.54,1.51,1.09,0.61,0.34
+"Uttarakhand","Tehri Garhwal",0.94,1.98,1.11,0.91,0.61,0.47
+"Uttarakhand","Udham Singh Nagar",1.17,1.49,0.97,0.6,1.13,0.23
+"Uttarakhand","Uttarkashi",1.64,1.57,1.52,0.62,0.53,0.43
+"West Bengal","Alipurduar",2.41,0.95,1.58,1.2,1.17,0.64
+"West Bengal","Bankura",1.51,1.36,1.06,1.18,0.97,0.61
+"West Bengal","Birbhum",1.29,0.97,1.11,0.57,1,0.39
+"West Bengal","Cooch Behar",1.89,1.14,1.19,1.02,1.04,0.86
+"West Bengal","Dakshin Dinajpur",1.99,1.22,1.14,0.8,0.95,0.89
+"West Bengal","Darjeeling",1.46,1.34,1.14,1.03,1.05,0.72
+"West Bengal","Hooghly",1.51,1.01,1.2,1.05,0.87,0.73
+"West Bengal","Howrah",1.39,1.04,1.15,1,0.98,0.7
+"West Bengal","Jalpaiguri",1.42,1.17,1.37,1.02,1.39,0.59
+"West Bengal","Jhargram",3.21,1.28,1.37,1.07,1,0.91
+"West Bengal","Kalimpong",3.09,1,1.2,1.22,1.2,0.35
+"West Bengal","Kolkata",1.41,1.02,1,0.94,0.79,0.6
+"West Bengal","Malda",1.22,0.9,0.83,0.71,0.82,0.49
+"West Bengal","Murshidabad",1.22,0.91,1.05,0.92,0.67,0.66
+"West Bengal","Nadia",1.61,1.16,1.16,0.98,0.98,0.7
+"West Bengal","North 24 Parganas",1.49,1.08,1.02,1.02,0.88,0.7
+"West Bengal","Paschim Bardhaman",1.38,1.07,1,0.87,0.96,0.45
+"West Bengal","Paschim Medinipur",1.78,1.43,1.71,1.03,0.76,0.81
+"West Bengal","Purba Bardhaman",1.56,0.96,1.19,0.93,0.84,0.69
+"West Bengal","Purba Medinipur",1.55,1.18,1.26,0.92,0.91,0.59
+"West Bengal","Purulia",1.36,0.68,0.88,0.74,0.7,0.36
+"West Bengal","South 24 Parganas",1.4,1,1.12,1.05,0.97,0.74
+"West Bengal","Uttar Dinajpur",1.34,1.16,0.97,1.06,0.82,0.58
