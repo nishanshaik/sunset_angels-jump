@@ -187,6 +187,6 @@ Based on the reported numbers, last week was the third consecutive time India re
 # Limitations of this analysis
 Only reported numbers are included in the analysis. Time delays in reporting in certain regions are not accounted for in this analysis. All incidence numbers are taken as is. An attempt has been made to make best use of the data available in the hope that this might help decision makers make better decisions. 
 
-The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 9 May to 15 May to differ from those in the last update.
+The data is downloaded from a crowd-sourced database, and unlike JHU-CSSE datasets, exact documentation of changes in the raw data in the form of github commits are not available. It was noted during the course of the analysis that more recent entries may have been revised. Such revisions have caused the Rt values estimated between 16 May to 22 May to differ from those in the last update.
 
 The PDF version of this document can be found [here](http://bit.ly/Rtv53105_1).
