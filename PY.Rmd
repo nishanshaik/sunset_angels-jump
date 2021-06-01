@@ -11,8 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r Packages, include = FALSE, echo = FALSE}
+library(knitr)
+library(kableExtra)
+library(DT)
 library(tidyverse)
+library(lubridate)
 library(plotly)
+
+# Not in operator =======
+`%nin%` <- Negate(`%in%`)
 ```
 
 ```{r Data, include = FALSE}
@@ -21,6 +28,14 @@ states <- read_csv("States.csv")
 districts <- read_csv("Districts.csv")
 
 state_name <- "Puducherry"
+
+# Date of last record =======================
+map_date <- max(districts$Date)
+
+# Preparing metadata for labelling ================
+d1 <- day(map_date)
+m1 <- month(map_date, label = TRUE, abbr = TRUE)
+y1 <- year(map_date)
 
 # Prepping =======================
 india <- india %>% 
@@ -50,6 +65,57 @@ data <- bind_rows(data, districts)
 data <- data %>% 
   filter(Rt <= 5)
 
+
+### Map ===============================
+# library(sp)
+# library(rgeos)
+# library(maptools)
+# library(scales)
+# 
+# 
+# gadm <- readRDS("map_sp.rds")                                        # Load map data
+# gadm <- gadm[gadm$NAME_1 == state_name, ]                            # Filter SPDF for the state and its districts
+# gadm <- fortify(gadm, region = "NAME_2")                             # Fortify the SPDF to tabular data frame
+# 
+# 
+# ### Reload district data and prep it ===========
+# districts <- read_csv("Districts.csv") %>% 
+#   filter(Date == map_date) %>% 
+#   filter(State == state_name) %>% 
+#   rename(id = District) %>% 
+#   dplyr::select(id, smR) %>% 
+#   mutate(smR = if_else(smR > 2, 2, smR))
+# 
+# # Merge variable with map data ===================
+# map_data <- left_join(districts, gadm, by = "id")
+# map_data <- map_data %>% 
+#   rename(`Effective R` = smR)
+# 
+# unique(gadm$NAME_2) %in% unique(districts$District)
+# sum(unique(gadm$NAME_2) %nin% unique(districts$District))
+# unique(districts$District)[unique(districts$District) %nin% unique(gadm$NAME_2)]
+
+### Data for policy tables ========================
+polTab <- read_csv("Districts.csv") %>% 
+  filter(Date > map_date - 7) %>% 
+  filter(State == state_name) %>% 
+  mutate(`Effective R` = round(smR, 2),
+         Date = paste0(day(Date), " ", month(Date, label = TRUE, abbr = TRUE))) %>% 
+  dplyr::select(District, Date, `Effective R`) %>% 
+  pivot_wider(names_from = Date, values_from = `Effective R`)
+
+states <- states %>% 
+  filter(Date > map_date - 7) %>% 
+  mutate(`Effective R` = round(Rt, 2),
+         Date = paste0(day(Date), " ", month(Date, label = TRUE, abbr = TRUE)),
+         District = "State") %>% 
+  dplyr::select(District, Date, `Effective R`) %>% 
+  pivot_wider(names_from = Date, values_from = `Effective R`)
+
+polTab <- bind_rows(states, polTab)
+
+
+### Remove datasets from working environment==============
 rm(india, states, districts)
 ```
 
@@ -74,10 +140,46 @@ p <- data %>%
   theme_minimal() +
     theme(legend.position = "bottom")
 
-ggplotly(p, dynamicTicks = TRUE) %>% 
-  layout(legend = list(x = 0, y = -300, orientation = 'h'))
+ggplotly(p, dynamicTicks = TRUE) %>%  
+  layout(legend = list(x = 0, y = -1000, orientation = 'h'))
+```
+
+
+*(Note: The plot is interactive! Double click on the legend items to de-clutter plot)*
+
+\
+
+```{r Map, include = TRUE, echo = FALSE, fig.width = 10, fig.height = 10, warning = FALSE}
+# # Set limits to centre divergent legend ==========
+# legend_limits <- c(0, 2)
+# 
+# # Generating map object ==========================
+# map <- ggplot() + 
+#   geom_polygon(data = map_data, aes(x = long, 
+#                                     y = lat, 
+#                                     group = group, 
+#                                     fill = `Effective R`, 
+#                                     text = id), 
+#                color = "black", 
+#                size = 0.25) +
+#   coord_map() +
+#   scale_fill_distiller(name = "Effective R", 
+#                        palette = "Spectral", 
+#                        direction = -1, 
+#                        breaks = pretty_breaks(n = 5), 
+#                        limit = legend_limits) +
+#   labs(x = "longitude",
+#        y = "latitude",
+#        title = paste0("Effective R numbers for districts in ",  state_name, " on ", d1, " ", m1, " ", y1)) +
+#   theme_void()
+# 
+# ggplotly(map, tooltip = c("text", "Effective R"))
 ```
 
 \
 
-*(Note: The plot is interactive!)*
+Trends in effective R over 7-day period till `r paste0(d1, " ", m1, " ", y1)`
+
+```{r policyTable, include = TRUE, echo = FALSE, warnings = FALSE}
+datatable(polTab)
+```

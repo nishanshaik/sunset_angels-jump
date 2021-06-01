@@ -11,8 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r Packages, include = FALSE, echo = FALSE}
+library(knitr)
+library(kableExtra)
+library(DT)
 library(tidyverse)
+library(lubridate)
 library(plotly)
+
+# Not in operator =======
+`%nin%` <- Negate(`%in%`)
 ```
 
 ```{r Data, include = FALSE}
