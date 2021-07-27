@@ -39,9 +39,9 @@ Some of tables shown in the weekly effective R reports are interactive with thei
 ## What is the difference between weekly and daily effective R analysis?
 The weekly R reports provides the reader with weekly snapshots of the situation. It assess the effective R for the regions for previous week (Sunday through Saturday) as compared to the the preceding week. Such comparison is presented here with the hope that the decision-maker would be able to assess the progress of the situation using fixed time intervals. Expectation is that the estimates thus generated are more robust as it uses a stochastic smoothing method.
 
-Daily R plots provide the users with a near-runtime situation analysis while also showing how a region has progressed in the past. These estimates use a 7-day simple moving average smoothing. It provides the user with a daily-updated, most recent estimates of effective R for each region.
+Daily R plots provide the users with a near-runtime situation analysis while also showing how a region has progressed in the past. These estimates use 14-day simple moving average for smoothing. It provides the user with a daily-updated, most recent estimates of effective R for each region.
 
 \
 
 ## Will there be further updates?
-This website will be updated a minimum of once daily. Aim is to make the updated visualisations available before 9 AM (IST) to the users. Automation of updates is being worked upon to ensure consistent and reliable updates into the future.
+This website is auto-updated daily. If you see any issues in the updates, kindly drop me an email. 

@@ -27,10 +27,6 @@ text-align: justify}
 
 \
 
-![](R_Banner.jpg)
-
-\
-
 # Effective Reproduction Number
 
 \
@@ -59,7 +55,7 @@ Ideally a lag is to be expected from the commencement of lockdown till perceivab
 \
 
 ## R value does not translate to risk of contracting the infection on its own.
-An effective R above 1 does point to higher risk, but to righly assess the risk, you need more than just the R-values. A better indicator for household level decision making are the test positivity rates. 
+An effective R above 1 does point to higher risk, but to rightly assess the risk, you need more than just the R-values. A better indicator for household-level decision making are the test positivity rates. 
 
 Regardless of what the numbers show, it is highly recommended that you take all necessary precautions like double masking, proper hand hygiene, physical distancing, and practice full compliance to lockdowns and/or other locally relevant containment strategies at all times.
 
@@ -76,7 +72,6 @@ Additionally, also consider other factors that influence Rt - social distancing,
 
 \
 
-![](COVID_Banner.jpg)
 
 
 
