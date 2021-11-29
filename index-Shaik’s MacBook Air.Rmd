@@ -1,0 +1,108 @@
+---
+title: "Dr. Shaik Nishan Ashraf"
+author: "MBBS, MPH"
+date: "Independent Research (Public Health) Consultant"
+---
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
+h4.author {
+  text-align: center;
+}
+h4.date {
+  text-align: center;
+}
+</style>
+
+<style>
+body {
+text-align: justify}
+</style>
+
+\
+
+***Note to users:*** *Please read the user guide before moving to the weekly and daily reports. Graphs and plots are best viewed from tablets, laptops, or desktop computers. User experience may be sub-optimal on mobile or smaller screens.*
+
+\
+
+# Effective Reproduction Number Estimation is Back Online!
+
+This time using data from [covid19bharat.org](www.covid19bharat.org). Omicron variant does not sound like great news to health of people and economies across the globe. More data is required before concluding anything. In the meantime caution seems to be a wise strategy. The Effective R vales may act as an early indicator to any surges. I hope these numbers are useful to you. This data will be auto-updated daily.
+
+-- N
+
+\
+
+\
+
+# Heartbroken about [covid19india.org](www.covid19india.org)'s closure in October! 
+
+
+The real time effective R number estimations on this website relies on data daily updated by [covid19india.org](www.covid19india.org) accessed using their APIs. The repositories the good Samaritans have been maintaining and updating the data that has fueled critical information for the public and fodder for research about COVID-19 outbreak in India with district-level granularity. Is is extremely sad to see them close down. 
+
+
+Effective R values will not be estimated once the data ceases to update. Unless there is a reliable, easily manageable, and consistent database like [covid19india.org](www.covid19india.org), it would be hard to maintain the effective R numbers on this website as well. This website was created overnight, in a spur of the moment, driven by high-emotion to contribute effectively in whichever way possible when the whole nation was going through some of the most unprecedented times this generation might ever witness. Keeping the dashboards updated and relevant relies on finding the time come up with an alternative workflow and execute it, while  also addressing competing demands of professional and personal life. 
+
+
+I might try to update the values for Kerala into the future if maintenance can be automated reliably. There are no guarantees to this plan whatsoever.
+
+
+I read through Hadley Wickham's tweets on closing down crantastic.org recently. A very niche, yet handy website - was closed in 2020. These developments makes me think of the sustainability of open-source ventures. A few open-source efforts remain patent and sustainable if a large community holds it up - as in the case of R programming language, or when there is a for-profit arm that channels funds to the open-source efforts - as in the case of R Studio.
+
+
+Closure of covid19india.org raises many pertinent questions. The first being the absence of an equal alternative. There are undoubtedly many more questions, but this is not the space for it. I am left with the lingering question - which other database(s) to rely on to keep as much data updated as possible?
+
+ -- N.
+
+\
+
+# A little about effective reproduction number
+
+\
+
+## Definition
+Effective reproductive number (Rt) is the average number of secondary infections per infectious case in the population at any given point in time. It can vary during the course of the outbreak based on the rate at which the infection is spreading. Infection control measures such as universal masking, good hand hygiene, physical distancing, lockdowns and containment strategies, and vaccination can help in reducing the effective R number.
+
+\
+
+## Interpreting the effective reproductive number
+- Effective R (Rt) is a number between 0 to positive infinity (well, theoretically).
+- If the Rt = 1, each case would transmit the disease to one other person. Hence, the number of new cases will remain constant. The cumulative incidence would show a linear increase.
+- If Rt > 1, each case will transmit the disease to more than one other person (equal to Rt value). The daily number of reported new cases will increase, and cumulative incidence increases exponentially.
+- If Rt < 1, each case would transmit to less than one other person (again, equal to the Rt value), this would mean that the daily number of reported new cases would come down, eventually the infection would get contained.
+- A simplified analogy to understand this is to see the daily growth rate in cases as velocity/speed. The effective Rt is like acceleration.
+
+\
+
+## Lockdowns help in reducing the R-value - but with a delay.
+Ideally a lag is to be expected from the commencement of lockdown till perceivable change in effective R is seen due to the following reasons:
+
+- The serial interval - the time between an infector becomes symptomatic till the infected (person who got infected by the infector) became symptomatic. Current estimates are about 5 days. [If you are really curious, you may also read up about generation interval which is quite difficult to estimate accurately in real-world setting].
+- Testing and reporting lags - as the number of samples collected each day increases, the testing system gets stressed leading to delays in testing and reporting. This may or may not be significant in your context. This can be a significant contributor to the lag of indicators.
+- Community vs Household transmission - Getting infected from the outside community can be controlled by lockdown, however, getting infected inside ones' own home via a person who got infected in the community will happen even with lockdown in place. There will be a drop in this eventually as lockdown causes less people to get infected in the community and take the pathogen to their homes. Household transmission may lead to a share of positive cases despite the lockdown being in place - but then again, lockdowns are less effective, and not designed to reduce household transmissions.
+
+\
+
+## R value does not translate to risk of contracting the infection on its own.
+An effective R above 1 does point to higher risk, but to rightly assess the risk, you need more than just the R-values. A better indicator for household-level decision making are the test positivity rates. 
+
+Regardless of what the numbers show, it is highly recommended that you take all necessary precautions like double masking, proper hand hygiene, physical distancing, and practice full compliance to lockdowns and/or other locally relevant containment strategies at all times.
+
+\
+
+## The effective R rate seems much lower at the height of the second wave than during the first wave. Yet we have more cases now. Why is that?
+Effective R value depends on the change in number of cases as compared to existing number of cases. During the initial wave in 2020 there were fewer cases and rate of change was higher - say one day there were 10 cases, and in the same week some 50-150 cases were reported in a day. This change is much larger than the change we see right now, with 25,000 to 28,000 or so on. That reflects on the Rt more than the actual case numbers themselves.
+
+Additionally, also consider other factors that influence Rt - social distancing, lockdowns, masking, vaccinations. What we see could be a combined effect of all of these. However, the major share for the difference between 2020 and 2021 is likely to be due to the rate fo change itself. To put it simply, effective R values are more sensitive to rate of change in reported cases than the absolute number of cases.
+
+\
+
+## Stay Safe!
+
+\
+
+
+
+
