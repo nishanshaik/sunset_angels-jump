@@ -11,9 +11,9 @@ navbar:
   left:
     - text: "Home" 
       href: index.html
-    - text: "Effective R - Weekly Report"
+    - text: "Courses"
       href: weekly_report.html
-    - text: "Effective R - Daily Trends"
+    - text: "COVID-19: R Values"
       menu:
       - text: "State Level"
         href: Daily_Overview.html
@@ -95,8 +95,6 @@ navbar:
         - text: "West Bengal"
           href: WB.html
   right:
-    - text: "User Guide"
-      href: help.html
     - text: "Archive" 
       href: archives.html
     - text: "Bio"
@@ -105,4 +103,6 @@ navbar:
       href: about.html
     - text: "Licenses"
       href: legal.html
+    - text: "User Guide"
+      href: help.html
 output_dir: "."
