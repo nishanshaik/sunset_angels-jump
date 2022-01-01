@@ -12,7 +12,9 @@ navbar:
     - text: "Home" 
       href: index.html
     - text: "Courses"
-      href: weekly_report.html
+      menu:
+      - text: "Introduction to R - Live"
+        href: intro_r_live.html
     - text: "COVID-19: R Values"
       menu:
       - text: "State Level"
@@ -95,14 +97,16 @@ navbar:
         - text: "West Bengal"
           href: WB.html
   right:
-    - text: "Archive" 
-      href: archives.html
-    - text: "Bio"
+    - text: "About me"
       href: nishan.html
     - text: "Contact" 
       href: about.html
-    - text: "Licenses"
-      href: legal.html
-    - text: "User Guide"
-      href: help.html
+    - text: "Resources"
+      menu:
+      - text: "Licenses"
+        href: legal.html
+      - text: "User Guide"
+        href: help.html
+      - text: "Archive" 
+        href: archives.html
 output_dir: "."

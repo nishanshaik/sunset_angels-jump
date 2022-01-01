@@ -27,6 +27,14 @@ text-align: justify}
 
 \
 
+# Introduction to R: Fourth Cohort from 16 Jan 2022
+
+\
+
+### Next batch of Introduction to R course begins 16 January 2022. Check out more details [here](./intro_r_live.html)
+
+\
+
 # Effective Reproduction Number Estimation is Back Online!
 
 This time using data from [covid19bharat.org](www.covid19bharat.org). Omicron variant does not sound like great news to health of people and economies across the globe. More data is required before concluding anything. In the meantime caution seems to be a wise strategy. The Effective R vales may act as an early indicator to any surges. I hope these numbers are useful to you. This data will be auto-updated daily.

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="LIVE | Zoom-based | 16 hours | Hands-On" />
+
+
+<title>Introduction to R</title>
+
+<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SDW4HLH9JK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SDW4HLH9JK');
+</script>
+
+<link rel="icon" type="image/png" href="logo_1.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 30px;" src="logo_1.png" /></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Courses
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="intro_r_live.html">Introduction to R - Live</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    COVID-19: R Values
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Daily_Overview.html">State Level</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">District Level (A-L)</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="AN.html">Andaman &amp; Nicobar Islands</a>
+        </li>
+        <li>
+          <a href="AP.html">Andhra Pradesh</a>
+        </li>
+        <li>
+          <a href="AR.html">Arunachal Pradesh</a>
+        </li>
+        <li>
+          <a href="AS.html">Assam</a>
+        </li>
+        <li>
+          <a href="BR.html">Bihar</a>
+        </li>
+        <li>
+          <a href="CH.html">Chandigarh</a>
+        </li>
+        <li>
+          <a href="CG.html">Chhattisgarh</a>
+        </li>
+        <li>
+          <a href="DD.html">Dadra and Nagar Haveli &amp; Daman and Diu</a>
+        </li>
+        <li>
+          <a href="DL.html">Delhi</a>
+        </li>
+        <li>
+          <a href="GA.html">Goa</a>
+        </li>
+        <li>
+          <a href="GJ.html">Gujarat</a>
+        </li>
+        <li>
+          <a href="HR.html">Haryana</a>
+        </li>
+        <li>
+          <a href="HP.html">Himachal Pradesh</a>
+        </li>
+        <li>
+          <a href="JK.html">Jammu and Kashmir</a>
+        </li>
+        <li>
+          <a href="JH.html">Jharkhand</a>
+        </li>
+        <li>
+          <a href="KA.html">Karnataka</a>
+        </li>
+        <li>
+          <a href="KL.html">Kerala</a>
+        </li>
+        <li>
+          <a href="LA.html">Ladakh</a>
+        </li>
+        <li>
+          <a href="LD.html">Lakshadweep</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">District Level (M-W)</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="MP.html">Madhya Pradesh</a>
+        </li>
+        <li>
+          <a href="MH.html">Maharashtra</a>
+        </li>
+        <li>
+          <a href="MN.html">Manipur</a>
+        </li>
+        <li>
+          <a href="ML.html">Meghalaya</a>
+        </li>
+        <li>
+          <a href="MZ.html">Mizoram</a>
+        </li>
+        <li>
+          <a href="NL.html">Nagaland</a>
+        </li>
+        <li>
+          <a href="OD.html">Odisha</a>
+        </li>
+        <li>
+          <a href="PY.html">Puducherry</a>
+        </li>
+        <li>
+          <a href="PB.html">Punjab</a>
+        </li>
+        <li>
+          <a href="RJ.html">Rajasthan</a>
+        </li>
+        <li>
+          <a href="SK.html">Sikkim</a>
+        </li>
+        <li>
+          <a href="TN.html">Tamil Nadu</a>
+        </li>
+        <li>
+          <a href="TS.html">Telangana</a>
+        </li>
+        <li>
+          <a href="TR.html">Tripura</a>
+        </li>
+        <li>
+          <a href="UP.html">Uttar Pradesh</a>
+        </li>
+        <li>
+          <a href="UK.html">Uttarakhand</a>
+        </li>
+        <li>
+          <a href="WB.html">West Bengal</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="nishan.html">About me</a>
+</li>
+<li>
+  <a href="about.html">Contact</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Resources
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="legal.html">Licenses</a>
+    </li>
+    <li>
+      <a href="help.html">User Guide</a>
+    </li>
+    <li>
+      <a href="archives.html">Archive</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Introduction to R</h1>
+<h4 class="author">LIVE | Zoom-based | 16 hours | Hands-On</h4>
+<h4 class="date">Starts 16 January 2022</h4>
+
+</div>
+
+
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
+h4.author {
+  text-align: center;
+}
+h4.date {
+  text-align: center;
+}
+</style>
+<style>
+body {
+text-align: justify}
+</style>
+<p><br />
+</p>
+<p><br />
+</p>
+<center>
+<h2>
+Course Outline
+</h2>
+</center>
+<p><br />
+</p>
+<center>
+<a href="https://rzp.io/l/introR"><img src="1.png" alt="brochure_page_1" /></a> <a href="https://rzp.io/l/introR"><img src="2.png" alt="brochure_page_2" /></a> <a href="https://rzp.io/l/introR"><img src="3.png" alt="brochure_page_2" /></a>
+</center>
+<p><br />
+</p>
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll Now!" data-color="#1a61db" data-size="large">
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+<p><br />
+</p>
+<center>
+<h3>
+Click the button above to register. Next batch starts 16 January 2022
+</h3>
+</center>
+<p><br />
+</p>
+<p><br />
+</p>
+<center>
+<div id="what-all-can-be-done-using-r-programming-language" class="section level3">
+<h3>What all can be done using R programming language?</h3>
+<p>Data visualisation, of course. Here is a DataViz</p>
+<p><br />
+</p>
+<div class="figure">
+<img src="logistic_map.png" alt="" />
+<p class="caption">Data visualisation of a logistic map</p>
+</div>
+<p><br />
+</p>
+<p>You should be able to make plots like these after completing this course (you need to put in a little effort too).</p>
+<p><br />
+</p>
+<center>
+<h3>
+Get in if you wish to learn the skills from this 16th!
+</h3>
+</center>
+<p><br />
+</p>
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="I am in!" data-color="#1a61db" data-size="large">
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+<p><br />
+</p>
+</div>
+<div id="ok-this-is-interesting-show-me-something-more-that-can-be-done-with-r" class="section level3">
+<h3>Ok this is interesting, show me something more that can be done with R</h3>
+<p>Here is a data visualisation as a movie.</p>
+<p><br />
+</p>
+<html>
+<center>
+<iframe src="https://player.vimeo.com/video/661628523" data-external="1" width="900" height="600">
+</iframe>
+</center>
+</html>
+<p><br />
+</p>
+<p>You will be skilled enough to make animations soon after completing this course. All you have to do in pay attention in class and practice.</p>
+<p><br />
+</p>
+<center>
+<h3>
+Wish to make one like this all by yourself in 2022?
+</h3>
+</center>
+<p><br />
+</p>
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Yes! I&#39;m Joining Now!" data-color="#1a61db" data-size="large">
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+<p><br />
+</p>
+</div>
+<div id="still-not-convinced-here-is-something-more-the-data-sings-quite-literally" class="section level3">
+<h3>Still not convinced, here is something more: The data sings (quite literally)</h3>
+<p>This is the above animated visualisation along with the soundtrack generated from observed data - how cool is that?</p>
+<p><br />
+</p>
+<html>
+<center>
+<iframe src="https://player.vimeo.com/video/660286892" data-external="1" width="900" height="600">
+</iframe>
+</center>
+</html>
+<p><br />
+</p>
+<p>You should be able to make sounds with data provided you know a thing or two about music. For the R part, this course should be your starting step.</p>
+<p><br />
+</p>
+<center>
+<h3>
+Wish to make your data sing for you? Wish to make the world ‘listen’ to the data?
+</h3>
+</center>
+<p><br />
+</p>
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll me rightaway!" data-color="#1a61db" data-size="large">
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+<p><br />
+</p>
+</div>
+<div id="one-more-final-testament-to-rs-power-this-website" class="section level3">
+<h3>One more final testament to R’s power: This Website!</h3>
+<p><br />
+</p>
+<p>This website is made from scratch using R. From taking data from <em>covid19bharat.org</em> to cleaning it to carrying out quality checks to estimating the R vales for the nation, each state, and all available districts to creating the tables and graphs to rendering each webpage and the whole website including this page yuu are viewing right now are all done and made with R.</p>
+<p>Also, because of R this website is auto-updated.</p>
+<p>All of this happens at <em>zero cost</em>. Because R!</p>
+<p><br />
+</p>
+</div>
+<div id="it-is-hard-not-to-fall-in-love-with-r.-personally-i-am-passionate-about-r-and-hence-this-course." class="section level3">
+<h3>It is hard not to fall in love with R. (Personally, I am passionate about R and hence this course).</h3>
+</div>
+<div id="begin-your-love-for-r-here-now" class="section level3">
+<h3>Begin your love for R here, now!</h3>
+<p><br />
+</p>
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll Now!" data-color="#1a61db" data-size="large">
+<script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+</center>
+<p><br />
+</p>
+<p>Fill out this form if you do not wish to enroll now. You will be sent a short email with a link to this page upon submission.</p>
+<p><br />
+</p>
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfJLetf23jTOrOX34Y8YemSQmhviyiThx1FmFIYkOIvvfoAPA/viewform?embedded=true" width="900" height="300" frameborder="0" marginheight="0" marginwidth="0">
+Loading…
+</iframe>
+</center>
+<p><br />
+</p>
+<p>Thank you for visiting this page and checking out my course. I really wish to see you in class soon!</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+<p><br />
+</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
