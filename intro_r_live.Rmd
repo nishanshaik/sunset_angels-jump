@@ -28,7 +28,7 @@ text-align: justify}
 \
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(include = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE)
 ```
 
 \
@@ -117,8 +117,102 @@ You should be able to make plots like these after completing this course (you ne
 
 \
 
+### Show me more. Surely there are more cool things R could do
 
-### Ok this is interesting, show me something more that can be done with R
+Yes, absolutely. Here are trends in effective reproduction numbers for COVID-19 in Delhi and India made interactive just like the numerous other plots on this website. 
+
+\
+
+```{r logistic map plotly, fig.height = 9}
+library(tidyverse)
+library(plotly)
+library(extrafont)
+library(ggdark)
+
+india <- read_csv("India.csv")
+states <- read_csv("States.csv")
+districts <- read_csv("Districts.csv")
+
+state_name <- "Delhi"
+
+# Prepping =======================
+india <- india %>% 
+  mutate(Region = "India") %>% 
+  rename(Rt = smR) %>% 
+  dplyr::select(Region, Date, Rt)
+
+states <- states %>% 
+  filter(Region != "Placeholder") %>% 
+  filter(Date >= as.Date("2020-05-15")) %>% 
+  filter(Region == state_name)
+
+districts <- districts %>% 
+  filter(State != "Placeholder") %>% 
+  filter(Date >= as.Date("2020-05-15")) %>%
+  filter(State == state_name) %>% 
+  dplyr::select(District, Date, smR) %>% 
+  rename(Region = District,
+         Rt = smR)
+
+
+# Merging ==============================
+data <- bind_rows(india, states)
+data <- bind_rows(data, districts)
+
+# Sanity checks =======================
+data <- data %>% 
+  filter(Rt <= 5)
+
+rm(india, states, districts)
+
+p <- data %>% 
+  ggplot(aes(x = Date, y = Rt)) +
+  geom_line(aes(colour = Region)) +
+  geom_hline(aes(yintercept = 1), colour = "#acb5b5", linetype = "dashed") +
+  labs(x = "",
+       y = "Effective R (smoothed)",
+       title = paste0("Trends in effective R numbers for ",  state_name)) +
+  theme_minimal() +
+    theme(legend.position = "bottom") +
+  theme_minimal(base_family = "Kefa")
+  
+
+ggplotly(p, dynamicTicks = TRUE) %>% 
+  layout(legend = list(x = 0, y = -300, orientation = 'h'))
+
+rm(list = ls())
+```
+
+Making plots like these are a part of the course curriculum. You would have made a handful by the end of this course by following along the in-class exercises and assignments. 
+
+\
+
+<center>
+  <h3>
+    Eager to impress your colleagues with some interactive plots?
+  </h3>
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Absolutely! Let me in!!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html> 
+
+\
+
+
+### Show me something more that can be done with R
 
 Here is a data visualisation as a movie. 
 
@@ -126,7 +220,7 @@ Here is a data visualisation as a movie.
 
 <html>
   <center>
-    <iframe src="https://player.vimeo.com/video/661628523" data-external="1" width="900" height="600"></iframe>
+    <div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/661628523?h=40a5bf4586&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Animated Logistic Map" data-external="1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   </center>
 </html>
 
@@ -168,7 +262,7 @@ This is the above animated visualisation along with the soundtrack generated fro
 
 <html>
   <center>
-    <iframe src="https://player.vimeo.com/video/660286892" data-external="1" width="900" height="600"></iframe>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/660286892?h=9029a095e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Logistic map animated with sound" data-external="1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   </center>
 </html>
 
@@ -246,17 +340,10 @@ All of this happens at *zero cost*. Because R!
 
 \
 
-Fill out this form if you do not wish to enroll now. You will be sent a short email with a link to this page upon submission. 
 
 \
 
-<center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfJLetf23jTOrOX34Y8YemSQmhviyiThx1FmFIYkOIvvfoAPA/viewform?embedded=true" width="900" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</center>
-
-\
-
-Thank you for visiting this page and checking out my course. I really wish to see you in class soon!
+Thank you for visiting this page and checking out my course. I hope to see you in class soon!
 
 \
 

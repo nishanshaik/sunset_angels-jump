@@ -31,7 +31,7 @@ text-align: justify}
 
 \
 
-### Next batch of Introduction to R course begins 16 January 2022. Check out more details [here](./intro_r_live.html)
+### Cohort 4 of Introduction to R course begins 16 January 2022. Check out more details [here](./intro_r_live.html)
 
 \
 
