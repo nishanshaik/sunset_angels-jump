@@ -172,7 +172,7 @@ p <- data %>%
   geom_hline(aes(yintercept = 1), colour = "#acb5b5", linetype = "dashed") +
   labs(x = "",
        y = "Effective R (smoothed)",
-       title = paste0("Trends in effective R numbers for ",  state_name)) +
+       title = paste0("Trends in effective R numbers for India")) +
   theme_minimal() +
   theme_minimal(base_family = "Kefa")
   
