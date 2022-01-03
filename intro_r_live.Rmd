@@ -123,7 +123,7 @@ Yes, absolutely. Here are trends in effective reproduction numbers for COVID-19 
 
 \
 
-```{r logistic map plotly, fig.height = 9}
+```{r logistic map plotly, fig.height = 3, fig.width = 5}
 library(tidyverse)
 library(plotly)
 library(extrafont)
@@ -166,14 +166,14 @@ data <- data %>%
 rm(india, states, districts)
 
 p <- data %>% 
+  filter(Region == "India") %>% 
   ggplot(aes(x = Date, y = Rt)) +
-  geom_line(aes(colour = Region)) +
+  geom_line(colour = "#61ebf2") +
   geom_hline(aes(yintercept = 1), colour = "#acb5b5", linetype = "dashed") +
   labs(x = "",
        y = "Effective R (smoothed)",
        title = paste0("Trends in effective R numbers for ",  state_name)) +
   theme_minimal() +
-    theme(legend.position = "bottom") +
   theme_minimal(base_family = "Kefa")
   
 

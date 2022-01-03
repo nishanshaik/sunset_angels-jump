@@ -1,0 +1,363 @@
+---
+title: "Introduction to R"
+author: "LIVE  |  Zoom-based  |  16 hours  |  Hands-On"
+date: "Starts 16 January 2022"
+output: 
+  html_document:
+    theme: darkly
+
+---
+<style type="text/css">
+
+h1.title {
+  text-align: center;
+}
+h4.author {
+  text-align: center;
+}
+h4.date {
+  text-align: center;
+}
+</style>
+
+<style>
+body {
+text-align: justify}
+</style>
+
+\
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = TRUE, echo = FALSE, message = FALSE, error = FALSE, warning = FALSE)
+```
+
+\
+
+<center>
+  <h2>
+    Course Outline
+  </h2>
+</center>
+
+\
+
+
+<center>
+[![brochure_page_1](1.png)](https://rzp.io/l/introR)
+[![brochure_page_2](2.png)](https://rzp.io/l/introR)
+[![brochure_page_2](3.png)](https://rzp.io/l/introR)
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll Now!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html> 
+
+\
+
+<center>
+  <h3>
+    Click the button above to register. Next batch starts 16 January 2022
+  </h3>
+</center>
+
+\
+
+
+\
+
+
+<center>
+### What all can be done using R programming language?
+
+Data visualisation, of course. Here is a DataViz
+
+\
+
+![Data visualisation of a logistic map](logistic_map.png)
+
+\
+
+You should be able to make plots like these after completing this course (you need to put in a little effort too).
+
+\
+
+<center>
+  <h3>
+    Get in if you wish to learn the skills from this 16th!
+  </h3>
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="I am in!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html> 
+
+\
+
+### Show me more. Surely there are more cool things R could do
+
+Yes, absolutely. Here are trends in effective reproduction numbers for COVID-19 in Delhi and India made interactive just like the numerous other plots on this website. 
+
+\
+
+```{r logistic map plotly, fig.height = 3, fig.width = 5}
+library(tidyverse)
+library(plotly)
+library(extrafont)
+library(ggdark)
+
+india <- read_csv("India.csv")
+states <- read_csv("States.csv")
+districts <- read_csv("Districts.csv")
+
+state_name <- "Delhi"
+
+# Prepping =======================
+india <- india %>% 
+  mutate(Region = "India") %>% 
+  rename(Rt = smR) %>% 
+  dplyr::select(Region, Date, Rt)
+
+states <- states %>% 
+  filter(Region != "Placeholder") %>% 
+  filter(Date >= as.Date("2020-05-15")) %>% 
+  filter(Region == state_name)
+
+districts <- districts %>% 
+  filter(State != "Placeholder") %>% 
+  filter(Date >= as.Date("2020-05-15")) %>%
+  filter(State == state_name) %>% 
+  dplyr::select(District, Date, smR) %>% 
+  rename(Region = District,
+         Rt = smR)
+
+
+# Merging ==============================
+data <- bind_rows(india, states)
+data <- bind_rows(data, districts)
+
+# Sanity checks =======================
+data <- data %>% 
+  filter(Rt <= 5)
+
+rm(india, states, districts)
+
+p <- data %>% 
+  ggplot(aes(x = Date, y = Rt)) +
+  geom_line(aes(colour = Region)) +
+  geom_hline(aes(yintercept = 1), colour = "#acb5b5", linetype = "dashed") +
+  labs(x = "",
+       y = "Effective R (smoothed)",
+       title = paste0("Trends in effective R numbers for ",  state_name)) +
+  theme_minimal() +
+    theme(legend.position = "bottom") +
+  theme_minimal(base_family = "Kefa")
+  
+
+ggplotly(p, dynamicTicks = TRUE) %>% 
+  layout(legend = list(x = 0, y = -300, orientation = 'h'))
+
+rm(list = ls())
+```
+
+Making plots like these are a part of the course curriculum. You would have made a handful by the end of this course by following along the in-class exercises and assignments. 
+
+\
+
+<center>
+  <h3>
+    Eager to impress your colleagues with some interactive plots?
+  </h3>
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Absolutely! Let me in!!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html> 
+
+\
+
+
+### Show me something more that can be done with R
+
+Here is a data visualisation as a movie. 
+
+\
+
+<html>
+  <center>
+    <div style="padding:66.67% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/661628523?h=40a5bf4586&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Animated Logistic Map" data-external="1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </center>
+</html>
+
+\
+
+You will be skilled enough to make animations soon after completing this course. All you have to do in pay attention in class and practice.
+
+\
+
+<center>
+  <h3>
+    Wish to make one like this all by yourself in 2022?
+  </h3>
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Yes! I'm Joining Now!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html> 
+
+\
+
+### Still not convinced, here is something more: The data sings (quite literally)
+
+This is the above animated visualisation along with the soundtrack generated from observed data - how cool is that?
+
+\
+
+<html>
+  <center>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/660286892?h=9029a095e2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Logistic map animated with sound" data-external="1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </center>
+</html>
+
+\
+
+You should be able to make sounds with data provided you know a thing or two about music. For the R part, this course should be your starting step.
+
+\
+
+<center>
+  <h3>
+    Wish to make your data sing for you? Wish to make the world 'listen' to the data?
+  </h3>
+</center>
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll me rightaway!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+
+\
+
+### One more final testament to R's power: This Website!
+
+\
+
+This website is made from scratch using R. 
+From taking data from *covid19bharat.org* to 
+cleaning it to carrying out quality checks to 
+estimating the R vales for the nation, each state, and all available districts to
+creating the tables and graphs to
+rendering each webpage and the whole website
+including this page yuu are viewing right now
+are all done and made with R. 
+
+Also, because of R this website is auto-updated.
+
+All of this happens at *zero cost*. Because R! 
+
+\
+
+
+### It is hard not to fall in love with R. (Personally, I am passionate about R and hence this course). 
+### Begin your love for R here, now!
+
+
+\
+
+<html>
+<center>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HJSfkNsUyIUdjd/view" data-text="Enroll Now!" data-color="#1a61db" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
+</center>
+</html>
+</center>
+
+
+\
+
+
+\
+
+Thank you for visiting this page and checking out my course. I hope to see you in class soon!
+
+\
+
+
+\
+
+
+\
+
+
+\
+
+
+\
+
+
+\
