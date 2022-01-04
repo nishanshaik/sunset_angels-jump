@@ -43,9 +43,9 @@ knitr::opts_chunk$set(include = TRUE, echo = FALSE, message = FALSE, error = FAL
 
 
 <center>
-[![brochure_page_1](1.png)](https://rzp.io/l/introR)
-[![brochure_page_2](2.png)](https://rzp.io/l/introR)
-[![brochure_page_2](3.png)](https://rzp.io/l/introR)
+<a href="https://rzp.io/l/introR" target="_blank"> ![brochure_page_1](1.png) </a>
+<a href="https://rzp.io/l/introR" target="_blank"> ![brochure_page_2](2.png) </a>
+<a href="https://rzp.io/l/introR" target="_blank"> ![brochure_page_3](3.png) </a>
 </center>
 
 \
