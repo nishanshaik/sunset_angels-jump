@@ -13,7 +13,6 @@ output:
 
 body {
   font-family: Helvetica;
-  font-size: 16pt;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -127,7 +126,7 @@ color: white;
 
 \
 
-::: {style="background-color: white;"}
+::: {style="background-color: white; font-size: 18px"}
 
 <center>
 <h3>
@@ -312,7 +311,7 @@ You will receive small, bite-sized lessons everyday.</center></strong>
 &#10003; Access to lessons for 90 days from date of enrollment \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'"><strong>&#8377;999</strong></button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 999</button></left>
 
 
 :::::
@@ -333,7 +332,7 @@ You will receive small, bite-sized lessons everyday.</center></strong>
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'"><strong>&#8377;1999</strong></button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1999</button></left>\
 
 :::::
 
@@ -351,7 +350,7 @@ You will receive small, bite-sized lessons everyday.</center></strong>
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Priority access to live doubt clearing sessions \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>&#8377;2999</strong></button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2999</button></left>\
 
 :::::
 
