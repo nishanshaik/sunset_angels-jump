@@ -1,28 +1,35 @@
 ---
-title: "Introduction to R"
-author: "LIVE  |  Zoom-based  |  16 hours  |  Hands-On"
-date: "Starts 16 January 2022"
+title: "Mastering R"
+author: "Pre-Recorded Drip Feed | Live | Hands On | Certificate | Community"
+date: "Starts at enrolment"
 output: 
   html_document:
-    theme: darkly
+    theme: cosmo
 
 ---
 <style type="text/css">
 
 h1.title {
   text-align: center;
+  font-family: Helvetica;
 }
 h4.author {
   text-align: center;
+  font-family: Helvetica;
 }
 h4.date {
   text-align: center;
+  font-family: Helvetica;
 }
+
 </style>
 
 <style>
 body {
-text-align: justify}
+text-align: justify;
+color: black;
+font-family: Helvetica;
+background-color: white}
 </style>
 
 \
@@ -123,7 +130,7 @@ Yes, absolutely. Here are trends in effective reproduction numbers for COVID-19 
 
 \
 
-```{r logistic map plotly, fig.height = 3, fig.width = 5}
+```{r logistic map plotly, out.height='100%', out.width='100%'}
 library(tidyverse)
 library(plotly)
 library(extrafont)

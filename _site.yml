@@ -7,95 +7,16 @@ output:
     theme: flatly
     highlight: textmate
 navbar:  
-  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"logo_1.png\" />"
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"Logo_Day.jpg\" />"
   left:
     - text: "Home" 
       href: index.html
     - text: "Courses"
-      menu:
-      - text: "Introduction to R - Live"
-        href: intro_r_live.html
+      href: mastering-r.html
     - text: "COVID-19: R Values"
       menu:
       - text: "State Level"
         href: Daily_Overview.html
-      - text: '----------'
-      - text: "District Level (A-L)"
-        menu:
-        - text: "Andaman & Nicobar Islands"
-          href: AN.html
-        - text: "Andhra Pradesh"
-          href: AP.html
-        - text: "Arunachal Pradesh"
-          href: AR.html
-        - text: "Assam"
-          href: AS.html
-        - text: "Bihar"
-          href: BR.html
-        - text: "Chandigarh"
-          href: CH.html
-        - text: "Chhattisgarh"
-          href: CG.html
-        - text: "Dadra and Nagar Haveli & Daman and Diu"
-          href: DD.html
-        - text: "Delhi"
-          href: DL.html
-        - text: "Goa"
-          href: GA.html
-        - text: "Gujarat"
-          href: GJ.html
-        - text: "Haryana"
-          href: HR.html
-        - text: "Himachal Pradesh"
-          href: HP.html
-        - text: "Jammu and Kashmir"
-          href: JK.html
-        - text: "Jharkhand"
-          href: JH.html
-        - text: "Karnataka"
-          href: KA.html
-        - text: "Kerala"
-          href: KL.html
-        - text: "Ladakh"
-          href: LA.html
-        - text: "Lakshadweep"
-          href: LD.html
-      - text: "District Level (M-W)"
-        menu:
-        - text: "Madhya Pradesh"
-          href: MP.html
-        - text: "Maharashtra"
-          href: MH.html
-        - text: "Manipur"
-          href: MN.html
-        - text: "Meghalaya"
-          href: ML.html
-        - text: "Mizoram"
-          href: MZ.html
-        - text: "Nagaland"
-          href: NL.html
-        - text: "Odisha"
-          href: OD.html
-        - text: "Puducherry"
-          href: PY.html
-        - text: "Punjab"
-          href: PB.html
-        - text: "Rajasthan"
-          href: RJ.html
-        - text: "Sikkim"
-          href: SK.html
-        - text: "Tamil Nadu"
-          href: TN.html
-        - text: "Telangana"
-          href: TS.html
-        - text: "Tripura"
-          href: TR.html
-        - text: "Uttar Pradesh"
-          href: UP.html
-        - text: "Uttarakhand"
-          href: UK.html
-        - text: "West Bengal"
-          href: WB.html
   right:
     - text: "About me"
       href: nishan.html
@@ -107,6 +28,4 @@ navbar:
         href: legal.html
       - text: "User Guide"
         href: help.html
-      - text: "Archive" 
-        href: archives.html
 output_dir: "."

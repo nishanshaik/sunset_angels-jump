@@ -1,5 +1,5 @@
 ---
-title: "Dr. Shaik Nishan Ashraf"
+title: "About Dr Nishan"
 ---
 <style type="text/css">
 
@@ -16,16 +16,21 @@ text-align: justify}
 
 \
 
-<p align="left">
-  <img width="200" height="200" src="nishan.png">
-</p>
 
-\
+:::::: {style="display: flex;"}
 
+::::: {}
+<img width="100%" height="100%" src="nishan.png">
+:::::
+
+::::: {}
 He is an MBBS-MPH graduate with governmental, non-governmental, and corporate professional exposure. Adept in research methodologies, health economics, HEOR, biostatistics and public health with a grounding in health financing and health policy.
 
-He is passionate about R and thoroughly enjoy working with data and have been able to expand his understanding to effectively deploy R for probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and even web development. This website and all the work that is on this site are built exclusively using R!
+He is passionate about R and thoroughly enjoy working with data and have been able to expand his understanding to effectively deploy R for probabilistic disease modelling, health economic modelling, input-output analysis, programme evaluations, and some web development (like this website). 
 
-He enjoys teaching and guiding on topics that he has a good grip on, namely, R programming, analytics, HEOR and modelling.
+He enjoys teaching and guiding on topics that he has a good grip on, namely, R programming and analytics.
 
 If you wish to know more about his interest areas check out the [contact](./about.html) page.
+:::::
+
+::::::

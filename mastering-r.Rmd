@@ -1,0 +1,358 @@
+---
+title: <strong>Mastering R</strong>
+subtitle: <center><i>70-Day Roadmap to R Expertise</i></center>
+author: <i>Half an hour learning a day</i>
+date: <img src="header_MBP_SG.png" alt="Dr Nishan teaching R programming" height=45% width=45%> </img>
+fontfamily: Helvetica
+output:
+  html_document:
+    theme: flatly
+---
+<style type="text/css">
+
+
+body {
+  font-family: Helvetica;
+  font-size: 16pt;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Helvetica;
+}
+
+
+h1.title {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 2%;
+  
+}
+
+h4.subtitle {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+
+h4.author {
+  text-align: center;
+  padding-top: 1%;
+  font-size: 18px;
+  
+}
+
+h4.date {
+  text-align: center;
+  padding-top: 0.75%;
+  padding-bottom: 0.5%;
+  font-size: 20px;
+  
+}
+
+.button {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 2px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+width: 25%;
+height: 50px;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button:hover {
+  background-color: #36AE7C; /* Green */
+  border-color: #36AE7C;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button_2 {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 2px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+width: 100%;
+height: auto;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button_2:hover {
+  background-color: #36AE7C; /* Green */
+  border-color: #36AE7C;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button_3 {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 2px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+width: 100%;
+height: auto;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button_3:hover {
+  background-color: #36AE7C; /* Green */
+  border-color: #36AE7C;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+
+<center><button class="button button" autofocus onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>ENROLL NOW</strong></button></center>
+
+\
+
+\
+
+::: {style="background-color: white;"}
+
+<center>
+<h3>
+<strong>
+About the course
+</strong>
+</h3>
+</center>
+
+<center>
+
+Mastering R is a data science with R Programming course where I take you through the basics, data cleaning and management, and data visualization and reporting of data. A unique 70-day learning pathway delivered to you daily in small, bite-sized lessons not exceeding 30 minutes a day.
+
+</center>
+:::
+
+\
+
+::: {style="background-color: #f7f5e6; line-height: 1.8; text-align: center;"}
+\
+
+<center>
+
+<h3>
+
+<strong>Would you answer a 'Yes' any of the following?</strong>
+
+</h3>
+
+</center>
+
+\
+**You are a busy working professional or student for whom time is always at a premium?**\
+**Do you want to become a data analytics expert?**\
+**Are you planning on performing your analysis in R?**\
+**Do you wish to pivot your career to business intelligence or data science?**\
+**Do you wish to handle data more efficiently?**\
+**Do you wish to automate your analysis and reporting?**\
+**Do you wish to master the art of data visualization to excel in your career?**\
+
+\
+:::
+
+\
+
+::: {style="background-color: white; line-height: 1.8; text-align: center; font-size: 20px"}
+**If you answered ‘Yes’ to any of the above questions, you must check out the Mastering R course.**
+:::
+
+\
+
+::: {style="background-color: #f7f5e6; line-height: 1.8; text-align: center;"}
+\
+
+<center>
+
+<h3>
+
+<strong>Your benefits from doing this course</strong>
+
+</h3>
+
+</center>
+
+\
+**You gain a thorough understanding of data, data analytics and R.**\
+**You can independently take on data management, cleaning and analysis tasks at work.**\
+**You gain knowledge of data analytics best practices.**\
+**You gain skills and knowledge behind beautiful data visualizations.**\
+**You learn how to automate your periodic reports by leveraging the power of R.**\
+**You get to show these skills at your work and accelerate your career growth.**\
+**This course will be your stepping stone to data science. Your possibilities can be limitless.**\
+\
+:::
+
+\
+
+<center>
+
+<strong>You gain all these skills steadily, spending only half an hour a day learning.</strong>
+
+</center>
+
+\
+
+<center><button class="button button" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>ENROLL NOW</strong></button></center>
+
+\
+
+\
+
+<h3><strong><center>Four pillars to R mastery</center></strong></h3>
+
+\
+
+:::::: {style="display: flex;"}
+
+:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
+\
+**LESSONS**\
+\
+20+ hours of pre-recorded sessions.\
+\
+Around 30 minutes of content released daily for 70 days.\
+\
+Lessons for each day are made available to you on a schedule.\
+\
+Daily email reminders to keep you motivated.\
+\
+:::::
+
+:::::{style="background-color: #f7f5e6; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
+\
+**LIVE SESSIONS**\
+\
+At least one live zoom-based doubt clearing session every month.\
+\
+Discussions on select doubts raised in the community.\
+\
+Recordings of the live sessions made available for 30 days.\
+\
+:::::
+
+:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
+\
+**EXERCISES**\
+\
+Lesson based quizzes for you to revise concepts.\
+\
+Topic-based assignments at the end of every major topic.\
+\
+Earn a shareable certificate upon successful completion of course and quizzes.\
+\
+:::::
+
+:::::{style="background-color: #f7f5e6; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
+\
+**COMMUNITY**\
+\
+A Discord Community exclusively for the learners.\
+\
+A platform for you to raise and solve each others' your doubts.\
+\
+This community will be a direct line to Dr Nishan.\
+\
+An opportunity to grow your network.\
+\
+:::::
+
+::::::
+
+\
+
+<strong><center> You need not worry about planning your learning.\
+This has been taken care for you.\
+You will receive small, bite-sized lessons everyday.</center></strong> 
+
+\
+
+<center><button class="button button" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>ENROLL NOW</strong></button></center>
+
+\
+
+\
+
+<h3><strong><center>Choose your plan</center></strong></h3>
+
+\
+
+:::::: {style="display: flex;"}
+
+:::::{style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;"}
+
+<h3><strong>BASIC</strong></h3>
+**20-DAY COURSE**\
+\
+&#10003; Fundamentals of R and data \
+&#10003; Daily drip feed of lessons, quizzes and assignments \
+&#10003; Email reminders \
+&#10003; Access to Basic channels of Mastering R community \
+&#10003; Certificate upon successful completion \
+&#10003; Access to lessons for 90 days from date of enrollment \
+\
+\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'"><strong>&#8377;999</strong></button></left>
+
+
+:::::
+
+::::: {style="background-color: white; line-height: 1.8; text-align: center; width: 1%;"}
+:::::
+
+:::::{style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;"}
+
+<h3><strong>INTERMEDIATE</strong></h3>
+**37-DAY COURSE**\
+\
+&#10003; Everything in Basic plan \
+&#10003; Data management with Tidyverse \
+&#10003; Access to Basic & Intermediate channels of Mastering R community \
+&#10003; Priority access to live doubt clearing sessions \
+\
+\
+\
+\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'"><strong>&#8377;1999</strong></button></left>\
+
+:::::
+
+::::: {style="background-color: white; line-height: 1.8; text-align: center; width: 1%;"}
+:::::
+
+:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;"}
+
+<h3><strong>EXPERT</strong></h3>
+**70-DAY COURSE**\
+\
+&#10003; Everything in Intermediate \
+&#10003; Data visualization theory and hand-on with ggplot2 package \
+&#10003; Repeatable, reproducible, and automated reporting of analysis with RMarkdown \
+&#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
+&#10003; Priority access to live doubt clearing sessions \
+\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>&#8377;2999</strong></button></left>\
+
+:::::
+
+::::::
