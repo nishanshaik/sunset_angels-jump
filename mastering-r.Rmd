@@ -313,7 +313,7 @@ An opportunity to grow your network.\
 &#10003; Access to lessons for 90 days from date of enrollment \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 499</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 999</button></left>
 
 
 :::::
