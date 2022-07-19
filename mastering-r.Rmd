@@ -1,6 +1,6 @@
 ---
 title: <strong>Mastering R</strong>
-subtitle: <center><i>70-Day Roadmap to R Expertise</i></center>
+subtitle: <center><i>60-Day Roadmap to R Expertise</i></center>
 author: <i>Half an hour learning a day</i>
 date: <img src="header_MBP_SG.png" alt="Dr Nishan teaching R programming" height=45% width=45%> </img>
 fontfamily: Helvetica
@@ -137,7 +137,7 @@ About the course
 
 <center>
 
-Mastering R is a data science with R Programming course where I take you through the basics, data cleaning and management, and data visualization and reporting of data. A unique 70-day learning pathway delivered to you daily in small, bite-sized lessons not exceeding 30 minutes a day.
+Mastering R is a data science with R Programming course where I take you through the basics, data cleaning and management, and data visualization and reporting of data. A unique 60-day learning pathway delivered to you daily in small, bite-sized lessons not exceeding 30 minutes a day.
 
 </center>
 :::
@@ -216,68 +216,6 @@ Mastering R is a data science with R Programming course where I take you through
 
 \
 
-<h3><strong><center>Four pillars to R mastery</center></strong></h3>
-
-\
-
-:::::: {style="display: flex"}
-
-:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
-\
-**LESSONS**\
-\
-20+ hours of pre-recorded sessions.\
-\
-Around 30 minutes of content released daily for 70 days.\
-\
-Lessons for each day are made available to you on a schedule.\
-\
-Daily email reminders to keep you motivated.\
-\
-:::::
-
-:::::{style="background-color: #f7f5e6; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
-\
-**LIVE SESSIONS**\
-\
-At least one live zoom-based doubt clearing session every month.\
-\
-Discussions on select doubts raised in the community.\
-\
-Recordings of the live sessions made available for 30 days.\
-\
-:::::
-
-:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
-\
-**EXERCISES**\
-\
-Lesson based quizzes for you to revise concepts.\
-\
-Topic-based assignments at the end of every major topic.\
-\
-Earn a shareable certificate upon successful completion of course and quizzes.\
-\
-:::::
-
-:::::{style="background-color: #f7f5e6; line-height: 1.8; text-align: center; width: 25%; padding-left: 2%; padding-right: 2%; font-size: 16px; border-radius: 50px; border-width: 5px; border-color: white;"}
-\
-**COMMUNITY**\
-\
-A Discord Community exclusively for the learners.\
-\
-A platform for you to raise and solve each others' your doubts.\
-\
-This community will be a direct line to Dr Nishan.\
-\
-An opportunity to grow your network.\
-\
-:::::
-
-::::::
-
-\
-
 :::: {style="font-size: 20px; text-align: center;"}
 
 **You need not worry about planning your learning.**\
@@ -313,7 +251,7 @@ An opportunity to grow your network.\
 &#10003; Access to lessons for 90 days from date of enrollment \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1377</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 2500</button></left>
 
 
 :::::
@@ -334,7 +272,7 @@ An opportunity to grow your network.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2377</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3000</button></left>\
 
 :::::
 
@@ -352,7 +290,7 @@ An opportunity to grow your network.\
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Priority access to live doubt clearing sessions \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3500</button></left>\
 
 :::::
 

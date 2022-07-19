@@ -13,8 +13,8 @@
 
 <title>Your slot has been booked successfully!</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -79,6 +79,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -99,6 +100,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -251,7 +255,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -267,7 +271,7 @@ $(document).ready(function () {
   <a href="mastering-r.html">Courses</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     COVID-19: R Values
      
     <span class="caret"></span>
@@ -287,7 +291,7 @@ $(document).ready(function () {
   <a href="about.html">Contact</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Resources
      
     <span class="caret"></span>
@@ -310,7 +314,8 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Your slot has been booked successfully!</h1>
+<h1 class="title toc-ignore">Your slot has been booked
+successfully!</h1>
 
 </div>
 
@@ -328,7 +333,8 @@ text-align: justify}
 </style>
 <p><br />
 </p>
-<div id="thank-you-for-scheduling.-looking-forward-to-talk-to-you." class="section level1">
+<div id="thank-you-for-scheduling.-looking-forward-to-talk-to-you."
+class="section level1">
 <h1>Thank you for scheduling. Looking forward to talk to you.</h1>
 <p><br />
 </p>

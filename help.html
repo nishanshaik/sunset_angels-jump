@@ -13,8 +13,8 @@
 
 <title>User Guide and FAQs</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -82,6 +82,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -102,6 +103,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -327,7 +331,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -343,7 +347,7 @@ div.tocify {
   <a href="mastering-r.html">Courses</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     COVID-19: R Values
      
     <span class="caret"></span>
@@ -363,7 +367,7 @@ div.tocify {
   <a href="about.html">Contact</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Resources
      
     <span class="caret"></span>
@@ -401,39 +405,70 @@ text-align: justify}
 <h1>User Interface</h1>
 <p><br />
 </p>
-<div id="leveraging-the-effective-r-trend-plots-to-greater-effect." class="section level2">
+<div id="leveraging-the-effective-r-trend-plots-to-greater-effect."
+class="section level2">
 <h2>Leveraging the effective R trend plots to greater effect.</h2>
-<p>The plots show all the data that each one is capable of showing upon loading. To override this follow the below steps:</p>
+<p>The plots show all the data that each one is capable of showing upon
+loading. To override this follow the below steps:</p>
 <ul>
-<li>Double-click on any item in the legend - This clears off the clutter in the plot area.</li>
-<li>Select all the regions that you with to compare by single clicking on the region names in the legend.</li>
-<li>Single clicking toggles between select and unselect - please use this as you wish.</li>
-<li>The right top corner of each plot has a control panel that allows you to toggle the mouse-hover characteristics.</li>
-<li>Choosing the single-arrow icon (third from right) would cause the date and R value for a specific region to be shown on mouse hover.</li>
-<li>While the two-arrow icon (second from right) would let you see the dates and R values for all the selected regions for a given date simultaneously.</li>
-<li>Selecting a region on the plot using mouse click-and-drag allows to zoom into areas on interest.</li>
-<li>All district-level plots have Effective R trends for India and the corresponding state to allow for easy comparison.</li>
-<li>Each plot contains a large amount of data. The above selection flow is recommended help you use the information in the plots to greater effect.</li>
+<li>Double-click on any item in the legend - This clears off the clutter
+in the plot area.</li>
+<li>Select all the regions that you with to compare by single clicking
+on the region names in the legend.</li>
+<li>Single clicking toggles between select and unselect - please use
+this as you wish.</li>
+<li>The right top corner of each plot has a control panel that allows
+you to toggle the mouse-hover characteristics.</li>
+<li>Choosing the single-arrow icon (third from right) would cause the
+date and R value for a specific region to be shown on mouse hover.</li>
+<li>While the two-arrow icon (second from right) would let you see the
+dates and R values for all the selected regions for a given date
+simultaneously.</li>
+<li>Selecting a region on the plot using mouse click-and-drag allows to
+zoom into areas on interest.</li>
+<li>All district-level plots have Effective R trends for India and the
+corresponding state to allow for easy comparison.</li>
+<li>Each plot contains a large amount of data. The above selection flow
+is recommended help you use the information in the plots to greater
+effect.</li>
 </ul>
 <p><br />
 </p>
 </div>
-<div id="utilising-tables-in-weekly-effective-r-reports" class="section level2">
+<div id="utilising-tables-in-weekly-effective-r-reports"
+class="section level2">
 <h2>Utilising tables in weekly effective R reports</h2>
-<p>Some of tables shown in the weekly effective R reports are interactive with their own search bar and column-wise sorting options. The user is recommended to use these features as they deem fit to seek out data relevant for them.</p>
+<p>Some of tables shown in the weekly effective R reports are
+interactive with their own search bar and column-wise sorting options.
+The user is recommended to use these features as they deem fit to seek
+out data relevant for them.</p>
 <p><br />
 </p>
 </div>
-<div id="what-is-the-difference-between-weekly-and-daily-effective-r-analysis" class="section level2">
-<h2>What is the difference between weekly and daily effective R analysis?</h2>
-<p>The weekly R reports provides the reader with weekly snapshots of the situation. It assess the effective R for the regions for previous week (Sunday through Saturday) as compared to the the preceding week. Such comparison is presented here with the hope that the decision-maker would be able to assess the progress of the situation using fixed time intervals. Expectation is that the estimates thus generated are more robust as it uses a stochastic smoothing method.</p>
-<p>Daily R plots provide the users with a near-runtime situation analysis while also showing how a region has progressed in the past. These estimates use 14-day simple moving average for smoothing. It provides the user with a daily-updated, most recent estimates of effective R for each region.</p>
+<div
+id="what-is-the-difference-between-weekly-and-daily-effective-r-analysis"
+class="section level2">
+<h2>What is the difference between weekly and daily effective R
+analysis?</h2>
+<p>The weekly R reports provides the reader with weekly snapshots of the
+situation. It assess the effective R for the regions for previous week
+(Sunday through Saturday) as compared to the the preceding week. Such
+comparison is presented here with the hope that the decision-maker would
+be able to assess the progress of the situation using fixed time
+intervals. Expectation is that the estimates thus generated are more
+robust as it uses a stochastic smoothing method.</p>
+<p>Daily R plots provide the users with a near-runtime situation
+analysis while also showing how a region has progressed in the past.
+These estimates use 14-day simple moving average for smoothing. It
+provides the user with a daily-updated, most recent estimates of
+effective R for each region.</p>
 <p><br />
 </p>
 </div>
 <div id="will-there-be-further-updates" class="section level2">
 <h2>Will there be further updates?</h2>
-<p>This website is auto-updated daily. If you see any issues in the updates, kindly drop me an email.</p>
+<p>This website is auto-updated daily. If you see any issues in the
+updates, kindly drop me an email.</p>
 </div>
 </div>
 
@@ -475,6 +510,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
