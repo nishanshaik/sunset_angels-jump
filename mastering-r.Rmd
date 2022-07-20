@@ -251,7 +251,7 @@ Mastering R is a data science with R Programming course where I take you through
 &#10003; Access to lessons for 90 days from date of enrollment \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 2500</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1477</button></left>
 
 
 :::::
@@ -272,7 +272,7 @@ Mastering R is a data science with R Programming course where I take you through
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3000</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2877</button></left>\
 
 :::::
 
@@ -290,7 +290,7 @@ Mastering R is a data science with R Programming course where I take you through
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Priority access to live doubt clearing sessions \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3500</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
 
 :::::
 
