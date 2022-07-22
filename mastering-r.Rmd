@@ -46,6 +46,7 @@ h4.date {
   
 }
 
+
 .button {
 border-width: 1px;
 border-style: solid;
@@ -142,6 +143,7 @@ color: white;
 
 </style>
 
+
 \
 
 <center><button class="button button" autofocus onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>Begin your journey</strong></button></center>
@@ -162,10 +164,219 @@ About the course
 
 <center>
 
-Mastering R is a beginner-friendly R Programming course focused on medical, public health and social science professionals where I take you through the basics, data cleaning and management, and data visualization and reporting of data. A unique 60-day learning pathway delivered to you daily in small, bite-sized lessons not exceeding 30 minutes a day.
+Beginner-friendly\
+Tailored for medical, public health and social science professionals\
+Learn the basics, data cleaning and management,\
+data visualization, reporting.\
+\
+A unique 60-day learning pathway delivered to you daily in small, bite-sized lessons not exceeding 30 minutes a day.
 
 </center>
 :::
+
+\
+
+::: {style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;"}
+
+\
+
+<center>
+<h3>
+<strong>
+Course Structure
+</strong>
+</h3>
+</center> 
+\
+
+<button class="accordion"><strong>Basic Course</strong>     (click to expand)</button>
+<div class="panel">
+  <p>
+   <ol>
+    <li>Introduction to the course</li>
+    <li>Learning perspectives</li>
+    <li>R in research</li>
+    <li>Finding your way in R</li>
+    <li>R and R Studio</li>
+    <li>Installing R and R Studio</li>
+    <li>Ergonomics and best practices</li>
+    <li>Object oriented programming in R</li>
+    <li>A different look at R code</li>
+    <li>Nomenclature and best practices</li>
+    <li>Reserved words in R</li>
+    <li>Data types</li>
+    <li>Data structures</li>
+    <li>Indexing in R</li>
+    <li>R's coercion rules</li>
+    <li>Handling dates with base R</li>
+    <li>Recycling rules</li>
+    <li>Importing datasets into R</li>
+    <li>Subsetting</li>
+    <li>Logical operations</li>
+    <li>Boolean operations</li>
+    <li>Data handling with base R</li>
+    <li>Final Assignment</li>
+   </ol>
+  </p>
+</div>
+
+<button class="accordion"><strong>Intermediate Course</strong>     (click to expand)</button>
+<div class="panel">
+  <p>
+  <ol>
+    <li>Introduction to Tidyverse</li>
+    <li>Classifying datasets based on structure</li>
+    <li>R packages</li>
+    <li>Tidyverse verbs</li>
+    <li>Handling dates with lubridate</li>
+    <li>Grouped operations on data</li>
+    <li>Splitting and joining columns</li>
+    <li>Widening and elongating datasets</li>
+    <li>Relational datasets - Joins in R</li>
+    <li>Handling text - stringr package</li>
+    <li>Handling categorical variables - forcats package</li>
+    <li><strong>EXCLUSIVE: The Data, Metadata and Tidyverse workflow</strong></li>
+    <li>Final Tidyverse assignment</li>
+   </ol>
+  </p>
+</div>
+
+<button class="accordion"><strong>Expert Course</strong>     (click to expand)</button>
+<div class="panel">
+  <p>
+   <ol>
+    <li>Introduction to data visualisations</li>
+    <li>Theory of ggplot2</li>
+    <li>Line diagrams</li>
+    <li>Bar diagrams</li>
+    <li>Scatter plots</li>
+    <li>Trend lines and reference lines</li>
+    <li>Facets</li>
+    <li>Modifying coordinate axes</li>
+    <li><strong>EXCLUSIVE: Data visualisation workflow</strong></li>
+    <li><strong>EXCLUSIVE: Data visualisation best practices</strong></li>
+    <li>Some niche plot types</li>
+    <li>Histograms and density plots</li>
+    <li>Interactive plots in R</li>
+    <li>Data visualisation assignment</li>
+    <li>Introduction to R Markdown</li>
+    <li>Setting up R Markdown</li>
+    <li>Understand an R Markdown file</li>
+    <li>Behaviour customisation</li>
+    <li>Formatting text</li>
+    <li>Formatting plots</li>
+    <li>Formatting tables</li>
+    <li>In-line codes</li>
+    <li><strong>EXCLUSIVE: Reporting statistical results in RMarkdown</strong></li>
+    <li><strong>EXCLUSIVE: RMarkdown best practices for code management</strong></li>
+    <li><strong>EXCLUSIVE: The Data, Metadata, Tidyverse, and Rmarkdown Workflow</strong></li>
+    <li>Final RMarkdown Assignment</li>
+   </ol>
+  </p>
+</div>
+
+
+\
+
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+:::
+
+\
+
+<center>
+<h3>
+<strong>
+Pick the plan which is best for you: 
+</strong>
+</h3>
+</center>
+\
+
+
+:::::: {style="display: flex"}
+
+:::::{style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;"}
+
+<h3>BASIC</h3>
+20-DAY COURSE\
+(Least recommended)\
+\
+&#10003; Fundamentals of R and data \
+&#10003; Daily lessons\
+&#10003; Email reminders \
+&#10003; Access to Basic channels of Mastering R community \
+&#10003; Certificate upon successful completion \
+&#10003; Access to lessons for 90 days from date of enrollment \
+\
+\
+\
+\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1477</button></left>
+
+
+:::::
+
+::::: {style="background-color: white; line-height: 1.8; text-align: center; width: 1%;"}
+:::::
+
+:::::{style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;"}
+
+<h3>INTERMEDIATE</h3>
+37-DAY COURSE\
+(Least popular)\
+\
+&#10003; Everything in Basic plan \
+&#10003; Data management with Tidyverse \
+&#10003; Access to Basic & Intermediate channels of Mastering R community \
+\
+\
+\
+\
+\
+\
+\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2877</button></left>\
+
+:::::
+
+::::: {style="background-color: white; line-height: 1.8; text-align: center; width: 1%;"}
+:::::
+
+:::::{style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;"}
+
+<h3><strong>EXPERT</strong></h3>
+**60-DAY COURSE**\
+**(Most Popular & Recommended)**\
+\
+&#10003; Everything in Intermediate \
+&#10003; Data visualization theory and hand-on with ggplot2 package \
+&#10003; Repeatable, reproducible, and automated reporting of analysis with RMarkdown \
+&#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
+&#10003; Discounted pricing on all live workshops(if any) during the course duration\
+\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
+
+:::::
+::::::
 
 \
 
@@ -397,142 +608,6 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 <center><button class="button button" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>Begin R Mastery</strong></button></center>
 
 \
-
-::: {style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;"}
-
-\
-
-<center>
-<h3>
-<strong>
-Course Structure
-</strong>
-</h3>
-</center> 
-\
-
-<button class="accordion"><strong>Basic Course</strong>     (click to expand)</button>
-<div class="panel">
-  <p>
-   <ol>
-    <li>Introduction to the course</li>
-    <li>Learning perspectives</li>
-    <li>R in research</li>
-    <li>Finding your way in R</li>
-    <li>R and R Studio</li>
-    <li>Installing R and R Studio</li>
-    <li>Ergonomics and best practices</li>
-    <li>Object oriented programming in R</li>
-    <li>A different look at R code</li>
-    <li>Nomenclature and best practices</li>
-    <li>Reserved words in R</li>
-    <li>Data types</li>
-    <li>Data structures</li>
-    <li>Indexing in R</li>
-    <li>R's coercion rules</li>
-    <li>Handling dates with base R</li>
-    <li>Recycling rules</li>
-    <li>Importing datasets into R</li>
-    <li>Subsetting</li>
-    <li>Logical operations</li>
-    <li>Boolean operations</li>
-    <li>Data handling with base R</li>
-    <li>Final Assignment</li>
-   </ol>
-  </p>
-</div>
-
-<button class="accordion"><strong>Intermediate Course</strong>     (click to expand)</button>
-<div class="panel">
-  <p>
-  <ol>
-    <li>Introduction to Tidyverse</li>
-    <li>Classifying datasets based on structure</li>
-    <li>R packages</li>
-    <li>Tidyverse verbs</li>
-    <li>Handling dates with lubridate</li>
-    <li>Grouped operations on data</li>
-    <li>Splitting and joining columns</li>
-    <li>Widening and elongating datasets</li>
-    <li>Relational datasets - Joins in R</li>
-    <li>Handling text - stringr package</li>
-    <li>Handling categorical variables - forcats package</li>
-    <li><strong>EXCLUSIVE: The Data, Metadata and Tidyverse workflow</strong></li>
-    <li>Final Tidyverse assignment</li>
-   </ol>
-  </p>
-</div>
-
-<button class="accordion"><strong>Expert Course</strong>     (click to expand)</button>
-<div class="panel">
-  <p>
-   <ol>
-    <li>Introduction to data visualisations</li>
-    <li>Theory of ggplot2</li>
-    <li>Line diagrams</li>
-    <li>Bar diagrams</li>
-    <li>Scatter plots</li>
-    <li>Trend lines and reference lines</li>
-    <li>Facets</li>
-    <li>Modifying coordinate axes</li>
-    <li><strong>EXCLUSIVE: Data visualisation workflow</strong></li>
-    <li><strong>EXCLUSIVE: Data visualisation best practices</strong></li>
-    <li>Some niche plot types</li>
-    <li>Histograms and density plots</li>
-    <li>Interactive plots in R</li>
-    <li>Data visualisation assignment</li>
-    <li>Introduction to R Markdown</li>
-    <li>Setting up R Markdown</li>
-    <li>Understand an R Markdown file</li>
-    <li>Behaviour customisation</li>
-    <li>Formatting text</li>
-    <li>Formatting plots</li>
-    <li>Formatting tables</li>
-    <li>In-line codes</li>
-    <li><strong>EXCLUSIVE: Reporting statistical results in RMarkdown</strong></li>
-    <li><strong>EXCLUSIVE: RMarkdown best practices for code management</strong></li>
-    <li><strong>EXCLUSIVE: The Data, Metadata, Tidyverse, and Rmarkdown Workflow</strong></li>
-    <li>Final RMarkdown Assignment</li>
-   </ol>
-  </p>
-</div>
-
-
-\
-
-<script>
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    
-    this.classList.toggle("active");
-
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
-
-:::
-
-\
-
-<center>
-<h3>
-<strong>
-Pick the plan which is best for you: 
-</strong>
-</h3>
-</center>
-\
-
 
 :::::: {style="display: flex"}
 
