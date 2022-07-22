@@ -326,7 +326,6 @@ $(document).ready(function () {
 
 <style type="text/css">
 
-
 body {
   font-family: Helvetica;
 }
@@ -370,11 +369,11 @@ border-style: solid;
 border-radius: 12px;
 border-color: white;
 background-color: #2d64bc;
-padding: 2px 2px;
+padding: 2px 12px 2px 12px;
 text-align: center;
 display: inline-block;
 font-size: 18px;
-width: 25%;
+max-width: 50%;
 height: 60px;
 transition-duration: 0.1s;
 color: white;
@@ -433,12 +432,37 @@ color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 </style>
 <p><br />
 </p>
 <center>
 <button class="button button" autofocus onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
-<strong>Begin mastery</strong>
+<strong>Begin your journey</strong>
 </button>
 </center>
 <p><br />
@@ -467,7 +491,9 @@ style="background-color: #f7f5e6; line-height: 1.8; text-align: center;">
 </p>
 <center>
 <h3>
-<p><strong>Would you answer a ‘Yes’ any of the following?</strong></p>
+<p><strong>If you are here you might already know what you expect from
+learning R.<br> <br> If not, would you answer a ‘Yes’ any of the
+following?</strong></p>
 </h3>
 </center>
 <p><br />
@@ -509,13 +535,13 @@ style="background-color: #f7f5e6; line-height: 1.8; text-align: center;">
 </h3>
 </center>
 <p><br />
-<strong>R course focused at medical research, public health, and social
-science research applications</strong><br />
-<strong>Simulated, and actual real-world datasets to practice on and for
+<strong>Focussed on medical, public health, and social science research
+applications</strong><br />
+<strong>Actual real-world datasets to practice on and for
 assignments</strong><br />
-<strong>I share my actual research/data science workflows used for
-real-world projects</strong><br />
-<strong>A Discord community which is a direct line to me</strong><br />
+<strong>Exclusive research/data science workflows used for real-world
+projects</strong><br />
+<strong>A Discord community</strong><br />
 <br />
 </p>
 </div>
@@ -561,8 +587,8 @@ science.</strong><br />
 </p>
 </div>
 <div style="font-size: 20px; text-align: center;">
-<p><strong>Best part is the course is structure in such a way that you
-can learn about 30 minutes a day.</strong><br />
+<p><strong>You can choose to learn all in one go, or learn just about 30
+minutes a day.</strong><br />
 </p>
 </div>
 <p><br />
@@ -574,6 +600,11 @@ can learn about 30 minutes a day.</strong><br />
 </center>
 <p><br />
 </p>
+<center>
+<h3>
+<strong> This course comes in three plans: </strong>
+</h3>
+</center>
 <p><br />
 </p>
 <div style="display: flex">
@@ -586,11 +617,13 @@ BASIC
 (Least recommended)<br />
 <br />
 ✓ Fundamentals of R and data<br />
-✓ Daily drip feed of lessons, quizzes and assignments<br />
+✓ Daily lessons<br />
 ✓ Email reminders<br />
 ✓ Access to Basic channels of Mastering R community<br />
 ✓ Certificate upon successful completion<br />
 ✓ Access to lessons for 90 days from date of enrollment<br />
+<br />
+<br />
 <br />
 <br />
 <left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">₹
@@ -612,6 +645,9 @@ INTERMEDIATE
 ✓ Data management with Tidyverse<br />
 ✓ Access to Basic &amp; Intermediate channels of Mastering R
 community<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
@@ -638,7 +674,7 @@ style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%
 RMarkdown<br />
 ✓ Access to Basic, Intermediate &amp; Expert channels of Mastering R
 community<br />
-✓ Discounted pricing on all live workshops during the course
+✓ Discounted pricing on all live workshops(if any) during the course
 duration<br />
 <br />
 <left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">₹
@@ -646,6 +682,405 @@ duration<br />
 </p>
 </div>
 </div>
+<p><br />
+</p>
+<p><br />
+</p>
+<div
+style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;">
+<p><br />
+</p>
+<center>
+<h3>
+<strong> About Me </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<center>
+<img src="IMG_0678.jpeg" alt="Dr. Nishan - Course Instructor for Mastering R" max-width=20% max-height=20%>
+</center>
+<p><br />
+</p>
+<p>I am Dr Nishan, your instructor and mentor for the course.</p>
+<p>I am a medical doctor and public health professional with over 5
+years of working experience in medical, public health, pharmaceutical
+and consulting sectors. My past work experience include a stint as the
+health economics specialist for Roche India. I am currently working as
+an independent research consultant for public health and medical
+research projects for the past two years.</p>
+<p>I did my MBBS from Government Medical College, Thiruvananthapuram,
+Kerala after which I graduated in Master of Public Health from Tata
+Institute of Social Sciences, Mumbai (TISS). It is at TISS that I got
+trained in research, data, and statistics.</p>
+<p>I learnt R while doing my MPH at TISS. R was not a part of the
+official coursework back then, even so my guides and mentors were
+supportive and encouraged me to learn the skills. I was able to
+successfully use the language to perform statistical analysis for all
+the course requirements in the third and fourth semesters.</p>
+<p>Having had the privilege to be mentored and guided by some of the
+best, I gained confidence to take on projects independently. R and
+statistics were a part of all of them.</p>
+<p>My consulting workflow includes heavy use of R, including for project
+management, data management, analytics, visualisation and reporting.
+Working on various real-world projects has allowed me to refine my
+workflows in R geared towards efficiency and minimalism. Even though I
+user R extensively, my vocabulary is minimalistic.</p>
+<p>I have been guiding and mentoring students and professionals from
+across the globe in R and analytics for three years now. This course has
+seen over 150 students in the past 1 year.</p>
+<p>I am based out of Thiruvananthapuram, Kerala where I live with my
+family.<br />
+<br />
+</p>
+</div>
+<p><br />
+</p>
+<center>
+<button class="button button" onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
+<strong>Begin R Mastery</strong>
+</button>
+</center>
+<p><br />
+</p>
+<div
+style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;">
+<p><br />
+</p>
+<center>
+<h3>
+<strong> Course Structure </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<button class="accordion">
+<strong>Basic Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to the course
+</li>
+<li>
+Learning perspectives
+</li>
+<li>
+R in research
+</li>
+<li>
+Finding your way in R
+</li>
+<li>
+R and R Studio
+</li>
+<li>
+Installing R and R Studio
+</li>
+<li>
+Ergonomics and best practices
+</li>
+<li>
+Object oriented programming in R
+</li>
+<li>
+A different look at R code
+</li>
+<li>
+Nomenclature and best practices
+</li>
+<li>
+Reserved words in R
+</li>
+<li>
+Data types
+</li>
+<li>
+Data structures
+</li>
+<li>
+Indexing in R
+</li>
+<li>
+R’s coercion rules
+</li>
+<li>
+Handling dates with base R
+</li>
+<li>
+Recycling rules
+</li>
+<li>
+Importing datasets into R
+</li>
+<li>
+Subsetting
+</li>
+<li>
+Logical operations
+</li>
+<li>
+Boolean operations
+</li>
+<li>
+Data handling with base R
+</li>
+<li>
+Final Assignment
+</li>
+</ol>
+</p>
+</div>
+<button class="accordion">
+<strong>Intermediate Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to Tidyverse
+</li>
+<li>
+Classifying datasets based on structure
+</li>
+<li>
+R packages
+</li>
+<li>
+Tidyverse verbs
+</li>
+<li>
+Handling dates with lubridate
+</li>
+<li>
+Grouped operations on data
+</li>
+<li>
+Splitting and joining columns
+</li>
+<li>
+Widening and elongating datasets
+</li>
+<li>
+Relational datasets - Joins in R
+</li>
+<li>
+Handling text - stringr package
+</li>
+<li>
+Handling categorical variables - forcats package
+</li>
+<li>
+<strong>EXCLUSIVE: The Data, Metadata and Tidyverse workflow</strong>
+</li>
+<li>
+Final Tidyverse assignment
+</li>
+</ol>
+</p>
+</div>
+<button class="accordion">
+<strong>Expert Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to data visualisations
+</li>
+<li>
+Theory of ggplot2
+</li>
+<li>
+Line diagrams
+</li>
+<li>
+Bar diagrams
+</li>
+<li>
+Scatter plots
+</li>
+<li>
+Trend lines and reference lines
+</li>
+<li>
+Facets
+</li>
+<li>
+Modifying coordinate axes
+</li>
+<li>
+<strong>EXCLUSIVE: Data visualisation workflow</strong>
+</li>
+<li>
+<strong>EXCLUSIVE: Data visualisation best practices</strong>
+</li>
+<li>
+Some niche plot types
+</li>
+<li>
+Histograms and density plots
+</li>
+<li>
+Interactive plots in R
+</li>
+<li>
+Data visualisation assignment
+</li>
+<li>
+Introduction to R Markdown
+</li>
+<li>
+Setting up R Markdown
+</li>
+<li>
+Understand an R Markdown file
+</li>
+<li>
+Behaviour customisation
+</li>
+<li>
+Formatting text
+</li>
+<li>
+Formatting plots
+</li>
+<li>
+Formatting tables
+</li>
+<li>
+In-line codes
+</li>
+<li>
+<strong>EXCLUSIVE: Reporting statistical results in RMarkdown</strong>
+</li>
+<li>
+<strong>EXCLUSIVE: RMarkdown best practices for code management</strong>
+</li>
+<li>
+<strong>EXCLUSIVE: The Data, Metadata, Tidyverse, and Rmarkdown
+Workflow</strong>
+</li>
+<li>
+Final RMarkdown Assignment
+</li>
+</ol>
+</p>
+</div>
+<p><br />
+</p>
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+<p><br />
+</p>
+<center>
+<h3>
+<strong> Pick the plan which is best for you: </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<div style="display: flex">
+<div
+style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+BASIC
+</h3>
+<p>20-DAY COURSE<br />
+(Least recommended)<br />
+<br />
+✓ Fundamentals of R and data<br />
+✓ Daily lessons<br />
+✓ Email reminders<br />
+✓ Access to Basic channels of Mastering R community<br />
+✓ Certificate upon successful completion<br />
+✓ Access to lessons for 90 days from date of enrollment<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">₹
+1477</button></left></p>
+</div>
+<div
+style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div
+style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+INTERMEDIATE
+</h3>
+<p>37-DAY COURSE<br />
+(Least popular)<br />
+<br />
+✓ Everything in Basic plan<br />
+✓ Data management with Tidyverse<br />
+✓ Access to Basic &amp; Intermediate channels of Mastering R
+community<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">₹
+2877</button></left><br />
+</p>
+</div>
+<div
+style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div
+style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;">
+<h3>
+<strong>EXPERT</strong>
+</h3>
+<p><strong>60-DAY COURSE</strong><br />
+<strong>(Most Popular &amp; Recommended)</strong><br />
+<br />
+✓ Everything in Intermediate<br />
+✓ Data visualization theory and hand-on with ggplot2 package<br />
+✓ Repeatable, reproducible, and automated reporting of analysis with
+RMarkdown<br />
+✓ Access to Basic, Intermediate &amp; Expert channels of Mastering R
+community<br />
+✓ Discounted pricing on all live workshops(if any) during the course
+duration<br />
+<br />
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">₹
+3377</button></left><br />
+</p>
+</div>
+</div>
+<p><br />
+</p>
+<center>
+Still in doubt? Please give me a call/WhatsApp me on
++91-949-535-0918.<br />
+I will be happy to address all your queries.
+</center>
 
 
 
