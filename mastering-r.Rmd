@@ -146,7 +146,7 @@ color: white;
 
 \
 
-<center><button class="button button" autofocus onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>Begin your journey</strong></button></center>
+<center><button class="button button" autofocus onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>Get Instant Access</strong></button></center>
 
 \
 
@@ -330,7 +330,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1477</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
 
 
 :::::
@@ -354,7 +354,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2877</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
 
 :::::
 
@@ -373,7 +373,7 @@ Pick the plan which is best for you:
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
 
 :::::
 ::::::
@@ -497,7 +497,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1477</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
 
 
 :::::
@@ -521,7 +521,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2877</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
 
 :::::
 
@@ -540,7 +540,7 @@ This course comes in three plans:
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
 
 :::::
 ::::::
@@ -611,7 +611,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1477</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
 
 
 :::::
@@ -635,7 +635,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 2877</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
 
 :::::
 
@@ -654,7 +654,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
 &#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3377</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
 
 :::::
 ::::::
