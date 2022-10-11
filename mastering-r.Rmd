@@ -215,7 +215,6 @@ Course Structure
     <li>Logical operations</li>
     <li>Boolean operations</li>
     <li>Data handling with base R</li>
-    <li>Final Assignment</li>
    </ol>
   </p>
 </div>
@@ -236,7 +235,6 @@ Course Structure
     <li>Handling text - stringr package</li>
     <li>Handling categorical variables - forcats package</li>
     <li><strong>EXCLUSIVE: The Data, Metadata and Tidyverse workflow</strong></li>
-    <li>Final Tidyverse assignment</li>
    </ol>
   </p>
 </div>
@@ -267,10 +265,7 @@ Course Structure
     <li>Formatting plots</li>
     <li>Formatting tables</li>
     <li>In-line codes</li>
-    <li><strong>EXCLUSIVE: Reporting statistical results in RMarkdown</strong></li>
     <li><strong>EXCLUSIVE: RMarkdown best practices for code management</strong></li>
-    <li><strong>EXCLUSIVE: The Data, Metadata, Tidyverse, and Rmarkdown Workflow</strong></li>
-    <li>Final RMarkdown Assignment</li>
    </ol>
   </p>
 </div>
@@ -330,7 +325,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
 
 
 :::::
@@ -354,7 +349,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
 
 :::::
 
@@ -371,9 +366,11 @@ Pick the plan which is best for you:
 &#10003; Data visualization theory and hand-on with ggplot2 package \
 &#10003; Repeatable, reproducible, and automated reporting of analysis with RMarkdown \
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
-&#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
+\
+\
+\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
 
 :::::
 ::::::
@@ -423,11 +420,6 @@ Pick the plan which is best for you:
 **An interactive Discord community for learners**\
 \
 :::
-
-:::: {style="font-size: 20px; text-align: center;"}
-
-**You won't get this level of focus elsewhere!** \
-::::
 
 \
 
@@ -497,7 +489,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
 
 
 :::::
@@ -521,7 +513,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
 
 :::::
 
@@ -538,9 +530,11 @@ This course comes in three plans:
 &#10003; Data visualization theory and hand-on with ggplot2 package \
 &#10003; Repeatable, reproducible, and automated reporting of analysis with RMarkdown \
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
-&#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
+\
+\
+\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
 
 :::::
 ::::::
@@ -611,7 +605,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 1977</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
 
 
 :::::
@@ -635,7 +629,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 3377</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
 
 :::::
 
@@ -652,9 +646,11 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 &#10003; Data visualization theory and hand-on with ggplot2 package \
 &#10003; Repeatable, reproducible, and automated reporting of analysis with RMarkdown \
 &#10003; Access to Basic, Intermediate & Expert channels of Mastering R community \
-&#10003; Discounted pricing on all live workshops(if any) during the course duration\
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 3777</button></left>\
+\
+\
+\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
 
 :::::
 ::::::
