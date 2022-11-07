@@ -13,10 +13,6 @@ navbar:
       href: index.html
     - text: "Courses"
       href: mastering-r.html
-    - text: "COVID-19: R Values"
-      menu:
-      - text: "State Level"
-        href: Daily_Overview.html
   right:
     - text: "About me"
       href: nishan.html
