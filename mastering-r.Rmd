@@ -325,7 +325,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 3000</button></left>
 
 
 :::::
@@ -349,7 +349,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 4000</button></left>\
 
 :::::
 
@@ -370,7 +370,7 @@ Pick the plan which is best for you:
 \
 \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 5000</button></left>\
 
 :::::
 ::::::
@@ -489,7 +489,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 3000</button></left>
 
 
 :::::
@@ -513,7 +513,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 4000</button></left>\
 
 :::::
 
@@ -534,7 +534,7 @@ This course comes in three plans:
 \
 \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 5000</button></left>\
 
 :::::
 ::::::
@@ -605,7 +605,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 699</button></left>
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">&#8377; 3000</button></left>
 
 
 :::::
@@ -629,7 +629,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 1499</button></left>\
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">&#8377; 4000</button></left>\
 
 :::::
 
@@ -650,7 +650,7 @@ I am based out of Thiruvananthapuram, Kerala where I live with my family.\
 \
 \
 \
-<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 2499</button></left>\
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">&#8377; 5000</button></left>\
 
 :::::
 ::::::
