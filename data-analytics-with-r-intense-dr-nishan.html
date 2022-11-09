@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Cohort 1 Starts 14 November 2022" />
+
+
+<title>Data Analytics with R</title>
+
+<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SDW4HLH9JK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SDW4HLH9JK');
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ckdz9cfbqg");
+</script>
+
+<link rel="icon" type="image/png" href="Logo_Day.jpg">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="logo" style="width: 30px;" src="Logo_Day.jpg" /></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Courses
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Self-paced</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="mastering-r.html">Mastering R</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Live</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="data-analytics-with-r-intense-dr-nishan.html">Data Analytics with R</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="nishan.html">About me</a>
+</li>
+<li>
+  <a href="about.html">Contact</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore"><strong>Data Analytics with R</strong></h1>
+<h3 class="subtitle"><strong><i> Intense 3-week data analytics bootcamp with R programming </i></strong></h3>
+<h4 class="author">Cohort 1 Starts 14 November 2022</h4>
+<h4 class="date">Only 5 more days to go before enrollment ends</h4>
+
+</div>
+
+
+<style type="text/css">
+
+body {
+  font-family: Helvetica;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Helvetica;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 2%;
+  
+}
+
+h3.subtitle {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+
+h4.author {
+  text-align: center;
+  padding-top: 1%;
+  font-size: 18px;
+  
+}
+
+h4.date {
+  text-align: center;
+  padding-top: 0.75%;
+  padding-bottom: 0.5%;
+  font-size: 20px;
+  
+}
+
+
+.button {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 12px 2px 12px;
+text-align: center;
+display: inline-block;
+font-size: 18px;
+max-width: 50%;
+height: 60px;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button:hover {
+  background-color: #5aa3f2; /* Green */
+  border-color: #5aa3f2;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button_2 {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 2px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+width: 100%;
+height: auto;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button_2:hover {
+  background-color: #5aa3f2; /* Green */
+  border-color: #5aa3f2;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button_3 {
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+border-color: white;
+background-color: #2d64bc;
+padding: 2px 2px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+width: 100%;
+height: auto;
+transition-duration: 0.1s;
+color: white;
+}
+
+.button_3:hover {
+  background-color: #5aa3f2; /* Green */
+  border-color: #5aa3f2;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+</style>
+<p><br />
+</p>
+<center>
+<button class="button button" autofocus onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
+<strong>Get Instant Access</strong>
+</button>
+</center>
+<p><br />
+</p>
+<p><br />
+</p>
+<div style="background-color: white; font-size: 18px">
+<center>
+<h3>
+<strong> About this course </strong>
+</h3>
+</center>
+<center>
+<p>Immersive, holisitc, and Beginner-friendly<br />
+Tailored for medical, public health and social science students and professionals<br />
+Covers all essential concepts of research, data analytics and statistics<br />
+<br />
+No fluff. No ads. Only the concepts that matter!<br />
+A 3-week intensive learning experience designed to keep you focused on what is important.</p>
+</center>
+</div>
+<p><br />
+</p>
+<div style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;">
+<p><br />
+</p>
+<center>
+<h3>
+<strong> Course Structure </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<button class="accordion">
+<strong>Basic Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to the course
+</li>
+<li>
+Learning perspectives
+</li>
+<li>
+R in research
+</li>
+<li>
+Finding your way in R
+</li>
+<li>
+R and R Studio
+</li>
+<li>
+Installing R and R Studio
+</li>
+<li>
+Ergonomics and best practices
+</li>
+<li>
+Object oriented programming in R
+</li>
+<li>
+A different look at R code
+</li>
+<li>
+Nomenclature and best practices
+</li>
+<li>
+Reserved words in R
+</li>
+<li>
+Data types
+</li>
+<li>
+Data structures
+</li>
+<li>
+Indexing in R
+</li>
+<li>
+R’s coercion rules
+</li>
+<li>
+Handling dates with base R
+</li>
+<li>
+Recycling rules
+</li>
+<li>
+Importing datasets into R
+</li>
+<li>
+Subsetting
+</li>
+<li>
+Logical operations
+</li>
+<li>
+Boolean operations
+</li>
+<li>
+Data handling with base R
+</li>
+</ol>
+</p>
+</div>
+<button class="accordion">
+<strong>Intermediate Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to Tidyverse
+</li>
+<li>
+Classifying datasets based on structure
+</li>
+<li>
+R packages
+</li>
+<li>
+Tidyverse verbs
+</li>
+<li>
+Handling dates with lubridate
+</li>
+<li>
+Grouped operations on data
+</li>
+<li>
+Splitting and joining columns
+</li>
+<li>
+Widening and elongating datasets
+</li>
+<li>
+Relational datasets - Joins in R
+</li>
+<li>
+Handling text - stringr package
+</li>
+<li>
+Handling categorical variables - forcats package
+</li>
+<li>
+<strong>EXCLUSIVE: The Data, Metadata and Tidyverse workflow</strong>
+</li>
+</ol>
+</p>
+</div>
+<button class="accordion">
+<strong>Expert Course</strong> (click to expand)
+</button>
+<div class="panel">
+<p>
+<ol>
+<li>
+Introduction to data visualisations
+</li>
+<li>
+Theory of ggplot2
+</li>
+<li>
+Line diagrams
+</li>
+<li>
+Bar diagrams
+</li>
+<li>
+Scatter plots
+</li>
+<li>
+Trend lines and reference lines
+</li>
+<li>
+Facets
+</li>
+<li>
+Modifying coordinate axes
+</li>
+<li>
+<strong>EXCLUSIVE: Data visualisation workflow</strong>
+</li>
+<li>
+<strong>EXCLUSIVE: Data visualisation best practices</strong>
+</li>
+<li>
+Some niche plot types
+</li>
+<li>
+Histograms and density plots
+</li>
+<li>
+Interactive plots in R
+</li>
+<li>
+Data visualisation assignment
+</li>
+<li>
+Introduction to R Markdown
+</li>
+<li>
+Setting up R Markdown
+</li>
+<li>
+Understand an R Markdown file
+</li>
+<li>
+Behaviour customisation
+</li>
+<li>
+Formatting text
+</li>
+<li>
+Formatting plots
+</li>
+<li>
+Formatting tables
+</li>
+<li>
+In-line codes
+</li>
+<li>
+<strong>EXCLUSIVE: RMarkdown best practices for code management</strong>
+</li>
+</ol>
+</p>
+</div>
+<p><br />
+</p>
+<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+<p><br />
+</p>
+<center>
+<h3>
+<strong> Pick the plan which is best for you: </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<div style="display: flex">
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+BASIC
+</h3>
+<p>20-DAY COURSE<br />
+(Least recommended)<br />
+<br />
+✓ Fundamentals of R and data<br />
+✓ Daily lessons<br />
+✓ Email reminders<br />
+✓ Access to Basic channels of Mastering R community<br />
+✓ Certificate upon successful completion<br />
+✓ Access to lessons for 90 days from date of enrollment<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">₹ 3000</button></left></p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+INTERMEDIATE
+</h3>
+<p>37-DAY COURSE<br />
+(Least popular)<br />
+<br />
+✓ Everything in Basic plan<br />
+✓ Data management with Tidyverse<br />
+✓ Access to Basic &amp; Intermediate channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">₹ 4000</button></left><br />
+</p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;">
+<h3>
+<strong>EXPERT</strong>
+</h3>
+<p><strong>60-DAY COURSE</strong><br />
+<strong>(Most Popular &amp; Recommended)</strong><br />
+<br />
+✓ Everything in Intermediate<br />
+✓ Data visualization theory and hand-on with ggplot2 package<br />
+✓ Repeatable, reproducible, and automated reporting of analysis with RMarkdown<br />
+✓ Access to Basic, Intermediate &amp; Expert channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">₹ 5000</button></left><br />
+</p>
+</div>
+</div>
+<p><br />
+</p>
+<div style="background-color: #f7f5e6; line-height: 1.8; text-align: center; font-size: 2rem;">
+<p><br />
+</p>
+<p><strong>Are you a beginner to data and analytics</strong><br />
+<strong>Are you a busy working professional?</strong><br />
+<strong>Are you a student eager to hone your data analytics skills?</strong><br />
+<strong>Do you want to become a data analytics expert?</strong><br />
+<strong>Are you planning on performing your analysis in R?</strong><br />
+<strong>Do you wish to make eye-catching graphs?</strong><br />
+</p>
+<p><br />
+</p>
+</div>
+<p><br />
+</p>
+<div style="background-color: white; line-height: 1.8; text-align: center; font-size: 20px">
+<p><strong>If yes, then this course is be perfect for you.</strong></p>
+</div>
+<p><br />
+</p>
+<div style="background-color: #f7f5e6; line-height: 1.8; text-align: center; font-size: 1.75rem;">
+<p><br />
+</p>
+<center>
+<h3>
+<p><strong>But… Why this course?</strong></p>
+</h3>
+</center>
+<p><br />
+<strong>Focussed on medical, public health, and social science research applications</strong><br />
+<strong>Real-world datasets to practice</strong><br />
+<strong>Curated research/data science workflows used for real-world projects</strong><br />
+<strong>An interactive Discord community for learners</strong><br />
+<br />
+</p>
+</div>
+<p><br />
+</p>
+<center>
+<button class="button button" onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
+<strong>Start learning</strong>
+</button>
+</center>
+<p><br />
+</p>
+<div style="background-color: #f7f5e6; line-height: 1.8; text-align: center;">
+<p><br />
+</p>
+<center>
+<h3>
+<p><strong>What will you learn?</strong></p>
+</h3>
+</center>
+<p><br />
+<strong>Deep understanding of data, data analytics and R</strong><br />
+<strong>Workflows for data management, cleaning and analysis tasks at work</strong><br />
+<strong>Data analytics best practices</strong><br />
+<strong>Make informative and eye-catchy data visualizations</strong><br />
+<strong>You learn how to automate your periodic reports by leveraging the power of R</strong><br />
+<br />
+</p>
+</div>
+<div style="font-size: 20px; text-align: center;">
+<p><strong>You can choose to learn all in one go, or learn just about 30 minutes a day.</strong><br />
+</p>
+</div>
+<p><br />
+</p>
+<center>
+<button class="button button" onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
+<strong>Enroll to begin learning</strong>
+</button>
+</center>
+<p><br />
+</p>
+<center>
+<h3>
+<strong> This course comes in three plans: </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<div style="display: flex">
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+BASIC
+</h3>
+<p>20-DAY COURSE<br />
+(Least recommended)<br />
+<br />
+✓ Fundamentals of R and data<br />
+✓ Daily lessons<br />
+✓ Email reminders<br />
+✓ Access to Basic channels of Mastering R community<br />
+✓ Certificate upon successful completion<br />
+✓ Access to lessons for 90 days from date of enrollment<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">₹ 3000</button></left></p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+INTERMEDIATE
+</h3>
+<p>37-DAY COURSE<br />
+(Least popular)<br />
+<br />
+✓ Everything in Basic plan<br />
+✓ Data management with Tidyverse<br />
+✓ Access to Basic &amp; Intermediate channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">₹ 4000</button></left><br />
+</p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;">
+<h3>
+<strong>EXPERT</strong>
+</h3>
+<p><strong>60-DAY COURSE</strong><br />
+<strong>(Most Popular &amp; Recommended)</strong><br />
+<br />
+✓ Everything in Intermediate<br />
+✓ Data visualization theory and hand-on with ggplot2 package<br />
+✓ Repeatable, reproducible, and automated reporting of analysis with RMarkdown<br />
+✓ Access to Basic, Intermediate &amp; Expert channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">₹ 5000</button></left><br />
+</p>
+</div>
+</div>
+<p><br />
+</p>
+<p><br />
+</p>
+<div style="background-color: #f7f5e6; line-height: 1.8; padding-left: 50px; padding-right: 50px;">
+<p><br />
+</p>
+<center>
+<h3>
+<strong> About Me </strong>
+</h3>
+</center>
+<p><br />
+</p>
+<center>
+<img src="IMG_0678.jpeg" alt="Dr. Nishan - Course Instructor for Mastering R" max-width=20% max-height=20%>
+</center>
+<p><br />
+</p>
+<p>I am Dr Nishan, your instructor and mentor for the course.</p>
+<p>I am a medical doctor and public health professional with over 5 years of working experience in medical, public health, pharmaceutical and consulting sectors. My past work experience include a stint as the health economics specialist for Roche India. I am currently working as an independent research consultant for public health and medical research projects for the past two years.</p>
+<p>I did my MBBS from Government Medical College, Thiruvananthapuram, Kerala after which I graduated in Master of Public Health from Tata Institute of Social Sciences, Mumbai (TISS). It is at TISS that I got trained in research, data, and statistics.</p>
+<p>I learnt R while doing my MPH at TISS. R was not a part of the official coursework back then, even so my guides and mentors were supportive and encouraged me to learn the skills. I was able to successfully use the language to perform statistical analysis for all the course requirements in the third and fourth semesters.</p>
+<p>Having had the privilege to be mentored and guided by some of the best, I gained confidence to take on projects independently. R and statistics were a part of all of them.</p>
+<p>My consulting workflow includes heavy use of R, including for project management, data management, analytics, visualisation and reporting. Working on various real-world projects has allowed me to refine my workflows in R geared towards efficiency and minimalism. Even though I user R extensively, my vocabulary is minimalistic.</p>
+<p>I have been guiding and mentoring students and professionals from across the globe in R and analytics for three years now. This course has seen over 150 students in the past 1 year.</p>
+<p>I am based out of Thiruvananthapuram, Kerala where I live with my family.<br />
+<br />
+</p>
+</div>
+<p><br />
+</p>
+<center>
+<button class="button button" onclick="window.location.href =&#39;https://rzp.io/l/mastering-r-expert&#39;">
+<strong>Begin R Mastery</strong>
+</button>
+</center>
+<p><br />
+</p>
+<div style="display: flex">
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+BASIC
+</h3>
+<p>20-DAY COURSE<br />
+(Least recommended)<br />
+<br />
+✓ Fundamentals of R and data<br />
+✓ Daily lessons<br />
+✓ Email reminders<br />
+✓ Access to Basic channels of Mastering R community<br />
+✓ Certificate upon successful completion<br />
+✓ Access to lessons for 90 days from date of enrollment<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-basic'">₹ 3000</button></left></p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: left; width: 31%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #e9e9e9; font-size: 16px;">
+<h3>
+INTERMEDIATE
+</h3>
+<p>37-DAY COURSE<br />
+(Least popular)<br />
+<br />
+✓ Everything in Basic plan<br />
+✓ Data management with Tidyverse<br />
+✓ Access to Basic &amp; Intermediate channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_2" onclick="window.location.href ='https://rzp.io/l/mastering-r-intermediate'">₹ 4000</button></left><br />
+</p>
+</div>
+<div style="background-color: white; line-height: 1.8; text-align: center; width: 1%;">
+
+</div>
+<div style="background-color: #DAEAF1; line-height: 1.8; text-align: left; width: 35%; padding-left: 2%; padding-right: 2%; border-width: 1px; border-style: solid; border-radius: 12px; border-color: #eeeeee; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); font-size: 16px;">
+<h3>
+<strong>EXPERT</strong>
+</h3>
+<p><strong>60-DAY COURSE</strong><br />
+<strong>(Most Popular &amp; Recommended)</strong><br />
+<br />
+✓ Everything in Intermediate<br />
+✓ Data visualization theory and hand-on with ggplot2 package<br />
+✓ Repeatable, reproducible, and automated reporting of analysis with RMarkdown<br />
+✓ Access to Basic, Intermediate &amp; Expert channels of Mastering R community<br />
+<br />
+<br />
+<br />
+<br />
+<left><button class="button button_3" onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'">₹ 5000</button></left><br />
+</p>
+</div>
+</div>
+<p><br />
+</p>
+<center>
+Still in doubt? Please give me a call/WhatsApp me on +91-949-535-0918.<br />
+I will be happy to address all your queries.
+</center>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

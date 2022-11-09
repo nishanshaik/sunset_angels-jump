@@ -12,16 +12,18 @@ navbar:
     - text: "Home" 
       href: index.html
     - text: "Courses"
-      href: mastering-r.html
+      menu: 
+      - text: "Self-paced"
+        menu:
+        - text: "Mastering R"
+          href: mastering-r.html
+      - text: "Live"
+        menu:
+        - text: "Data Analytics with R"
+          href: data-analytics-with-r-intense-dr-nishan.html
   right:
     - text: "About me"
       href: nishan.html
     - text: "Contact" 
       href: about.html
-    - text: "Resources"
-      menu:
-      - text: "Licenses"
-        href: legal.html
-      - text: "User Guide"
-        href: help.html
 output_dir: "."
