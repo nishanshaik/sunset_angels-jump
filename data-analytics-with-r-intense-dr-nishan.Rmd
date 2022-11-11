@@ -144,11 +144,6 @@ color: white;
 
 </style>
 
-
-\
-
-<center><button class="button button" autofocus onclick="window.location.href ='https://rzp.io/l/mastering-r-expert'"><strong>Get Instant Access</strong></button></center>
-
 \
 
 \
@@ -165,6 +160,32 @@ About this course
 
 <center>
 
+Immersive, holisitic, and beginner-friendly\
+Designed specifically for medical, public health, and social science students and professionals\
+Covers all essential concepts of research, data analytics and statistics\
+\
+No fluff. No ads. Only the concepts that matter!\
+A 3-week intensive learning experience designed to keep you focused on what is important.
+
+</center>
+:::
+
+\
+
+\
+
+::: {style="background-color: white; font-size: 18px"}
+
+<center>
+<h3>
+<strong>
+Important Dates
+</strong>
+</h3>
+</center>
+
+<center>
+
 Immersive, holisitc, and Beginner-friendly\
 Tailored for medical, public health and social science students and professionals\
 Covers all essential concepts of research, data analytics and statistics\
@@ -174,6 +195,7 @@ A 3-week intensive learning experience designed to keep you focused on what is i
 
 </center>
 :::
+
 
 \
 
